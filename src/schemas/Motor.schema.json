@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Motor",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "borewell_motor",
+        "pump"
+      ]
+    },
+    "hp": {
+      "type": "number"
+    },
+    "rated_flow_lpm": {
+      "type": "number"
+    },
+    "rated_head_m": {
+      "type": "number"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "lat",
+        "lng"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "on",
+        "off",
+        "fault"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "hp",
+    "rated_flow_lpm",
+    "rated_head_m",
+    "location",
+    "status"
+  ]
+}

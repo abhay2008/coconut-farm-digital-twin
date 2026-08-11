@@ -1,0 +1,6137 @@
+[
+  {
+    "id": "TREE-0001",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 22,
+      "pixel_y": 0
+    },
+    "canopy_radius_m": 5.039011001586914,
+    "health_index": 1.0,
+    "grid_row": 0,
+    "grid_col": 3,
+    "notes": []
+  },
+  {
+    "id": "TREE-0002",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 105,
+      "pixel_y": 0
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 0,
+    "grid_col": 14,
+    "notes": []
+  },
+  {
+    "id": "TREE-0003",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 112,
+      "pixel_y": 0
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 0,
+    "grid_col": 15,
+    "notes": []
+  },
+  {
+    "id": "TREE-0004",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 817,
+      "pixel_y": 0
+    },
+    "canopy_radius_m": 7.648629188537598,
+    "health_index": 1.0,
+    "grid_row": 0,
+    "grid_col": 109,
+    "notes": []
+  },
+  {
+    "id": "TREE-0005",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 825,
+      "pixel_y": 0
+    },
+    "canopy_radius_m": 7.648629188537598,
+    "health_index": 1.0,
+    "grid_row": 0,
+    "grid_col": 110,
+    "notes": []
+  },
+  {
+    "id": "TREE-0006",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 907,
+      "pixel_y": 0
+    },
+    "canopy_radius_m": 9.552586555480957,
+    "health_index": 1.0,
+    "grid_row": 0,
+    "grid_col": 121,
+    "notes": []
+  },
+  {
+    "id": "TREE-0007",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 915,
+      "pixel_y": 0
+    },
+    "canopy_radius_m": 9.552586555480957,
+    "health_index": 1.0,
+    "grid_row": 0,
+    "grid_col": 122,
+    "notes": []
+  },
+  {
+    "id": "TREE-0008",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 22,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 5.039011001586914,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 3,
+    "notes": []
+  },
+  {
+    "id": "TREE-0009",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 142,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 8.329618453979492,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 19,
+    "notes": []
+  },
+  {
+    "id": "TREE-0010",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 210,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 13.514707565307617,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 28,
+    "notes": []
+  },
+  {
+    "id": "TREE-0011",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 307,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 9.013978004455566,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 41,
+    "notes": []
+  },
+  {
+    "id": "TREE-0012",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 517,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 25.045059204101562,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 69,
+    "notes": []
+  },
+  {
+    "id": "TREE-0013",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 585,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 8.62434196472168,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 78,
+    "notes": []
+  },
+  {
+    "id": "TREE-0014",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 592,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 8.62434196472168,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 79,
+    "notes": []
+  },
+  {
+    "id": "TREE-0015",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1132,
+      "pixel_y": 7
+    },
+    "canopy_radius_m": 30.432689666748047,
+    "health_index": 1.0,
+    "grid_row": 1,
+    "grid_col": 151,
+    "notes": []
+  },
+  {
+    "id": "TREE-0016",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 135,
+      "pixel_y": 15
+    },
+    "canopy_radius_m": 8.329618453979492,
+    "health_index": 1.0,
+    "grid_row": 2,
+    "grid_col": 18,
+    "notes": []
+  },
+  {
+    "id": "TREE-0017",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 142,
+      "pixel_y": 15
+    },
+    "canopy_radius_m": 8.329618453979492,
+    "health_index": 1.0,
+    "grid_row": 2,
+    "grid_col": 19,
+    "notes": []
+  },
+  {
+    "id": "TREE-0018",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 427,
+      "pixel_y": 15
+    },
+    "canopy_radius_m": 4.242740631103516,
+    "health_index": 1.0,
+    "grid_row": 2,
+    "grid_col": 57,
+    "notes": []
+  },
+  {
+    "id": "TREE-0019",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 517,
+      "pixel_y": 15
+    },
+    "canopy_radius_m": 25.045059204101562,
+    "health_index": 1.0,
+    "grid_row": 2,
+    "grid_col": 69,
+    "notes": []
+  },
+  {
+    "id": "TREE-0020",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 157,
+      "pixel_y": 22
+    },
+    "canopy_radius_m": 6.946321964263916,
+    "health_index": 1.0,
+    "grid_row": 3,
+    "grid_col": 21,
+    "notes": []
+  },
+  {
+    "id": "TREE-0021",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 165,
+      "pixel_y": 22
+    },
+    "canopy_radius_m": 6.946321964263916,
+    "health_index": 1.0,
+    "grid_row": 3,
+    "grid_col": 22,
+    "notes": []
+  },
+  {
+    "id": "TREE-0022",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 427,
+      "pixel_y": 22
+    },
+    "canopy_radius_m": 4.242740631103516,
+    "health_index": 1.0,
+    "grid_row": 3,
+    "grid_col": 57,
+    "notes": []
+  },
+  {
+    "id": "TREE-0023",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 622,
+      "pixel_y": 22
+    },
+    "canopy_radius_m": 29.11154556274414,
+    "health_index": 1.0,
+    "grid_row": 3,
+    "grid_col": 83,
+    "notes": []
+  },
+  {
+    "id": "TREE-0024",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 630,
+      "pixel_y": 22
+    },
+    "canopy_radius_m": 29.11154556274414,
+    "health_index": 1.0,
+    "grid_row": 3,
+    "grid_col": 84,
+    "notes": []
+  },
+  {
+    "id": "TREE-0025",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 67,
+      "pixel_y": 30
+    },
+    "canopy_radius_m": 7.211202621459961,
+    "health_index": 1.0,
+    "grid_row": 4,
+    "grid_col": 9,
+    "notes": []
+  },
+  {
+    "id": "TREE-0026",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 382,
+      "pixel_y": 30
+    },
+    "canopy_radius_m": 21.639184951782227,
+    "health_index": 1.0,
+    "grid_row": 4,
+    "grid_col": 51,
+    "notes": []
+  },
+  {
+    "id": "TREE-0027",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 390,
+      "pixel_y": 30
+    },
+    "canopy_radius_m": 21.639184951782227,
+    "health_index": 1.0,
+    "grid_row": 4,
+    "grid_col": 52,
+    "notes": []
+  },
+  {
+    "id": "TREE-0028",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 892,
+      "pixel_y": 30
+    },
+    "canopy_radius_m": 64.34681701660156,
+    "health_index": 1.0,
+    "grid_row": 4,
+    "grid_col": 119,
+    "notes": []
+  },
+  {
+    "id": "TREE-0029",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 952,
+      "pixel_y": 30
+    },
+    "canopy_radius_m": 7.835224628448486,
+    "health_index": 1.0,
+    "grid_row": 4,
+    "grid_col": 127,
+    "notes": []
+  },
+  {
+    "id": "TREE-0030",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 30
+    },
+    "canopy_radius_m": 44.207000732421875,
+    "health_index": 1.0,
+    "grid_row": 4,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0031",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1207,
+      "pixel_y": 30
+    },
+    "canopy_radius_m": 44.207000732421875,
+    "health_index": 1.0,
+    "grid_row": 4,
+    "grid_col": 161,
+    "notes": []
+  },
+  {
+    "id": "TREE-0032",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 67,
+      "pixel_y": 37
+    },
+    "canopy_radius_m": 7.211202621459961,
+    "health_index": 1.0,
+    "grid_row": 5,
+    "grid_col": 9,
+    "notes": []
+  },
+  {
+    "id": "TREE-0033",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 330,
+      "pixel_y": 37
+    },
+    "canopy_radius_m": 10.770429611206055,
+    "health_index": 1.0,
+    "grid_row": 5,
+    "grid_col": 44,
+    "notes": []
+  },
+  {
+    "id": "TREE-0034",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 337,
+      "pixel_y": 37
+    },
+    "canopy_radius_m": 10.770429611206055,
+    "health_index": 1.0,
+    "grid_row": 5,
+    "grid_col": 45,
+    "notes": []
+  },
+  {
+    "id": "TREE-0035",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 450,
+      "pixel_y": 37
+    },
+    "canopy_radius_m": 3.9052248001098633,
+    "health_index": 1.0,
+    "grid_row": 5,
+    "grid_col": 60,
+    "notes": []
+  },
+  {
+    "id": "TREE-0036",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 457,
+      "pixel_y": 37
+    },
+    "canopy_radius_m": 3.9052248001098633,
+    "health_index": 1.0,
+    "grid_row": 5,
+    "grid_col": 61,
+    "notes": []
+  },
+  {
+    "id": "TREE-0037",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 37
+    },
+    "canopy_radius_m": 44.207000732421875,
+    "health_index": 1.0,
+    "grid_row": 5,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0038",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 0,
+      "pixel_y": 45
+    },
+    "canopy_radius_m": 10.606701850891113,
+    "health_index": 1.0,
+    "grid_row": 6,
+    "grid_col": 0,
+    "notes": []
+  },
+  {
+    "id": "TREE-0039",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 45,
+      "pixel_y": 45
+    },
+    "canopy_radius_m": 50.20630645751953,
+    "health_index": 1.0,
+    "grid_row": 6,
+    "grid_col": 6,
+    "notes": []
+  },
+  {
+    "id": "TREE-0040",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 52,
+      "pixel_y": 45
+    },
+    "canopy_radius_m": 50.20630645751953,
+    "health_index": 1.0,
+    "grid_row": 6,
+    "grid_col": 7,
+    "notes": []
+  },
+  {
+    "id": "TREE-0041",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 247,
+      "pixel_y": 45
+    },
+    "canopy_radius_m": 35.80028533935547,
+    "health_index": 1.0,
+    "grid_row": 6,
+    "grid_col": 33,
+    "notes": []
+  },
+  {
+    "id": "TREE-0042",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 255,
+      "pixel_y": 45
+    },
+    "canopy_radius_m": 35.80028533935547,
+    "health_index": 1.0,
+    "grid_row": 6,
+    "grid_col": 34,
+    "notes": []
+  },
+  {
+    "id": "TREE-0043",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 495,
+      "pixel_y": 45
+    },
+    "canopy_radius_m": 3.6056511402130127,
+    "health_index": 1.0,
+    "grid_row": 6,
+    "grid_col": 66,
+    "notes": []
+  },
+  {
+    "id": "TREE-0044",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 52,
+      "pixel_y": 52
+    },
+    "canopy_radius_m": 50.20630645751953,
+    "health_index": 1.0,
+    "grid_row": 7,
+    "grid_col": 7,
+    "notes": []
+  },
+  {
+    "id": "TREE-0045",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 382,
+      "pixel_y": 52
+    },
+    "canopy_radius_m": 4.611122131347656,
+    "health_index": 1.0,
+    "grid_row": 7,
+    "grid_col": 51,
+    "notes": []
+  },
+  {
+    "id": "TREE-0046",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 495,
+      "pixel_y": 52
+    },
+    "canopy_radius_m": 3.6056511402130127,
+    "health_index": 1.0,
+    "grid_row": 7,
+    "grid_col": 66,
+    "notes": []
+  },
+  {
+    "id": "TREE-0047",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 382,
+      "pixel_y": 60
+    },
+    "canopy_radius_m": 4.611122131347656,
+    "health_index": 1.0,
+    "grid_row": 8,
+    "grid_col": 51,
+    "notes": []
+  },
+  {
+    "id": "TREE-0048",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 465,
+      "pixel_y": 60
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 8,
+    "grid_col": 62,
+    "notes": []
+  },
+  {
+    "id": "TREE-0049",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 120,
+      "pixel_y": 67
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 9,
+    "grid_col": 16,
+    "notes": []
+  },
+  {
+    "id": "TREE-0050",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 127,
+      "pixel_y": 67
+    },
+    "canopy_radius_m": 3.5356338024139404,
+    "health_index": 1.0,
+    "grid_row": 9,
+    "grid_col": 17,
+    "notes": []
+  },
+  {
+    "id": "TREE-0051",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 135,
+      "pixel_y": 67
+    },
+    "canopy_radius_m": 3.5356338024139404,
+    "health_index": 1.0,
+    "grid_row": 9,
+    "grid_col": 18,
+    "notes": []
+  },
+  {
+    "id": "TREE-0052",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 465,
+      "pixel_y": 67
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 9,
+    "grid_col": 62,
+    "notes": []
+  },
+  {
+    "id": "TREE-0053",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 120,
+      "pixel_y": 75
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 10,
+    "grid_col": 16,
+    "notes": []
+  },
+  {
+    "id": "TREE-0054",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 135,
+      "pixel_y": 75
+    },
+    "canopy_radius_m": 3.5356338024139404,
+    "health_index": 1.0,
+    "grid_row": 10,
+    "grid_col": 18,
+    "notes": []
+  },
+  {
+    "id": "TREE-0055",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 367,
+      "pixel_y": 75
+    },
+    "canopy_radius_m": 7.651322364807129,
+    "health_index": 1.0,
+    "grid_row": 10,
+    "grid_col": 49,
+    "notes": []
+  },
+  {
+    "id": "TREE-0056",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 375,
+      "pixel_y": 75
+    },
+    "canopy_radius_m": 7.651322364807129,
+    "health_index": 1.0,
+    "grid_row": 10,
+    "grid_col": 50,
+    "notes": []
+  },
+  {
+    "id": "TREE-0057",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 330,
+      "pixel_y": 82
+    },
+    "canopy_radius_m": 5.000100135803223,
+    "health_index": 1.0,
+    "grid_row": 11,
+    "grid_col": 44,
+    "notes": []
+  },
+  {
+    "id": "TREE-0058",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 337,
+      "pixel_y": 82
+    },
+    "canopy_radius_m": 5.000100135803223,
+    "health_index": 1.0,
+    "grid_row": 11,
+    "grid_col": 45,
+    "notes": []
+  },
+  {
+    "id": "TREE-0059",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 405,
+      "pixel_y": 82
+    },
+    "canopy_radius_m": 6.810239791870117,
+    "health_index": 1.0,
+    "grid_row": 11,
+    "grid_col": 54,
+    "notes": []
+  },
+  {
+    "id": "TREE-0060",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 990,
+      "pixel_y": 82
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 11,
+    "grid_col": 132,
+    "notes": []
+  },
+  {
+    "id": "TREE-0061",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 997,
+      "pixel_y": 82
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 11,
+    "grid_col": 133,
+    "notes": []
+  },
+  {
+    "id": "TREE-0062",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 97,
+      "pixel_y": 90
+    },
+    "canopy_radius_m": 7.826338291168213,
+    "health_index": 1.0,
+    "grid_row": 12,
+    "grid_col": 13,
+    "notes": []
+  },
+  {
+    "id": "TREE-0063",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 105,
+      "pixel_y": 90
+    },
+    "canopy_radius_m": 7.826338291168213,
+    "health_index": 1.0,
+    "grid_row": 12,
+    "grid_col": 14,
+    "notes": []
+  },
+  {
+    "id": "TREE-0064",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 457,
+      "pixel_y": 90
+    },
+    "canopy_radius_m": 4.031229019165039,
+    "health_index": 1.0,
+    "grid_row": 12,
+    "grid_col": 61,
+    "notes": []
+  },
+  {
+    "id": "TREE-0065",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 465,
+      "pixel_y": 90
+    },
+    "canopy_radius_m": 4.031229019165039,
+    "health_index": 1.0,
+    "grid_row": 12,
+    "grid_col": 62,
+    "notes": []
+  },
+  {
+    "id": "TREE-0066",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 345,
+      "pixel_y": 105
+    },
+    "canopy_radius_m": 5.700977325439453,
+    "health_index": 1.0,
+    "grid_row": 14,
+    "grid_col": 46,
+    "notes": []
+  },
+  {
+    "id": "TREE-0067",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 352,
+      "pixel_y": 105
+    },
+    "canopy_radius_m": 5.700977325439453,
+    "health_index": 1.0,
+    "grid_row": 14,
+    "grid_col": 47,
+    "notes": []
+  },
+  {
+    "id": "TREE-0068",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 345,
+      "pixel_y": 112
+    },
+    "canopy_radius_m": 5.700977325439453,
+    "health_index": 1.0,
+    "grid_row": 15,
+    "grid_col": 46,
+    "notes": []
+  },
+  {
+    "id": "TREE-0069",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 675,
+      "pixel_y": 112
+    },
+    "canopy_radius_m": 6.500100135803223,
+    "health_index": 1.0,
+    "grid_row": 15,
+    "grid_col": 90,
+    "notes": []
+  },
+  {
+    "id": "TREE-0070",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 682,
+      "pixel_y": 112
+    },
+    "canopy_radius_m": 6.500100135803223,
+    "health_index": 1.0,
+    "grid_row": 15,
+    "grid_col": 91,
+    "notes": []
+  },
+  {
+    "id": "TREE-0071",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 675,
+      "pixel_y": 120
+    },
+    "canopy_radius_m": 6.500100135803223,
+    "health_index": 1.0,
+    "grid_row": 16,
+    "grid_col": 90,
+    "notes": []
+  },
+  {
+    "id": "TREE-0072",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 682,
+      "pixel_y": 120
+    },
+    "canopy_radius_m": 6.500100135803223,
+    "health_index": 1.0,
+    "grid_row": 16,
+    "grid_col": 91,
+    "notes": []
+  },
+  {
+    "id": "TREE-0073",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 742,
+      "pixel_y": 120
+    },
+    "canopy_radius_m": 138.40892028808594,
+    "health_index": 1.0,
+    "grid_row": 16,
+    "grid_col": 99,
+    "notes": []
+  },
+  {
+    "id": "TREE-0074",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 750,
+      "pixel_y": 120
+    },
+    "canopy_radius_m": 138.40892028808594,
+    "health_index": 1.0,
+    "grid_row": 16,
+    "grid_col": 100,
+    "notes": []
+  },
+  {
+    "id": "TREE-0075",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 277,
+      "pixel_y": 127
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 17,
+    "grid_col": 37,
+    "notes": []
+  },
+  {
+    "id": "TREE-0076",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 742,
+      "pixel_y": 127
+    },
+    "canopy_radius_m": 138.40892028808594,
+    "health_index": 1.0,
+    "grid_row": 17,
+    "grid_col": 99,
+    "notes": []
+  },
+  {
+    "id": "TREE-0077",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1147,
+      "pixel_y": 127
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 17,
+    "grid_col": 153,
+    "notes": []
+  },
+  {
+    "id": "TREE-0078",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 277,
+      "pixel_y": 135
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 18,
+    "grid_col": 37,
+    "notes": []
+  },
+  {
+    "id": "TREE-0079",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1132,
+      "pixel_y": 150
+    },
+    "canopy_radius_m": 5.315173149108887,
+    "health_index": 1.0,
+    "grid_row": 20,
+    "grid_col": 151,
+    "notes": []
+  },
+  {
+    "id": "TREE-0080",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 877,
+      "pixel_y": 157
+    },
+    "canopy_radius_m": 7.905794143676758,
+    "health_index": 1.0,
+    "grid_row": 21,
+    "grid_col": 117,
+    "notes": []
+  },
+  {
+    "id": "TREE-0081",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 885,
+      "pixel_y": 157
+    },
+    "canopy_radius_m": 7.905794143676758,
+    "health_index": 1.0,
+    "grid_row": 21,
+    "grid_col": 118,
+    "notes": []
+  },
+  {
+    "id": "TREE-0082",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 7,
+      "pixel_y": 165
+    },
+    "canopy_radius_m": 8.077847480773926,
+    "health_index": 1.0,
+    "grid_row": 22,
+    "grid_col": 1,
+    "notes": []
+  },
+  {
+    "id": "TREE-0083",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 7,
+      "pixel_y": 172
+    },
+    "canopy_radius_m": 8.077847480773926,
+    "health_index": 1.0,
+    "grid_row": 23,
+    "grid_col": 1,
+    "notes": []
+  },
+  {
+    "id": "TREE-0084",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 967,
+      "pixel_y": 172
+    },
+    "canopy_radius_m": 161.93003845214844,
+    "health_index": 1.0,
+    "grid_row": 23,
+    "grid_col": 129,
+    "notes": []
+  },
+  {
+    "id": "TREE-0085",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 975,
+      "pixel_y": 172
+    },
+    "canopy_radius_m": 161.93003845214844,
+    "health_index": 1.0,
+    "grid_row": 23,
+    "grid_col": 130,
+    "notes": []
+  },
+  {
+    "id": "TREE-0086",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 487,
+      "pixel_y": 225
+    },
+    "canopy_radius_m": 254.62974548339844,
+    "health_index": 1.0,
+    "grid_row": 30,
+    "grid_col": 65,
+    "notes": []
+  },
+  {
+    "id": "TREE-0087",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 112,
+      "pixel_y": 232
+    },
+    "canopy_radius_m": 46.79237747192383,
+    "health_index": 1.0,
+    "grid_row": 31,
+    "grid_col": 15,
+    "notes": []
+  },
+  {
+    "id": "TREE-0088",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 120,
+      "pixel_y": 232
+    },
+    "canopy_radius_m": 46.79237747192383,
+    "health_index": 1.0,
+    "grid_row": 31,
+    "grid_col": 16,
+    "notes": []
+  },
+  {
+    "id": "TREE-0089",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 487,
+      "pixel_y": 232
+    },
+    "canopy_radius_m": 254.62974548339844,
+    "health_index": 1.0,
+    "grid_row": 31,
+    "grid_col": 65,
+    "notes": []
+  },
+  {
+    "id": "TREE-0090",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 120,
+      "pixel_y": 240
+    },
+    "canopy_radius_m": 46.79237747192383,
+    "health_index": 1.0,
+    "grid_row": 32,
+    "grid_col": 16,
+    "notes": []
+  },
+  {
+    "id": "TREE-0091",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 375,
+      "pixel_y": 247
+    },
+    "canopy_radius_m": 6.290923118591309,
+    "health_index": 1.0,
+    "grid_row": 33,
+    "grid_col": 50,
+    "notes": []
+  },
+  {
+    "id": "TREE-0092",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 382,
+      "pixel_y": 247
+    },
+    "canopy_radius_m": 6.290923118591309,
+    "health_index": 1.0,
+    "grid_row": 33,
+    "grid_col": 51,
+    "notes": []
+  },
+  {
+    "id": "TREE-0093",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 375,
+      "pixel_y": 255
+    },
+    "canopy_radius_m": 6.290923118591309,
+    "health_index": 1.0,
+    "grid_row": 34,
+    "grid_col": 50,
+    "notes": []
+  },
+  {
+    "id": "TREE-0094",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 442,
+      "pixel_y": 255
+    },
+    "canopy_radius_m": 24.515399932861328,
+    "health_index": 1.0,
+    "grid_row": 34,
+    "grid_col": 59,
+    "notes": []
+  },
+  {
+    "id": "TREE-0095",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 480,
+      "pixel_y": 255
+    },
+    "canopy_radius_m": 5.000100135803223,
+    "health_index": 1.0,
+    "grid_row": 34,
+    "grid_col": 64,
+    "notes": []
+  },
+  {
+    "id": "TREE-0096",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 495,
+      "pixel_y": 262
+    },
+    "canopy_radius_m": 6.5193023681640625,
+    "health_index": 1.0,
+    "grid_row": 35,
+    "grid_col": 66,
+    "notes": []
+  },
+  {
+    "id": "TREE-0097",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 502,
+      "pixel_y": 262
+    },
+    "canopy_radius_m": 6.5193023681640625,
+    "health_index": 1.0,
+    "grid_row": 35,
+    "grid_col": 67,
+    "notes": []
+  },
+  {
+    "id": "TREE-0098",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 750,
+      "pixel_y": 262
+    },
+    "canopy_radius_m": 8.381627082824707,
+    "health_index": 1.0,
+    "grid_row": 35,
+    "grid_col": 100,
+    "notes": []
+  },
+  {
+    "id": "TREE-0099",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 757,
+      "pixel_y": 262
+    },
+    "canopy_radius_m": 8.381627082824707,
+    "health_index": 1.0,
+    "grid_row": 35,
+    "grid_col": 101,
+    "notes": []
+  },
+  {
+    "id": "TREE-0100",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 750,
+      "pixel_y": 270
+    },
+    "canopy_radius_m": 8.381627082824707,
+    "health_index": 1.0,
+    "grid_row": 36,
+    "grid_col": 100,
+    "notes": []
+  },
+  {
+    "id": "TREE-0101",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 795,
+      "pixel_y": 270
+    },
+    "canopy_radius_m": 4.472236156463623,
+    "health_index": 1.0,
+    "grid_row": 36,
+    "grid_col": 106,
+    "notes": []
+  },
+  {
+    "id": "TREE-0102",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 495,
+      "pixel_y": 285
+    },
+    "canopy_radius_m": 4.94984769821167,
+    "health_index": 1.0,
+    "grid_row": 38,
+    "grid_col": 66,
+    "notes": []
+  },
+  {
+    "id": "TREE-0103",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 502,
+      "pixel_y": 285
+    },
+    "canopy_radius_m": 4.94984769821167,
+    "health_index": 1.0,
+    "grid_row": 38,
+    "grid_col": 67,
+    "notes": []
+  },
+  {
+    "id": "TREE-0104",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 742,
+      "pixel_y": 285
+    },
+    "canopy_radius_m": 7.826338291168213,
+    "health_index": 1.0,
+    "grid_row": 38,
+    "grid_col": 99,
+    "notes": []
+  },
+  {
+    "id": "TREE-0105",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 750,
+      "pixel_y": 285
+    },
+    "canopy_radius_m": 7.826338291168213,
+    "health_index": 1.0,
+    "grid_row": 38,
+    "grid_col": 100,
+    "notes": []
+  },
+  {
+    "id": "TREE-0106",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 742,
+      "pixel_y": 292
+    },
+    "canopy_radius_m": 7.826338291168213,
+    "health_index": 1.0,
+    "grid_row": 39,
+    "grid_col": 99,
+    "notes": []
+  },
+  {
+    "id": "TREE-0107",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 750,
+      "pixel_y": 292
+    },
+    "canopy_radius_m": 7.826338291168213,
+    "health_index": 1.0,
+    "grid_row": 39,
+    "grid_col": 100,
+    "notes": []
+  },
+  {
+    "id": "TREE-0108",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1177,
+      "pixel_y": 292
+    },
+    "canopy_radius_m": 33.93153381347656,
+    "health_index": 1.0,
+    "grid_row": 39,
+    "grid_col": 157,
+    "notes": []
+  },
+  {
+    "id": "TREE-0109",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1185,
+      "pixel_y": 292
+    },
+    "canopy_radius_m": 33.93153381347656,
+    "health_index": 1.0,
+    "grid_row": 39,
+    "grid_col": 158,
+    "notes": []
+  },
+  {
+    "id": "TREE-0110",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 705,
+      "pixel_y": 300
+    },
+    "canopy_radius_m": 22.046899795532227,
+    "health_index": 1.0,
+    "grid_row": 40,
+    "grid_col": 94,
+    "notes": []
+  },
+  {
+    "id": "TREE-0111",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 712,
+      "pixel_y": 300
+    },
+    "canopy_radius_m": 22.046899795532227,
+    "health_index": 1.0,
+    "grid_row": 40,
+    "grid_col": 95,
+    "notes": []
+  },
+  {
+    "id": "TREE-0112",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 135,
+      "pixel_y": 322
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 43,
+    "grid_col": 18,
+    "notes": []
+  },
+  {
+    "id": "TREE-0113",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 142,
+      "pixel_y": 322
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 43,
+    "grid_col": 19,
+    "notes": []
+  },
+  {
+    "id": "TREE-0114",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 135,
+      "pixel_y": 330
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 44,
+    "grid_col": 18,
+    "notes": []
+  },
+  {
+    "id": "TREE-0115",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 667,
+      "pixel_y": 330
+    },
+    "canopy_radius_m": 9.8843355178833,
+    "health_index": 1.0,
+    "grid_row": 44,
+    "grid_col": 89,
+    "notes": []
+  },
+  {
+    "id": "TREE-0116",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 705,
+      "pixel_y": 330
+    },
+    "canopy_radius_m": 17.119314193725586,
+    "health_index": 1.0,
+    "grid_row": 44,
+    "grid_col": 94,
+    "notes": []
+  },
+  {
+    "id": "TREE-0117",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 982,
+      "pixel_y": 330
+    },
+    "canopy_radius_m": 9.300638198852539,
+    "health_index": 1.0,
+    "grid_row": 44,
+    "grid_col": 131,
+    "notes": []
+  },
+  {
+    "id": "TREE-0118",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1147,
+      "pixel_y": 330
+    },
+    "canopy_radius_m": 19.981340408325195,
+    "health_index": 1.0,
+    "grid_row": 44,
+    "grid_col": 153,
+    "notes": []
+  },
+  {
+    "id": "TREE-0119",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 667,
+      "pixel_y": 337
+    },
+    "canopy_radius_m": 9.8843355178833,
+    "health_index": 1.0,
+    "grid_row": 45,
+    "grid_col": 89,
+    "notes": []
+  },
+  {
+    "id": "TREE-0120",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 705,
+      "pixel_y": 337
+    },
+    "canopy_radius_m": 17.119314193725586,
+    "health_index": 1.0,
+    "grid_row": 45,
+    "grid_col": 94,
+    "notes": []
+  },
+  {
+    "id": "TREE-0121",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1147,
+      "pixel_y": 337
+    },
+    "canopy_radius_m": 19.981340408325195,
+    "health_index": 1.0,
+    "grid_row": 45,
+    "grid_col": 153,
+    "notes": []
+  },
+  {
+    "id": "TREE-0122",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1207,
+      "pixel_y": 337
+    },
+    "canopy_radius_m": 14.415018081665039,
+    "health_index": 1.0,
+    "grid_row": 45,
+    "grid_col": 161,
+    "notes": []
+  },
+  {
+    "id": "TREE-0123",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 577,
+      "pixel_y": 345
+    },
+    "canopy_radius_m": 5.540363788604736,
+    "health_index": 1.0,
+    "grid_row": 46,
+    "grid_col": 77,
+    "notes": []
+  },
+  {
+    "id": "TREE-0124",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 765,
+      "pixel_y": 345
+    },
+    "canopy_radius_m": 88.61302185058594,
+    "health_index": 1.0,
+    "grid_row": 46,
+    "grid_col": 102,
+    "notes": []
+  },
+  {
+    "id": "TREE-0125",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 757,
+      "pixel_y": 352
+    },
+    "canopy_radius_m": 88.61302185058594,
+    "health_index": 1.0,
+    "grid_row": 47,
+    "grid_col": 101,
+    "notes": []
+  },
+  {
+    "id": "TREE-0126",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 765,
+      "pixel_y": 352
+    },
+    "canopy_radius_m": 88.61302185058594,
+    "health_index": 1.0,
+    "grid_row": 47,
+    "grid_col": 102,
+    "notes": []
+  },
+  {
+    "id": "TREE-0127",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 952,
+      "pixel_y": 352
+    },
+    "canopy_radius_m": 12.847383499145508,
+    "health_index": 1.0,
+    "grid_row": 47,
+    "grid_col": 127,
+    "notes": []
+  },
+  {
+    "id": "TREE-0128",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 960,
+      "pixel_y": 352
+    },
+    "canopy_radius_m": 12.847383499145508,
+    "health_index": 1.0,
+    "grid_row": 47,
+    "grid_col": 128,
+    "notes": []
+  },
+  {
+    "id": "TREE-0129",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 592,
+      "pixel_y": 367
+    },
+    "canopy_radius_m": 6.4426093101501465,
+    "health_index": 1.0,
+    "grid_row": 49,
+    "grid_col": 79,
+    "notes": []
+  },
+  {
+    "id": "TREE-0130",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 600,
+      "pixel_y": 367
+    },
+    "canopy_radius_m": 6.4426093101501465,
+    "health_index": 1.0,
+    "grid_row": 49,
+    "grid_col": 80,
+    "notes": []
+  },
+  {
+    "id": "TREE-0131",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1102,
+      "pixel_y": 367
+    },
+    "canopy_radius_m": 5.483028411865234,
+    "health_index": 1.0,
+    "grid_row": 49,
+    "grid_col": 147,
+    "notes": []
+  },
+  {
+    "id": "TREE-0132",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 832,
+      "pixel_y": 375
+    },
+    "canopy_radius_m": 108.44380950927734,
+    "health_index": 1.0,
+    "grid_row": 50,
+    "grid_col": 111,
+    "notes": []
+  },
+  {
+    "id": "TREE-0133",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 840,
+      "pixel_y": 375
+    },
+    "canopy_radius_m": 108.44380950927734,
+    "health_index": 1.0,
+    "grid_row": 50,
+    "grid_col": 112,
+    "notes": []
+  },
+  {
+    "id": "TREE-0134",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 165,
+      "pixel_y": 382
+    },
+    "canopy_radius_m": 141.77545166015625,
+    "health_index": 1.0,
+    "grid_row": 51,
+    "grid_col": 22,
+    "notes": []
+  },
+  {
+    "id": "TREE-0135",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 225,
+      "pixel_y": 382
+    },
+    "canopy_radius_m": 14.31792163848877,
+    "health_index": 1.0,
+    "grid_row": 51,
+    "grid_col": 30,
+    "notes": []
+  },
+  {
+    "id": "TREE-0136",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 232,
+      "pixel_y": 382
+    },
+    "canopy_radius_m": 14.31792163848877,
+    "health_index": 1.0,
+    "grid_row": 51,
+    "grid_col": 31,
+    "notes": []
+  },
+  {
+    "id": "TREE-0137",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 660,
+      "pixel_y": 382
+    },
+    "canopy_radius_m": 19.241981506347656,
+    "health_index": 1.0,
+    "grid_row": 51,
+    "grid_col": 88,
+    "notes": []
+  },
+  {
+    "id": "TREE-0138",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 667,
+      "pixel_y": 382
+    },
+    "canopy_radius_m": 19.241981506347656,
+    "health_index": 1.0,
+    "grid_row": 51,
+    "grid_col": 89,
+    "notes": []
+  },
+  {
+    "id": "TREE-0139",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 832,
+      "pixel_y": 382
+    },
+    "canopy_radius_m": 108.44380950927734,
+    "health_index": 1.0,
+    "grid_row": 51,
+    "grid_col": 111,
+    "notes": []
+  },
+  {
+    "id": "TREE-0140",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 840,
+      "pixel_y": 382
+    },
+    "canopy_radius_m": 108.44380950927734,
+    "health_index": 1.0,
+    "grid_row": 51,
+    "grid_col": 112,
+    "notes": []
+  },
+  {
+    "id": "TREE-0141",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 165,
+      "pixel_y": 390
+    },
+    "canopy_radius_m": 141.77545166015625,
+    "health_index": 1.0,
+    "grid_row": 52,
+    "grid_col": 22,
+    "notes": []
+  },
+  {
+    "id": "TREE-0142",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 600,
+      "pixel_y": 390
+    },
+    "canopy_radius_m": 3.6056511402130127,
+    "health_index": 1.0,
+    "grid_row": 52,
+    "grid_col": 80,
+    "notes": []
+  },
+  {
+    "id": "TREE-0143",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 937,
+      "pixel_y": 390
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 52,
+    "grid_col": 125,
+    "notes": []
+  },
+  {
+    "id": "TREE-0144",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 945,
+      "pixel_y": 390
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 52,
+    "grid_col": 126,
+    "notes": []
+  },
+  {
+    "id": "TREE-0145",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 892,
+      "pixel_y": 397
+    },
+    "canopy_radius_m": 5.4787516593933105,
+    "health_index": 1.0,
+    "grid_row": 53,
+    "grid_col": 119,
+    "notes": []
+  },
+  {
+    "id": "TREE-0146",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 397,
+      "pixel_y": 405
+    },
+    "canopy_radius_m": 15.572511672973633,
+    "health_index": 1.0,
+    "grid_row": 54,
+    "grid_col": 53,
+    "notes": []
+  },
+  {
+    "id": "TREE-0147",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 705,
+      "pixel_y": 405
+    },
+    "canopy_radius_m": 7.280210018157959,
+    "health_index": 1.0,
+    "grid_row": 54,
+    "grid_col": 94,
+    "notes": []
+  },
+  {
+    "id": "TREE-0148",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 712,
+      "pixel_y": 405
+    },
+    "canopy_radius_m": 7.280210018157959,
+    "health_index": 1.0,
+    "grid_row": 54,
+    "grid_col": 95,
+    "notes": []
+  },
+  {
+    "id": "TREE-0149",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1170,
+      "pixel_y": 405
+    },
+    "canopy_radius_m": 4.242740631103516,
+    "health_index": 1.0,
+    "grid_row": 54,
+    "grid_col": 156,
+    "notes": []
+  },
+  {
+    "id": "TREE-0150",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1177,
+      "pixel_y": 405
+    },
+    "canopy_radius_m": 4.242740631103516,
+    "health_index": 1.0,
+    "grid_row": 54,
+    "grid_col": 157,
+    "notes": []
+  },
+  {
+    "id": "TREE-0151",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1192,
+      "pixel_y": 405
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 54,
+    "grid_col": 159,
+    "notes": []
+  },
+  {
+    "id": "TREE-0152",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 37,
+      "pixel_y": 412
+    },
+    "canopy_radius_m": 18.89583396911621,
+    "health_index": 1.0,
+    "grid_row": 55,
+    "grid_col": 5,
+    "notes": []
+  },
+  {
+    "id": "TREE-0153",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 45,
+      "pixel_y": 412
+    },
+    "canopy_radius_m": 18.89583396911621,
+    "health_index": 1.0,
+    "grid_row": 55,
+    "grid_col": 6,
+    "notes": []
+  },
+  {
+    "id": "TREE-0154",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 397,
+      "pixel_y": 412
+    },
+    "canopy_radius_m": 15.572511672973633,
+    "health_index": 1.0,
+    "grid_row": 55,
+    "grid_col": 53,
+    "notes": []
+  },
+  {
+    "id": "TREE-0155",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 495,
+      "pixel_y": 412
+    },
+    "canopy_radius_m": 284.19647216796875,
+    "health_index": 1.0,
+    "grid_row": 55,
+    "grid_col": 66,
+    "notes": []
+  },
+  {
+    "id": "TREE-0156",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1087,
+      "pixel_y": 412
+    },
+    "canopy_radius_m": 8.864614486694336,
+    "health_index": 1.0,
+    "grid_row": 55,
+    "grid_col": 145,
+    "notes": []
+  },
+  {
+    "id": "TREE-0157",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 75,
+      "pixel_y": 420
+    },
+    "canopy_radius_m": 3.5356338024139404,
+    "health_index": 1.0,
+    "grid_row": 56,
+    "grid_col": 10,
+    "notes": []
+  },
+  {
+    "id": "TREE-0158",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 337,
+      "pixel_y": 427
+    },
+    "canopy_radius_m": 6.5854926109313965,
+    "health_index": 1.0,
+    "grid_row": 57,
+    "grid_col": 45,
+    "notes": []
+  },
+  {
+    "id": "TREE-0159",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 787,
+      "pixel_y": 427
+    },
+    "canopy_radius_m": 20.518383026123047,
+    "health_index": 1.0,
+    "grid_row": 57,
+    "grid_col": 105,
+    "notes": []
+  },
+  {
+    "id": "TREE-0160",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 960,
+      "pixel_y": 427
+    },
+    "canopy_radius_m": 5.000100135803223,
+    "health_index": 1.0,
+    "grid_row": 57,
+    "grid_col": 128,
+    "notes": []
+  },
+  {
+    "id": "TREE-0161",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 337,
+      "pixel_y": 435
+    },
+    "canopy_radius_m": 6.5854926109313965,
+    "health_index": 1.0,
+    "grid_row": 58,
+    "grid_col": 45,
+    "notes": []
+  },
+  {
+    "id": "TREE-0162",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 547,
+      "pixel_y": 435
+    },
+    "canopy_radius_m": 5.647259712219238,
+    "health_index": 1.0,
+    "grid_row": 58,
+    "grid_col": 73,
+    "notes": []
+  },
+  {
+    "id": "TREE-0163",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 562,
+      "pixel_y": 435
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 58,
+    "grid_col": 75,
+    "notes": []
+  },
+  {
+    "id": "TREE-0164",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 570,
+      "pixel_y": 435
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 58,
+    "grid_col": 76,
+    "notes": []
+  },
+  {
+    "id": "TREE-0165",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 952,
+      "pixel_y": 435
+    },
+    "canopy_radius_m": 5.000100135803223,
+    "health_index": 1.0,
+    "grid_row": 58,
+    "grid_col": 127,
+    "notes": []
+  },
+  {
+    "id": "TREE-0166",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 960,
+      "pixel_y": 435
+    },
+    "canopy_radius_m": 5.000100135803223,
+    "health_index": 1.0,
+    "grid_row": 58,
+    "grid_col": 128,
+    "notes": []
+  },
+  {
+    "id": "TREE-0167",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 45,
+      "pixel_y": 442
+    },
+    "canopy_radius_m": 6.224246025085449,
+    "health_index": 1.0,
+    "grid_row": 59,
+    "grid_col": 6,
+    "notes": []
+  },
+  {
+    "id": "TREE-0168",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 52,
+      "pixel_y": 442
+    },
+    "canopy_radius_m": 6.224246025085449,
+    "health_index": 1.0,
+    "grid_row": 59,
+    "grid_col": 7,
+    "notes": []
+  },
+  {
+    "id": "TREE-0169",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 97,
+      "pixel_y": 442
+    },
+    "canopy_radius_m": 6.800835609436035,
+    "health_index": 1.0,
+    "grid_row": 59,
+    "grid_col": 13,
+    "notes": []
+  },
+  {
+    "id": "TREE-0170",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 442
+    },
+    "canopy_radius_m": 15.435449600219727,
+    "health_index": 1.0,
+    "grid_row": 59,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0171",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 7,
+      "pixel_y": 450
+    },
+    "canopy_radius_m": 53.56080627441406,
+    "health_index": 1.0,
+    "grid_row": 60,
+    "grid_col": 1,
+    "notes": []
+  },
+  {
+    "id": "TREE-0172",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 97,
+      "pixel_y": 450
+    },
+    "canopy_radius_m": 6.800835609436035,
+    "health_index": 1.0,
+    "grid_row": 60,
+    "grid_col": 13,
+    "notes": []
+  },
+  {
+    "id": "TREE-0173",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1072,
+      "pixel_y": 450
+    },
+    "canopy_radius_m": 17.748998641967773,
+    "health_index": 1.0,
+    "grid_row": 60,
+    "grid_col": 143,
+    "notes": []
+  },
+  {
+    "id": "TREE-0174",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 450
+    },
+    "canopy_radius_m": 15.435449600219727,
+    "health_index": 1.0,
+    "grid_row": 60,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0175",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 7,
+      "pixel_y": 457
+    },
+    "canopy_radius_m": 53.56080627441406,
+    "health_index": 1.0,
+    "grid_row": 61,
+    "grid_col": 1,
+    "notes": []
+  },
+  {
+    "id": "TREE-0176",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 232,
+      "pixel_y": 457
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 61,
+    "grid_col": 31,
+    "notes": []
+  },
+  {
+    "id": "TREE-0177",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 945,
+      "pixel_y": 457
+    },
+    "canopy_radius_m": 5.000100135803223,
+    "health_index": 1.0,
+    "grid_row": 61,
+    "grid_col": 126,
+    "notes": []
+  },
+  {
+    "id": "TREE-0178",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1072,
+      "pixel_y": 457
+    },
+    "canopy_radius_m": 17.748998641967773,
+    "health_index": 1.0,
+    "grid_row": 61,
+    "grid_col": 143,
+    "notes": []
+  },
+  {
+    "id": "TREE-0179",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1147,
+      "pixel_y": 457
+    },
+    "canopy_radius_m": 71.16891479492188,
+    "health_index": 1.0,
+    "grid_row": 61,
+    "grid_col": 153,
+    "notes": []
+  },
+  {
+    "id": "TREE-0180",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 232,
+      "pixel_y": 465
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 62,
+    "grid_col": 31,
+    "notes": []
+  },
+  {
+    "id": "TREE-0181",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 277,
+      "pixel_y": 465
+    },
+    "canopy_radius_m": 24.801429748535156,
+    "health_index": 1.0,
+    "grid_row": 62,
+    "grid_col": 37,
+    "notes": []
+  },
+  {
+    "id": "TREE-0182",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1177,
+      "pixel_y": 465
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 62,
+    "grid_col": 157,
+    "notes": []
+  },
+  {
+    "id": "TREE-0183",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 277,
+      "pixel_y": 472
+    },
+    "canopy_radius_m": 24.801429748535156,
+    "health_index": 1.0,
+    "grid_row": 63,
+    "grid_col": 37,
+    "notes": []
+  },
+  {
+    "id": "TREE-0184",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1192,
+      "pixel_y": 480
+    },
+    "canopy_radius_m": 14.77338695526123,
+    "health_index": 1.0,
+    "grid_row": 64,
+    "grid_col": 159,
+    "notes": []
+  },
+  {
+    "id": "TREE-0185",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 480
+    },
+    "canopy_radius_m": 14.77338695526123,
+    "health_index": 1.0,
+    "grid_row": 64,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0186",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 742,
+      "pixel_y": 487
+    },
+    "canopy_radius_m": 5.0599470138549805,
+    "health_index": 1.0,
+    "grid_row": 65,
+    "grid_col": 99,
+    "notes": []
+  },
+  {
+    "id": "TREE-0187",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 750,
+      "pixel_y": 487
+    },
+    "canopy_radius_m": 5.0599470138549805,
+    "health_index": 1.0,
+    "grid_row": 65,
+    "grid_col": 100,
+    "notes": []
+  },
+  {
+    "id": "TREE-0188",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 907,
+      "pixel_y": 487
+    },
+    "canopy_radius_m": 3.9052248001098633,
+    "health_index": 1.0,
+    "grid_row": 65,
+    "grid_col": 121,
+    "notes": []
+  },
+  {
+    "id": "TREE-0189",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 487
+    },
+    "canopy_radius_m": 14.77338695526123,
+    "health_index": 1.0,
+    "grid_row": 65,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0190",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 727,
+      "pixel_y": 495
+    },
+    "canopy_radius_m": 3.5356338024139404,
+    "health_index": 1.0,
+    "grid_row": 66,
+    "grid_col": 97,
+    "notes": []
+  },
+  {
+    "id": "TREE-0191",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 907,
+      "pixel_y": 495
+    },
+    "canopy_radius_m": 3.9052248001098633,
+    "health_index": 1.0,
+    "grid_row": 66,
+    "grid_col": 121,
+    "notes": []
+  },
+  {
+    "id": "TREE-0192",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 997,
+      "pixel_y": 495
+    },
+    "canopy_radius_m": 33.60069274902344,
+    "health_index": 1.0,
+    "grid_row": 66,
+    "grid_col": 133,
+    "notes": []
+  },
+  {
+    "id": "TREE-0193",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 727,
+      "pixel_y": 502
+    },
+    "canopy_radius_m": 3.5356338024139404,
+    "health_index": 1.0,
+    "grid_row": 67,
+    "grid_col": 97,
+    "notes": []
+  },
+  {
+    "id": "TREE-0194",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 52,
+      "pixel_y": 517
+    },
+    "canopy_radius_m": 26.117082595825195,
+    "health_index": 1.0,
+    "grid_row": 69,
+    "grid_col": 7,
+    "notes": []
+  },
+  {
+    "id": "TREE-0195",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1027,
+      "pixel_y": 517
+    },
+    "canopy_radius_m": 10.028303146362305,
+    "health_index": 1.0,
+    "grid_row": 69,
+    "grid_col": 137,
+    "notes": []
+  },
+  {
+    "id": "TREE-0196",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1087,
+      "pixel_y": 517
+    },
+    "canopy_radius_m": 63.13847351074219,
+    "health_index": 1.0,
+    "grid_row": 69,
+    "grid_col": 145,
+    "notes": []
+  },
+  {
+    "id": "TREE-0197",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1095,
+      "pixel_y": 517
+    },
+    "canopy_radius_m": 63.13847351074219,
+    "health_index": 1.0,
+    "grid_row": 69,
+    "grid_col": 146,
+    "notes": []
+  },
+  {
+    "id": "TREE-0198",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1207,
+      "pixel_y": 517
+    },
+    "canopy_radius_m": 3.6056511402130127,
+    "health_index": 1.0,
+    "grid_row": 69,
+    "grid_col": 161,
+    "notes": []
+  },
+  {
+    "id": "TREE-0199",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 52,
+      "pixel_y": 525
+    },
+    "canopy_radius_m": 26.117082595825195,
+    "health_index": 1.0,
+    "grid_row": 70,
+    "grid_col": 7,
+    "notes": []
+  },
+  {
+    "id": "TREE-0200",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1027,
+      "pixel_y": 525
+    },
+    "canopy_radius_m": 10.028303146362305,
+    "health_index": 1.0,
+    "grid_row": 70,
+    "grid_col": 137,
+    "notes": []
+  },
+  {
+    "id": "TREE-0201",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1222,
+      "pixel_y": 525
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 70,
+    "grid_col": 163,
+    "notes": []
+  },
+  {
+    "id": "TREE-0202",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 337,
+      "pixel_y": 532
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 71,
+    "grid_col": 45,
+    "notes": []
+  },
+  {
+    "id": "TREE-0203",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 345,
+      "pixel_y": 532
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 71,
+    "grid_col": 46,
+    "notes": []
+  },
+  {
+    "id": "TREE-0204",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1177,
+      "pixel_y": 532
+    },
+    "canopy_radius_m": 9.617792129516602,
+    "health_index": 1.0,
+    "grid_row": 71,
+    "grid_col": 157,
+    "notes": []
+  },
+  {
+    "id": "TREE-0205",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 532
+    },
+    "canopy_radius_m": 3.6056511402130127,
+    "health_index": 1.0,
+    "grid_row": 71,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0206",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1207,
+      "pixel_y": 532
+    },
+    "canopy_radius_m": 3.6056511402130127,
+    "health_index": 1.0,
+    "grid_row": 71,
+    "grid_col": 161,
+    "notes": []
+  },
+  {
+    "id": "TREE-0207",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1222,
+      "pixel_y": 532
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 71,
+    "grid_col": 163,
+    "notes": []
+  },
+  {
+    "id": "TREE-0208",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 15,
+      "pixel_y": 540
+    },
+    "canopy_radius_m": 24.233341217041016,
+    "health_index": 1.0,
+    "grid_row": 72,
+    "grid_col": 2,
+    "notes": []
+  },
+  {
+    "id": "TREE-0209",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 97,
+      "pixel_y": 540
+    },
+    "canopy_radius_m": 15.297158241271973,
+    "health_index": 1.0,
+    "grid_row": 72,
+    "grid_col": 13,
+    "notes": []
+  },
+  {
+    "id": "TREE-0210",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 360,
+      "pixel_y": 540
+    },
+    "canopy_radius_m": 38.74606704711914,
+    "health_index": 1.0,
+    "grid_row": 72,
+    "grid_col": 48,
+    "notes": []
+  },
+  {
+    "id": "TREE-0211",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1005,
+      "pixel_y": 540
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 72,
+    "grid_col": 134,
+    "notes": []
+  },
+  {
+    "id": "TREE-0212",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1012,
+      "pixel_y": 540
+    },
+    "canopy_radius_m": 4.609872341156006,
+    "health_index": 1.0,
+    "grid_row": 72,
+    "grid_col": 135,
+    "notes": []
+  },
+  {
+    "id": "TREE-0213",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1177,
+      "pixel_y": 540
+    },
+    "canopy_radius_m": 9.617792129516602,
+    "health_index": 1.0,
+    "grid_row": 72,
+    "grid_col": 157,
+    "notes": []
+  },
+  {
+    "id": "TREE-0214",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 97,
+      "pixel_y": 547
+    },
+    "canopy_radius_m": 15.297158241271973,
+    "health_index": 1.0,
+    "grid_row": 73,
+    "grid_col": 13,
+    "notes": []
+  },
+  {
+    "id": "TREE-0215",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 307,
+      "pixel_y": 547
+    },
+    "canopy_radius_m": 19.474441528320312,
+    "health_index": 1.0,
+    "grid_row": 73,
+    "grid_col": 41,
+    "notes": []
+  },
+  {
+    "id": "TREE-0216",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 315,
+      "pixel_y": 547
+    },
+    "canopy_radius_m": 19.474441528320312,
+    "health_index": 1.0,
+    "grid_row": 73,
+    "grid_col": 42,
+    "notes": []
+  },
+  {
+    "id": "TREE-0217",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 360,
+      "pixel_y": 547
+    },
+    "canopy_radius_m": 38.74606704711914,
+    "health_index": 1.0,
+    "grid_row": 73,
+    "grid_col": 48,
+    "notes": []
+  },
+  {
+    "id": "TREE-0218",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 375,
+      "pixel_y": 555
+    },
+    "canopy_radius_m": 7.615873336791992,
+    "health_index": 1.0,
+    "grid_row": 74,
+    "grid_col": 50,
+    "notes": []
+  },
+  {
+    "id": "TREE-0219",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 382,
+      "pixel_y": 555
+    },
+    "canopy_radius_m": 7.615873336791992,
+    "health_index": 1.0,
+    "grid_row": 74,
+    "grid_col": 51,
+    "notes": []
+  },
+  {
+    "id": "TREE-0220",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1222,
+      "pixel_y": 562
+    },
+    "canopy_radius_m": 6.800835609436035,
+    "health_index": 1.0,
+    "grid_row": 75,
+    "grid_col": 163,
+    "notes": []
+  },
+  {
+    "id": "TREE-0221",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 105,
+      "pixel_y": 570
+    },
+    "canopy_radius_m": 8.20071029663086,
+    "health_index": 1.0,
+    "grid_row": 76,
+    "grid_col": 14,
+    "notes": []
+  },
+  {
+    "id": "TREE-0222",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 112,
+      "pixel_y": 570
+    },
+    "canopy_radius_m": 8.20071029663086,
+    "health_index": 1.0,
+    "grid_row": 76,
+    "grid_col": 15,
+    "notes": []
+  },
+  {
+    "id": "TREE-0223",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 172,
+      "pixel_y": 570
+    },
+    "canopy_radius_m": 129.1333770751953,
+    "health_index": 1.0,
+    "grid_row": 76,
+    "grid_col": 23,
+    "notes": []
+  },
+  {
+    "id": "TREE-0224",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1012,
+      "pixel_y": 570
+    },
+    "canopy_radius_m": 15.787753105163574,
+    "health_index": 1.0,
+    "grid_row": 76,
+    "grid_col": 135,
+    "notes": []
+  },
+  {
+    "id": "TREE-0225",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1222,
+      "pixel_y": 570
+    },
+    "canopy_radius_m": 6.800835609436035,
+    "health_index": 1.0,
+    "grid_row": 76,
+    "grid_col": 163,
+    "notes": []
+  },
+  {
+    "id": "TREE-0226",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 165,
+      "pixel_y": 577
+    },
+    "canopy_radius_m": 129.1333770751953,
+    "health_index": 1.0,
+    "grid_row": 77,
+    "grid_col": 22,
+    "notes": []
+  },
+  {
+    "id": "TREE-0227",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 172,
+      "pixel_y": 577
+    },
+    "canopy_radius_m": 129.1333770751953,
+    "health_index": 1.0,
+    "grid_row": 77,
+    "grid_col": 23,
+    "notes": []
+  },
+  {
+    "id": "TREE-0228",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1012,
+      "pixel_y": 577
+    },
+    "canopy_radius_m": 15.787753105163574,
+    "health_index": 1.0,
+    "grid_row": 77,
+    "grid_col": 135,
+    "notes": []
+  },
+  {
+    "id": "TREE-0229",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1087,
+      "pixel_y": 577
+    },
+    "canopy_radius_m": 6.243948459625244,
+    "health_index": 1.0,
+    "grid_row": 77,
+    "grid_col": 145,
+    "notes": []
+  },
+  {
+    "id": "TREE-0230",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1132,
+      "pixel_y": 577
+    },
+    "canopy_radius_m": 8.002374649047852,
+    "health_index": 1.0,
+    "grid_row": 77,
+    "grid_col": 151,
+    "notes": []
+  },
+  {
+    "id": "TREE-0231",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 382,
+      "pixel_y": 585
+    },
+    "canopy_radius_m": 12.777032852172852,
+    "health_index": 1.0,
+    "grid_row": 78,
+    "grid_col": 51,
+    "notes": []
+  },
+  {
+    "id": "TREE-0232",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1027,
+      "pixel_y": 585
+    },
+    "canopy_radius_m": 9.013978004455566,
+    "health_index": 1.0,
+    "grid_row": 78,
+    "grid_col": 137,
+    "notes": []
+  },
+  {
+    "id": "TREE-0233",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1035,
+      "pixel_y": 585
+    },
+    "canopy_radius_m": 9.013978004455566,
+    "health_index": 1.0,
+    "grid_row": 78,
+    "grid_col": 138,
+    "notes": []
+  },
+  {
+    "id": "TREE-0234",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1087,
+      "pixel_y": 585
+    },
+    "canopy_radius_m": 6.243948459625244,
+    "health_index": 1.0,
+    "grid_row": 78,
+    "grid_col": 145,
+    "notes": []
+  },
+  {
+    "id": "TREE-0235",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1132,
+      "pixel_y": 585
+    },
+    "canopy_radius_m": 8.002374649047852,
+    "health_index": 1.0,
+    "grid_row": 78,
+    "grid_col": 151,
+    "notes": []
+  },
+  {
+    "id": "TREE-0236",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 285,
+      "pixel_y": 592
+    },
+    "canopy_radius_m": 14.208395957946777,
+    "health_index": 1.0,
+    "grid_row": 79,
+    "grid_col": 38,
+    "notes": []
+  },
+  {
+    "id": "TREE-0237",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 382,
+      "pixel_y": 592
+    },
+    "canopy_radius_m": 12.777032852172852,
+    "health_index": 1.0,
+    "grid_row": 79,
+    "grid_col": 51,
+    "notes": []
+  },
+  {
+    "id": "TREE-0238",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1027,
+      "pixel_y": 592
+    },
+    "canopy_radius_m": 9.013978004455566,
+    "health_index": 1.0,
+    "grid_row": 79,
+    "grid_col": 137,
+    "notes": []
+  },
+  {
+    "id": "TREE-0239",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1035,
+      "pixel_y": 592
+    },
+    "canopy_radius_m": 9.013978004455566,
+    "health_index": 1.0,
+    "grid_row": 79,
+    "grid_col": 138,
+    "notes": []
+  },
+  {
+    "id": "TREE-0240",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1072,
+      "pixel_y": 592
+    },
+    "canopy_radius_m": 69.97330474853516,
+    "health_index": 1.0,
+    "grid_row": 79,
+    "grid_col": 143,
+    "notes": []
+  },
+  {
+    "id": "TREE-0241",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 232,
+      "pixel_y": 600
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 80,
+    "grid_col": 31,
+    "notes": []
+  },
+  {
+    "id": "TREE-0242",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 285,
+      "pixel_y": 600
+    },
+    "canopy_radius_m": 14.208395957946777,
+    "health_index": 1.0,
+    "grid_row": 80,
+    "grid_col": 38,
+    "notes": []
+  },
+  {
+    "id": "TREE-0243",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 915,
+      "pixel_y": 600
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 80,
+    "grid_col": 122,
+    "notes": []
+  },
+  {
+    "id": "TREE-0244",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 922,
+      "pixel_y": 600
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 80,
+    "grid_col": 123,
+    "notes": []
+  },
+  {
+    "id": "TREE-0245",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1110,
+      "pixel_y": 607
+    },
+    "canopy_radius_m": 9.394247055053711,
+    "health_index": 1.0,
+    "grid_row": 81,
+    "grid_col": 148,
+    "notes": []
+  },
+  {
+    "id": "TREE-0246",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 697,
+      "pixel_y": 615
+    },
+    "canopy_radius_m": 11.942360877990723,
+    "health_index": 1.0,
+    "grid_row": 82,
+    "grid_col": 93,
+    "notes": []
+  },
+  {
+    "id": "TREE-0247",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 705,
+      "pixel_y": 615
+    },
+    "canopy_radius_m": 11.942360877990723,
+    "health_index": 1.0,
+    "grid_row": 82,
+    "grid_col": 94,
+    "notes": []
+  },
+  {
+    "id": "TREE-0248",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1185,
+      "pixel_y": 615
+    },
+    "canopy_radius_m": 75.04841613769531,
+    "health_index": 1.0,
+    "grid_row": 82,
+    "grid_col": 158,
+    "notes": []
+  },
+  {
+    "id": "TREE-0249",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 285,
+      "pixel_y": 622
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 83,
+    "grid_col": 38,
+    "notes": []
+  },
+  {
+    "id": "TREE-0250",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 292,
+      "pixel_y": 622
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 83,
+    "grid_col": 39,
+    "notes": []
+  },
+  {
+    "id": "TREE-0251",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 697,
+      "pixel_y": 622
+    },
+    "canopy_radius_m": 11.942360877990723,
+    "health_index": 1.0,
+    "grid_row": 83,
+    "grid_col": 93,
+    "notes": []
+  },
+  {
+    "id": "TREE-0252",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 885,
+      "pixel_y": 622
+    },
+    "canopy_radius_m": 7.615873336791992,
+    "health_index": 1.0,
+    "grid_row": 83,
+    "grid_col": 118,
+    "notes": []
+  },
+  {
+    "id": "TREE-0253",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 892,
+      "pixel_y": 622
+    },
+    "canopy_radius_m": 7.615873336791992,
+    "health_index": 1.0,
+    "grid_row": 83,
+    "grid_col": 119,
+    "notes": []
+  },
+  {
+    "id": "TREE-0254",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 157,
+      "pixel_y": 630
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 84,
+    "grid_col": 21,
+    "notes": []
+  },
+  {
+    "id": "TREE-0255",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 270,
+      "pixel_y": 630
+    },
+    "canopy_radius_m": 8.381627082824707,
+    "health_index": 1.0,
+    "grid_row": 84,
+    "grid_col": 36,
+    "notes": []
+  },
+  {
+    "id": "TREE-0256",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 322,
+      "pixel_y": 630
+    },
+    "canopy_radius_m": 15.188289642333984,
+    "health_index": 1.0,
+    "grid_row": 84,
+    "grid_col": 43,
+    "notes": []
+  },
+  {
+    "id": "TREE-0257",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 330,
+      "pixel_y": 630
+    },
+    "canopy_radius_m": 15.188289642333984,
+    "health_index": 1.0,
+    "grid_row": 84,
+    "grid_col": 44,
+    "notes": []
+  },
+  {
+    "id": "TREE-0258",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1020,
+      "pixel_y": 630
+    },
+    "canopy_radius_m": 31.145715713500977,
+    "health_index": 1.0,
+    "grid_row": 84,
+    "grid_col": 136,
+    "notes": []
+  },
+  {
+    "id": "TREE-0259",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 157,
+      "pixel_y": 637
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 85,
+    "grid_col": 21,
+    "notes": []
+  },
+  {
+    "id": "TREE-0260",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 240,
+      "pixel_y": 637
+    },
+    "canopy_radius_m": 28.6357421875,
+    "health_index": 1.0,
+    "grid_row": 85,
+    "grid_col": 32,
+    "notes": []
+  },
+  {
+    "id": "TREE-0261",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 270,
+      "pixel_y": 637
+    },
+    "canopy_radius_m": 8.381627082824707,
+    "health_index": 1.0,
+    "grid_row": 85,
+    "grid_col": 36,
+    "notes": []
+  },
+  {
+    "id": "TREE-0262",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 285,
+      "pixel_y": 637
+    },
+    "canopy_radius_m": 6.833914756774902,
+    "health_index": 1.0,
+    "grid_row": 85,
+    "grid_col": 38,
+    "notes": []
+  },
+  {
+    "id": "TREE-0263",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 292,
+      "pixel_y": 637
+    },
+    "canopy_radius_m": 6.833914756774902,
+    "health_index": 1.0,
+    "grid_row": 85,
+    "grid_col": 39,
+    "notes": []
+  },
+  {
+    "id": "TREE-0264",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 30,
+      "pixel_y": 645
+    },
+    "canopy_radius_m": 93.37702178955078,
+    "health_index": 1.0,
+    "grid_row": 86,
+    "grid_col": 4,
+    "notes": []
+  },
+  {
+    "id": "TREE-0265",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 240,
+      "pixel_y": 645
+    },
+    "canopy_radius_m": 28.6357421875,
+    "health_index": 1.0,
+    "grid_row": 86,
+    "grid_col": 32,
+    "notes": []
+  },
+  {
+    "id": "TREE-0266",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 262,
+      "pixel_y": 645
+    },
+    "canopy_radius_m": 4.611138820648193,
+    "health_index": 1.0,
+    "grid_row": 86,
+    "grid_col": 35,
+    "notes": []
+  },
+  {
+    "id": "TREE-0267",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 30,
+      "pixel_y": 652
+    },
+    "canopy_radius_m": 93.37702178955078,
+    "health_index": 1.0,
+    "grid_row": 87,
+    "grid_col": 4,
+    "notes": []
+  },
+  {
+    "id": "TREE-0268",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 202,
+      "pixel_y": 652
+    },
+    "canopy_radius_m": 61.8382682800293,
+    "health_index": 1.0,
+    "grid_row": 87,
+    "grid_col": 27,
+    "notes": []
+  },
+  {
+    "id": "TREE-0269",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 255,
+      "pixel_y": 652
+    },
+    "canopy_radius_m": 4.611138820648193,
+    "health_index": 1.0,
+    "grid_row": 87,
+    "grid_col": 34,
+    "notes": []
+  },
+  {
+    "id": "TREE-0270",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 262,
+      "pixel_y": 652
+    },
+    "canopy_radius_m": 4.611138820648193,
+    "health_index": 1.0,
+    "grid_row": 87,
+    "grid_col": 35,
+    "notes": []
+  },
+  {
+    "id": "TREE-0271",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 435,
+      "pixel_y": 652
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 87,
+    "grid_col": 58,
+    "notes": []
+  },
+  {
+    "id": "TREE-0272",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 442,
+      "pixel_y": 652
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 87,
+    "grid_col": 59,
+    "notes": []
+  },
+  {
+    "id": "TREE-0273",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1057,
+      "pixel_y": 652
+    },
+    "canopy_radius_m": 6.041623115539551,
+    "health_index": 1.0,
+    "grid_row": 87,
+    "grid_col": 141,
+    "notes": []
+  },
+  {
+    "id": "TREE-0274",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 202,
+      "pixel_y": 660
+    },
+    "canopy_radius_m": 61.8382682800293,
+    "health_index": 1.0,
+    "grid_row": 88,
+    "grid_col": 27,
+    "notes": []
+  },
+  {
+    "id": "TREE-0275",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 555,
+      "pixel_y": 660
+    },
+    "canopy_radius_m": 19.21556854248047,
+    "health_index": 1.0,
+    "grid_row": 88,
+    "grid_col": 74,
+    "notes": []
+  },
+  {
+    "id": "TREE-0276",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 615,
+      "pixel_y": 660
+    },
+    "canopy_radius_m": 25.401870727539062,
+    "health_index": 1.0,
+    "grid_row": 88,
+    "grid_col": 82,
+    "notes": []
+  },
+  {
+    "id": "TREE-0277",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 622,
+      "pixel_y": 660
+    },
+    "canopy_radius_m": 25.401870727539062,
+    "health_index": 1.0,
+    "grid_row": 88,
+    "grid_col": 83,
+    "notes": []
+  },
+  {
+    "id": "TREE-0278",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 817,
+      "pixel_y": 660
+    },
+    "canopy_radius_m": 25.084375381469727,
+    "health_index": 1.0,
+    "grid_row": 88,
+    "grid_col": 109,
+    "notes": []
+  },
+  {
+    "id": "TREE-0279",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1057,
+      "pixel_y": 660
+    },
+    "canopy_radius_m": 6.041623115539551,
+    "health_index": 1.0,
+    "grid_row": 88,
+    "grid_col": 141,
+    "notes": []
+  },
+  {
+    "id": "TREE-0280",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1065,
+      "pixel_y": 660
+    },
+    "canopy_radius_m": 6.041623115539551,
+    "health_index": 1.0,
+    "grid_row": 88,
+    "grid_col": 142,
+    "notes": []
+  },
+  {
+    "id": "TREE-0281",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 555,
+      "pixel_y": 667
+    },
+    "canopy_radius_m": 19.21556854248047,
+    "health_index": 1.0,
+    "grid_row": 89,
+    "grid_col": 74,
+    "notes": []
+  },
+  {
+    "id": "TREE-0282",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 727,
+      "pixel_y": 667
+    },
+    "canopy_radius_m": 4.242740631103516,
+    "health_index": 1.0,
+    "grid_row": 89,
+    "grid_col": 97,
+    "notes": []
+  },
+  {
+    "id": "TREE-0283",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 847,
+      "pixel_y": 667
+    },
+    "canopy_radius_m": 14.714038848876953,
+    "health_index": 1.0,
+    "grid_row": 89,
+    "grid_col": 113,
+    "notes": []
+  },
+  {
+    "id": "TREE-0284",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 892,
+      "pixel_y": 667
+    },
+    "canopy_radius_m": 5.602705478668213,
+    "health_index": 1.0,
+    "grid_row": 89,
+    "grid_col": 119,
+    "notes": []
+  },
+  {
+    "id": "TREE-0285",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1095,
+      "pixel_y": 667
+    },
+    "canopy_radius_m": 18.042814254760742,
+    "health_index": 1.0,
+    "grid_row": 89,
+    "grid_col": 146,
+    "notes": []
+  },
+  {
+    "id": "TREE-0286",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 262,
+      "pixel_y": 675
+    },
+    "canopy_radius_m": 14.430970191955566,
+    "health_index": 1.0,
+    "grid_row": 90,
+    "grid_col": 35,
+    "notes": []
+  },
+  {
+    "id": "TREE-0287",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 660,
+      "pixel_y": 675
+    },
+    "canopy_radius_m": 57.93972396850586,
+    "health_index": 1.0,
+    "grid_row": 90,
+    "grid_col": 88,
+    "notes": []
+  },
+  {
+    "id": "TREE-0288",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 727,
+      "pixel_y": 675
+    },
+    "canopy_radius_m": 4.242740631103516,
+    "health_index": 1.0,
+    "grid_row": 90,
+    "grid_col": 97,
+    "notes": []
+  },
+  {
+    "id": "TREE-0289",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 765,
+      "pixel_y": 675
+    },
+    "canopy_radius_m": 17.67776870727539,
+    "health_index": 1.0,
+    "grid_row": 90,
+    "grid_col": 102,
+    "notes": []
+  },
+  {
+    "id": "TREE-0290",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 847,
+      "pixel_y": 675
+    },
+    "canopy_radius_m": 14.714038848876953,
+    "health_index": 1.0,
+    "grid_row": 90,
+    "grid_col": 113,
+    "notes": []
+  },
+  {
+    "id": "TREE-0291",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1065,
+      "pixel_y": 675
+    },
+    "canopy_radius_m": 5.420395851135254,
+    "health_index": 1.0,
+    "grid_row": 90,
+    "grid_col": 142,
+    "notes": []
+  },
+  {
+    "id": "TREE-0292",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 157,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 29.6224422454834,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 21,
+    "notes": []
+  },
+  {
+    "id": "TREE-0293",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 255,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 14.430970191955566,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 34,
+    "notes": []
+  },
+  {
+    "id": "TREE-0294",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 262,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 14.430970191955566,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 35,
+    "notes": []
+  },
+  {
+    "id": "TREE-0295",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 360,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 21.184795379638672,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 48,
+    "notes": []
+  },
+  {
+    "id": "TREE-0296",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 412,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 34.00377655029297,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 55,
+    "notes": []
+  },
+  {
+    "id": "TREE-0297",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 660,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 57.93972396850586,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 88,
+    "notes": []
+  },
+  {
+    "id": "TREE-0298",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 802,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 6.403224468231201,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 107,
+    "notes": []
+  },
+  {
+    "id": "TREE-0299",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 892,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 119,
+    "notes": []
+  },
+  {
+    "id": "TREE-0300",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1035,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 3.9052248001098633,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 138,
+    "notes": []
+  },
+  {
+    "id": "TREE-0301",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1065,
+      "pixel_y": 682
+    },
+    "canopy_radius_m": 5.420395851135254,
+    "health_index": 1.0,
+    "grid_row": 91,
+    "grid_col": 142,
+    "notes": []
+  },
+  {
+    "id": "TREE-0302",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 157,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 29.6224422454834,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 21,
+    "notes": []
+  },
+  {
+    "id": "TREE-0303",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 285,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 25.495197296142578,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 38,
+    "notes": []
+  },
+  {
+    "id": "TREE-0304",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 360,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 21.184795379638672,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 48,
+    "notes": []
+  },
+  {
+    "id": "TREE-0305",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 412,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 34.00377655029297,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 55,
+    "notes": []
+  },
+  {
+    "id": "TREE-0306",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 577,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 5.590270042419434,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 77,
+    "notes": []
+  },
+  {
+    "id": "TREE-0307",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 585,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 5.590270042419434,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 78,
+    "notes": []
+  },
+  {
+    "id": "TREE-0308",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 720,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 96,
+    "notes": []
+  },
+  {
+    "id": "TREE-0309",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 727,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 97,
+    "notes": []
+  },
+  {
+    "id": "TREE-0310",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 892,
+      "pixel_y": 690
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 92,
+    "grid_col": 119,
+    "notes": []
+  },
+  {
+    "id": "TREE-0311",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 285,
+      "pixel_y": 697
+    },
+    "canopy_radius_m": 25.495197296142578,
+    "health_index": 1.0,
+    "grid_row": 93,
+    "grid_col": 38,
+    "notes": []
+  },
+  {
+    "id": "TREE-0312",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 292,
+      "pixel_y": 697
+    },
+    "canopy_radius_m": 25.495197296142578,
+    "health_index": 1.0,
+    "grid_row": 93,
+    "grid_col": 39,
+    "notes": []
+  },
+  {
+    "id": "TREE-0313",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 720,
+      "pixel_y": 697
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 93,
+    "grid_col": 96,
+    "notes": []
+  },
+  {
+    "id": "TREE-0314",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1072,
+      "pixel_y": 697
+    },
+    "canopy_radius_m": 3.959077835083008,
+    "health_index": 1.0,
+    "grid_row": 93,
+    "grid_col": 143,
+    "notes": []
+  },
+  {
+    "id": "TREE-0315",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1080,
+      "pixel_y": 697
+    },
+    "canopy_radius_m": 3.959077835083008,
+    "health_index": 1.0,
+    "grid_row": 93,
+    "grid_col": 144,
+    "notes": []
+  },
+  {
+    "id": "TREE-0316",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 697
+    },
+    "canopy_radius_m": 3.921297073364258,
+    "health_index": 1.0,
+    "grid_row": 93,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0317",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1207,
+      "pixel_y": 697
+    },
+    "canopy_radius_m": 3.921297073364258,
+    "health_index": 1.0,
+    "grid_row": 93,
+    "grid_col": 161,
+    "notes": []
+  },
+  {
+    "id": "TREE-0318",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 112,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 8.561406135559082,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 15,
+    "notes": []
+  },
+  {
+    "id": "TREE-0319",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 120,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 8.561406135559082,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 16,
+    "notes": []
+  },
+  {
+    "id": "TREE-0320",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 577,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 4.031229019165039,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 77,
+    "notes": []
+  },
+  {
+    "id": "TREE-0321",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 585,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 4.031229019165039,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 78,
+    "notes": []
+  },
+  {
+    "id": "TREE-0322",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 787,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 7.905794143676758,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 105,
+    "notes": []
+  },
+  {
+    "id": "TREE-0323",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 795,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 7.905794143676758,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 106,
+    "notes": []
+  },
+  {
+    "id": "TREE-0324",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1110,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 38.99368667602539,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 148,
+    "notes": []
+  },
+  {
+    "id": "TREE-0325",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1117,
+      "pixel_y": 705
+    },
+    "canopy_radius_m": 38.99368667602539,
+    "health_index": 1.0,
+    "grid_row": 94,
+    "grid_col": 149,
+    "notes": []
+  },
+  {
+    "id": "TREE-0326",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 720,
+      "pixel_y": 712
+    },
+    "canopy_radius_m": 6.96429443359375,
+    "health_index": 1.0,
+    "grid_row": 95,
+    "grid_col": 96,
+    "notes": []
+  },
+  {
+    "id": "TREE-0327",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 795,
+      "pixel_y": 712
+    },
+    "canopy_radius_m": 7.905794143676758,
+    "health_index": 1.0,
+    "grid_row": 95,
+    "grid_col": 106,
+    "notes": []
+  },
+  {
+    "id": "TREE-0328",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 915,
+      "pixel_y": 712
+    },
+    "canopy_radius_m": 6.4426469802856445,
+    "health_index": 1.0,
+    "grid_row": 95,
+    "grid_col": 122,
+    "notes": []
+  },
+  {
+    "id": "TREE-0329",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 922,
+      "pixel_y": 712
+    },
+    "canopy_radius_m": 6.4426469802856445,
+    "health_index": 1.0,
+    "grid_row": 95,
+    "grid_col": 123,
+    "notes": []
+  },
+  {
+    "id": "TREE-0330",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1027,
+      "pixel_y": 712
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 95,
+    "grid_col": 137,
+    "notes": []
+  },
+  {
+    "id": "TREE-0331",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1035,
+      "pixel_y": 712
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 95,
+    "grid_col": 138,
+    "notes": []
+  },
+  {
+    "id": "TREE-0332",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 330,
+      "pixel_y": 720
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 96,
+    "grid_col": 44,
+    "notes": []
+  },
+  {
+    "id": "TREE-0333",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 937,
+      "pixel_y": 720
+    },
+    "canopy_radius_m": 13.82941722869873,
+    "health_index": 1.0,
+    "grid_row": 96,
+    "grid_col": 125,
+    "notes": []
+  },
+  {
+    "id": "TREE-0334",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1192,
+      "pixel_y": 720
+    },
+    "canopy_radius_m": 8.846003532409668,
+    "health_index": 1.0,
+    "grid_row": 96,
+    "grid_col": 159,
+    "notes": []
+  },
+  {
+    "id": "TREE-0335",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1200,
+      "pixel_y": 720
+    },
+    "canopy_radius_m": 8.846003532409668,
+    "health_index": 1.0,
+    "grid_row": 96,
+    "grid_col": 160,
+    "notes": []
+  },
+  {
+    "id": "TREE-0336",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 330,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 44,
+    "notes": []
+  },
+  {
+    "id": "TREE-0337",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 337,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 4.301262855529785,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 45,
+    "notes": []
+  },
+  {
+    "id": "TREE-0338",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 465,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 28.056453704833984,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 62,
+    "notes": []
+  },
+  {
+    "id": "TREE-0339",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 472,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 28.056453704833984,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 63,
+    "notes": []
+  },
+  {
+    "id": "TREE-0340",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 742,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 8.077847480773926,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 99,
+    "notes": []
+  },
+  {
+    "id": "TREE-0341",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 750,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 8.077847480773926,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 100,
+    "notes": []
+  },
+  {
+    "id": "TREE-0342",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 765,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 6.410470962524414,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 102,
+    "notes": []
+  },
+  {
+    "id": "TREE-0343",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 772,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 6.410470962524414,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 103,
+    "notes": []
+  },
+  {
+    "id": "TREE-0344",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 840,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 5.700977325439453,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 112,
+    "notes": []
+  },
+  {
+    "id": "TREE-0345",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 847,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 5.700977325439453,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 113,
+    "notes": []
+  },
+  {
+    "id": "TREE-0346",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 937,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 13.82941722869873,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 125,
+    "notes": []
+  },
+  {
+    "id": "TREE-0347",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1207,
+      "pixel_y": 727
+    },
+    "canopy_radius_m": 48.3747444152832,
+    "health_index": 1.0,
+    "grid_row": 97,
+    "grid_col": 161,
+    "notes": []
+  },
+  {
+    "id": "TREE-0348",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 60,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 10.79361629486084,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 8,
+    "notes": []
+  },
+  {
+    "id": "TREE-0349",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 120,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 48.23454666137695,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 16,
+    "notes": []
+  },
+  {
+    "id": "TREE-0350",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 555,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 40.63908004760742,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 74,
+    "notes": []
+  },
+  {
+    "id": "TREE-0351",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 622,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 17.09946632385254,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 83,
+    "notes": []
+  },
+  {
+    "id": "TREE-0352",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 630,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 17.09946632385254,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 84,
+    "notes": []
+  },
+  {
+    "id": "TREE-0353",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 652,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 9.823541641235352,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 87,
+    "notes": []
+  },
+  {
+    "id": "TREE-0354",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 660,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 9.823541641235352,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 88,
+    "notes": []
+  },
+  {
+    "id": "TREE-0355",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1155,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 13.648674964904785,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 154,
+    "notes": []
+  },
+  {
+    "id": "TREE-0356",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1162,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 13.648674964904785,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 155,
+    "notes": []
+  },
+  {
+    "id": "TREE-0357",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1207,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 48.3747444152832,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 161,
+    "notes": []
+  },
+  {
+    "id": "TREE-0358",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1215,
+      "pixel_y": 735
+    },
+    "canopy_radius_m": 48.3747444152832,
+    "health_index": 1.0,
+    "grid_row": 98,
+    "grid_col": 162,
+    "notes": []
+  },
+  {
+    "id": "TREE-0359",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 120,
+      "pixel_y": 742
+    },
+    "canopy_radius_m": 48.23454666137695,
+    "health_index": 1.0,
+    "grid_row": 99,
+    "grid_col": 16,
+    "notes": []
+  },
+  {
+    "id": "TREE-0360",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 127,
+      "pixel_y": 742
+    },
+    "canopy_radius_m": 48.23454666137695,
+    "health_index": 1.0,
+    "grid_row": 99,
+    "grid_col": 17,
+    "notes": []
+  },
+  {
+    "id": "TREE-0361",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 547,
+      "pixel_y": 742
+    },
+    "canopy_radius_m": 40.63908004760742,
+    "health_index": 1.0,
+    "grid_row": 99,
+    "grid_col": 73,
+    "notes": []
+  },
+  {
+    "id": "TREE-0362",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 555,
+      "pixel_y": 742
+    },
+    "canopy_radius_m": 40.63908004760742,
+    "health_index": 1.0,
+    "grid_row": 99,
+    "grid_col": 74,
+    "notes": []
+  },
+  {
+    "id": "TREE-0363",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 727,
+      "pixel_y": 742
+    },
+    "canopy_radius_m": 46.00916290283203,
+    "health_index": 1.0,
+    "grid_row": 99,
+    "grid_col": 97,
+    "notes": []
+  },
+  {
+    "id": "TREE-0364",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 292,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 106.2432861328125,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 39,
+    "notes": []
+  },
+  {
+    "id": "TREE-0365",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 300,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 106.2432861328125,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 40,
+    "notes": []
+  },
+  {
+    "id": "TREE-0366",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 727,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 46.00916290283203,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 97,
+    "notes": []
+  },
+  {
+    "id": "TREE-0367",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 795,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 9.178879737854004,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 106,
+    "notes": []
+  },
+  {
+    "id": "TREE-0368",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 847,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 113,
+    "notes": []
+  },
+  {
+    "id": "TREE-0369",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 855,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 114,
+    "notes": []
+  },
+  {
+    "id": "TREE-0370",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 967,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 129,
+    "notes": []
+  },
+  {
+    "id": "TREE-0371",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 990,
+      "pixel_y": 750
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 100,
+    "grid_col": 132,
+    "notes": []
+  },
+  {
+    "id": "TREE-0372",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 30,
+      "pixel_y": 757
+    },
+    "canopy_radius_m": 22.700593948364258,
+    "health_index": 1.0,
+    "grid_row": 101,
+    "grid_col": 4,
+    "notes": []
+  },
+  {
+    "id": "TREE-0373",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 795,
+      "pixel_y": 757
+    },
+    "canopy_radius_m": 9.178879737854004,
+    "health_index": 1.0,
+    "grid_row": 101,
+    "grid_col": 106,
+    "notes": []
+  },
+  {
+    "id": "TREE-0374",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 817,
+      "pixel_y": 757
+    },
+    "canopy_radius_m": 5.700977325439453,
+    "health_index": 1.0,
+    "grid_row": 101,
+    "grid_col": 109,
+    "notes": []
+  },
+  {
+    "id": "TREE-0375",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 960,
+      "pixel_y": 757
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 101,
+    "grid_col": 128,
+    "notes": []
+  },
+  {
+    "id": "TREE-0376",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 967,
+      "pixel_y": 757
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 101,
+    "grid_col": 129,
+    "notes": []
+  },
+  {
+    "id": "TREE-0377",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 990,
+      "pixel_y": 757
+    },
+    "canopy_radius_m": 3.201662063598633,
+    "health_index": 1.0,
+    "grid_row": 101,
+    "grid_col": 132,
+    "notes": []
+  },
+  {
+    "id": "TREE-0378",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 30,
+      "pixel_y": 765
+    },
+    "canopy_radius_m": 22.700593948364258,
+    "health_index": 1.0,
+    "grid_row": 102,
+    "grid_col": 4,
+    "notes": []
+  },
+  {
+    "id": "TREE-0379",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 922,
+      "pixel_y": 765
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 102,
+    "grid_col": 123,
+    "notes": []
+  },
+  {
+    "id": "TREE-0380",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 930,
+      "pixel_y": 765
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 102,
+    "grid_col": 124,
+    "notes": []
+  },
+  {
+    "id": "TREE-0381",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1132,
+      "pixel_y": 765
+    },
+    "canopy_radius_m": 27.1662540435791,
+    "health_index": 1.0,
+    "grid_row": 102,
+    "grid_col": 151,
+    "notes": []
+  },
+  {
+    "id": "TREE-0382",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 990,
+      "pixel_y": 772
+    },
+    "canopy_radius_m": 4.031229019165039,
+    "health_index": 1.0,
+    "grid_row": 103,
+    "grid_col": 132,
+    "notes": []
+  },
+  {
+    "id": "TREE-0383",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1087,
+      "pixel_y": 772
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 103,
+    "grid_col": 145,
+    "notes": []
+  },
+  {
+    "id": "TREE-0384",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1095,
+      "pixel_y": 772
+    },
+    "canopy_radius_m": 2.8285269737243652,
+    "health_index": 1.0,
+    "grid_row": 103,
+    "grid_col": 146,
+    "notes": []
+  },
+  {
+    "id": "TREE-0385",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1005,
+      "pixel_y": 780
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 104,
+    "grid_col": 134,
+    "notes": []
+  },
+  {
+    "id": "TREE-0386",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1012,
+      "pixel_y": 780
+    },
+    "canopy_radius_m": 4.717090606689453,
+    "health_index": 1.0,
+    "grid_row": 104,
+    "grid_col": 135,
+    "notes": []
+  },
+  {
+    "id": "TREE-0387",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 195,
+      "pixel_y": 787
+    },
+    "canopy_radius_m": 7.382511615753174,
+    "health_index": 1.0,
+    "grid_row": 105,
+    "grid_col": 26,
+    "notes": []
+  },
+  {
+    "id": "TREE-0388",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 135,
+      "pixel_y": 795
+    },
+    "canopy_radius_m": 14.151071548461914,
+    "health_index": 1.0,
+    "grid_row": 106,
+    "grid_col": 18,
+    "notes": []
+  },
+  {
+    "id": "TREE-0389",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 142,
+      "pixel_y": 795
+    },
+    "canopy_radius_m": 14.151071548461914,
+    "health_index": 1.0,
+    "grid_row": 106,
+    "grid_col": 19,
+    "notes": []
+  },
+  {
+    "id": "TREE-0390",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 187,
+      "pixel_y": 795
+    },
+    "canopy_radius_m": 7.382511615753174,
+    "health_index": 1.0,
+    "grid_row": 106,
+    "grid_col": 25,
+    "notes": []
+  },
+  {
+    "id": "TREE-0391",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 195,
+      "pixel_y": 795
+    },
+    "canopy_radius_m": 7.382511615753174,
+    "health_index": 1.0,
+    "grid_row": 106,
+    "grid_col": 26,
+    "notes": []
+  },
+  {
+    "id": "TREE-0392",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 165,
+      "pixel_y": 825
+    },
+    "canopy_radius_m": 10.30786418914795,
+    "health_index": 1.0,
+    "grid_row": 110,
+    "grid_col": 22,
+    "notes": []
+  },
+  {
+    "id": "TREE-0393",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 217,
+      "pixel_y": 825
+    },
+    "canopy_radius_m": 25.401870727539062,
+    "health_index": 1.0,
+    "grid_row": 110,
+    "grid_col": 29,
+    "notes": []
+  },
+  {
+    "id": "TREE-0394",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 307,
+      "pixel_y": 825
+    },
+    "canopy_radius_m": 47.81745910644531,
+    "health_index": 1.0,
+    "grid_row": 110,
+    "grid_col": 41,
+    "notes": []
+  },
+  {
+    "id": "TREE-0395",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 112,
+      "pixel_y": 832
+    },
+    "canopy_radius_m": 27.22600555419922,
+    "health_index": 1.0,
+    "grid_row": 111,
+    "grid_col": 15,
+    "notes": []
+  },
+  {
+    "id": "TREE-0396",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 165,
+      "pixel_y": 832
+    },
+    "canopy_radius_m": 10.30786418914795,
+    "health_index": 1.0,
+    "grid_row": 111,
+    "grid_col": 22,
+    "notes": []
+  },
+  {
+    "id": "TREE-0397",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 217,
+      "pixel_y": 832
+    },
+    "canopy_radius_m": 25.401870727539062,
+    "health_index": 1.0,
+    "grid_row": 111,
+    "grid_col": 29,
+    "notes": []
+  },
+  {
+    "id": "TREE-0398",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 922,
+      "pixel_y": 832
+    },
+    "canopy_radius_m": 129.10665893554688,
+    "health_index": 1.0,
+    "grid_row": 111,
+    "grid_col": 123,
+    "notes": []
+  },
+  {
+    "id": "TREE-0399",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 930,
+      "pixel_y": 832
+    },
+    "canopy_radius_m": 129.10665893554688,
+    "health_index": 1.0,
+    "grid_row": 111,
+    "grid_col": 124,
+    "notes": []
+  },
+  {
+    "id": "TREE-0400",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1095,
+      "pixel_y": 832
+    },
+    "canopy_radius_m": 25.53928565979004,
+    "health_index": 1.0,
+    "grid_row": 111,
+    "grid_col": 146,
+    "notes": []
+  },
+  {
+    "id": "TREE-0401",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1177,
+      "pixel_y": 832
+    },
+    "canopy_radius_m": 18.71819305419922,
+    "health_index": 1.0,
+    "grid_row": 111,
+    "grid_col": 157,
+    "notes": []
+  },
+  {
+    "id": "TREE-0402",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 22,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 29.231931686401367,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 3,
+    "notes": []
+  },
+  {
+    "id": "TREE-0403",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 30,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 29.231931686401367,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 4,
+    "notes": []
+  },
+  {
+    "id": "TREE-0404",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 607,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 174.0590057373047,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 81,
+    "notes": []
+  },
+  {
+    "id": "TREE-0405",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 615,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 174.0590057373047,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 82,
+    "notes": []
+  },
+  {
+    "id": "TREE-0406",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1095,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 25.53928565979004,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 146,
+    "notes": []
+  },
+  {
+    "id": "TREE-0407",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1102,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 25.53928565979004,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 147,
+    "notes": []
+  },
+  {
+    "id": "TREE-0408",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1177,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 18.71819305419922,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 157,
+    "notes": []
+  },
+  {
+    "id": "TREE-0409",
+    "variety": "Unknown",
+    "position": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "pixel_x": 1185,
+      "pixel_y": 840
+    },
+    "canopy_radius_m": 18.71819305419922,
+    "health_index": 1.0,
+    "grid_row": 112,
+    "grid_col": 158,
+    "notes": []
+  }
+]

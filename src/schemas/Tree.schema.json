@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tree",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "variety": {
+      "type": "string"
+    },
+    "planted_date": {
+      "type": "string"
+    },
+    "age_years": {
+      "type": "number"
+    },
+    "last_yield_date": {
+      "type": "string"
+    },
+    "position": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        },
+        "pixel_x": {
+          "type": "number"
+        },
+        "pixel_y": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "lat",
+        "lng",
+        "pixel_x",
+        "pixel_y"
+      ]
+    },
+    "canopy_radius_m": {
+      "type": "number"
+    },
+    "health_index": {
+      "type": "number"
+    },
+    "grid_row": {
+      "type": "number"
+    },
+    "grid_col": {
+      "type": "number"
+    },
+    "drip_emitter_id": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "variety",
+    "position",
+    "canopy_radius_m",
+    "health_index",
+    "grid_row",
+    "grid_col",
+    "notes"
+  ]
+}

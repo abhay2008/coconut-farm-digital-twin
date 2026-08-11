@@ -1,0 +1,5731 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22,
+          0
+        ]
+      },
+      "properties": {
+        "id": "TREE-0001",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105,
+          0
+        ]
+      },
+      "properties": {
+        "id": "TREE-0002",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112,
+          0
+        ]
+      },
+      "properties": {
+        "id": "TREE-0003",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          817,
+          0
+        ]
+      },
+      "properties": {
+        "id": "TREE-0004",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          825,
+          0
+        ]
+      },
+      "properties": {
+        "id": "TREE-0005",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          907,
+          0
+        ]
+      },
+      "properties": {
+        "id": "TREE-0006",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          915,
+          0
+        ]
+      },
+      "properties": {
+        "id": "TREE-0007",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0008",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0009",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          210,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0010",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0011",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0012",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          585,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0013",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          592,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0014",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1132,
+          7
+        ]
+      },
+      "properties": {
+        "id": "TREE-0015",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135,
+          15
+        ]
+      },
+      "properties": {
+        "id": "TREE-0016",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142,
+          15
+        ]
+      },
+      "properties": {
+        "id": "TREE-0017",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          427,
+          15
+        ]
+      },
+      "properties": {
+        "id": "TREE-0018",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517,
+          15
+        ]
+      },
+      "properties": {
+        "id": "TREE-0019",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157,
+          22
+        ]
+      },
+      "properties": {
+        "id": "TREE-0020",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165,
+          22
+        ]
+      },
+      "properties": {
+        "id": "TREE-0021",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          427,
+          22
+        ]
+      },
+      "properties": {
+        "id": "TREE-0022",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          622,
+          22
+        ]
+      },
+      "properties": {
+        "id": "TREE-0023",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          630,
+          22
+        ]
+      },
+      "properties": {
+        "id": "TREE-0024",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67,
+          30
+        ]
+      },
+      "properties": {
+        "id": "TREE-0025",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          382,
+          30
+        ]
+      },
+      "properties": {
+        "id": "TREE-0026",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          390,
+          30
+        ]
+      },
+      "properties": {
+        "id": "TREE-0027",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          892,
+          30
+        ]
+      },
+      "properties": {
+        "id": "TREE-0028",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          952,
+          30
+        ]
+      },
+      "properties": {
+        "id": "TREE-0029",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          30
+        ]
+      },
+      "properties": {
+        "id": "TREE-0030",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1207,
+          30
+        ]
+      },
+      "properties": {
+        "id": "TREE-0031",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67,
+          37
+        ]
+      },
+      "properties": {
+        "id": "TREE-0032",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          330,
+          37
+        ]
+      },
+      "properties": {
+        "id": "TREE-0033",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          337,
+          37
+        ]
+      },
+      "properties": {
+        "id": "TREE-0034",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          450,
+          37
+        ]
+      },
+      "properties": {
+        "id": "TREE-0035",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          457,
+          37
+        ]
+      },
+      "properties": {
+        "id": "TREE-0036",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          37
+        ]
+      },
+      "properties": {
+        "id": "TREE-0037",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          45
+        ]
+      },
+      "properties": {
+        "id": "TREE-0038",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45,
+          45
+        ]
+      },
+      "properties": {
+        "id": "TREE-0039",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52,
+          45
+        ]
+      },
+      "properties": {
+        "id": "TREE-0040",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          247,
+          45
+        ]
+      },
+      "properties": {
+        "id": "TREE-0041",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          255,
+          45
+        ]
+      },
+      "properties": {
+        "id": "TREE-0042",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495,
+          45
+        ]
+      },
+      "properties": {
+        "id": "TREE-0043",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52,
+          52
+        ]
+      },
+      "properties": {
+        "id": "TREE-0044",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          382,
+          52
+        ]
+      },
+      "properties": {
+        "id": "TREE-0045",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495,
+          52
+        ]
+      },
+      "properties": {
+        "id": "TREE-0046",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          382,
+          60
+        ]
+      },
+      "properties": {
+        "id": "TREE-0047",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          465,
+          60
+        ]
+      },
+      "properties": {
+        "id": "TREE-0048",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120,
+          67
+        ]
+      },
+      "properties": {
+        "id": "TREE-0049",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127,
+          67
+        ]
+      },
+      "properties": {
+        "id": "TREE-0050",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135,
+          67
+        ]
+      },
+      "properties": {
+        "id": "TREE-0051",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          465,
+          67
+        ]
+      },
+      "properties": {
+        "id": "TREE-0052",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120,
+          75
+        ]
+      },
+      "properties": {
+        "id": "TREE-0053",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135,
+          75
+        ]
+      },
+      "properties": {
+        "id": "TREE-0054",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          367,
+          75
+        ]
+      },
+      "properties": {
+        "id": "TREE-0055",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          375,
+          75
+        ]
+      },
+      "properties": {
+        "id": "TREE-0056",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          330,
+          82
+        ]
+      },
+      "properties": {
+        "id": "TREE-0057",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          337,
+          82
+        ]
+      },
+      "properties": {
+        "id": "TREE-0058",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          405,
+          82
+        ]
+      },
+      "properties": {
+        "id": "TREE-0059",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          990,
+          82
+        ]
+      },
+      "properties": {
+        "id": "TREE-0060",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          997,
+          82
+        ]
+      },
+      "properties": {
+        "id": "TREE-0061",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97,
+          90
+        ]
+      },
+      "properties": {
+        "id": "TREE-0062",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105,
+          90
+        ]
+      },
+      "properties": {
+        "id": "TREE-0063",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          457,
+          90
+        ]
+      },
+      "properties": {
+        "id": "TREE-0064",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          465,
+          90
+        ]
+      },
+      "properties": {
+        "id": "TREE-0065",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          345,
+          105
+        ]
+      },
+      "properties": {
+        "id": "TREE-0066",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          352,
+          105
+        ]
+      },
+      "properties": {
+        "id": "TREE-0067",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          345,
+          112
+        ]
+      },
+      "properties": {
+        "id": "TREE-0068",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          675,
+          112
+        ]
+      },
+      "properties": {
+        "id": "TREE-0069",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          682,
+          112
+        ]
+      },
+      "properties": {
+        "id": "TREE-0070",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          675,
+          120
+        ]
+      },
+      "properties": {
+        "id": "TREE-0071",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          682,
+          120
+        ]
+      },
+      "properties": {
+        "id": "TREE-0072",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          742,
+          120
+        ]
+      },
+      "properties": {
+        "id": "TREE-0073",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          750,
+          120
+        ]
+      },
+      "properties": {
+        "id": "TREE-0074",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          277,
+          127
+        ]
+      },
+      "properties": {
+        "id": "TREE-0075",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          742,
+          127
+        ]
+      },
+      "properties": {
+        "id": "TREE-0076",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1147,
+          127
+        ]
+      },
+      "properties": {
+        "id": "TREE-0077",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          277,
+          135
+        ]
+      },
+      "properties": {
+        "id": "TREE-0078",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1132,
+          150
+        ]
+      },
+      "properties": {
+        "id": "TREE-0079",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          877,
+          157
+        ]
+      },
+      "properties": {
+        "id": "TREE-0080",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          885,
+          157
+        ]
+      },
+      "properties": {
+        "id": "TREE-0081",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7,
+          165
+        ]
+      },
+      "properties": {
+        "id": "TREE-0082",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7,
+          172
+        ]
+      },
+      "properties": {
+        "id": "TREE-0083",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          967,
+          172
+        ]
+      },
+      "properties": {
+        "id": "TREE-0084",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          975,
+          172
+        ]
+      },
+      "properties": {
+        "id": "TREE-0085",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          487,
+          225
+        ]
+      },
+      "properties": {
+        "id": "TREE-0086",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112,
+          232
+        ]
+      },
+      "properties": {
+        "id": "TREE-0087",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120,
+          232
+        ]
+      },
+      "properties": {
+        "id": "TREE-0088",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          487,
+          232
+        ]
+      },
+      "properties": {
+        "id": "TREE-0089",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120,
+          240
+        ]
+      },
+      "properties": {
+        "id": "TREE-0090",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          375,
+          247
+        ]
+      },
+      "properties": {
+        "id": "TREE-0091",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          382,
+          247
+        ]
+      },
+      "properties": {
+        "id": "TREE-0092",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          375,
+          255
+        ]
+      },
+      "properties": {
+        "id": "TREE-0093",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          442,
+          255
+        ]
+      },
+      "properties": {
+        "id": "TREE-0094",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          480,
+          255
+        ]
+      },
+      "properties": {
+        "id": "TREE-0095",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495,
+          262
+        ]
+      },
+      "properties": {
+        "id": "TREE-0096",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          502,
+          262
+        ]
+      },
+      "properties": {
+        "id": "TREE-0097",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          750,
+          262
+        ]
+      },
+      "properties": {
+        "id": "TREE-0098",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          757,
+          262
+        ]
+      },
+      "properties": {
+        "id": "TREE-0099",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          750,
+          270
+        ]
+      },
+      "properties": {
+        "id": "TREE-0100",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          795,
+          270
+        ]
+      },
+      "properties": {
+        "id": "TREE-0101",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495,
+          285
+        ]
+      },
+      "properties": {
+        "id": "TREE-0102",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          502,
+          285
+        ]
+      },
+      "properties": {
+        "id": "TREE-0103",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          742,
+          285
+        ]
+      },
+      "properties": {
+        "id": "TREE-0104",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          750,
+          285
+        ]
+      },
+      "properties": {
+        "id": "TREE-0105",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          742,
+          292
+        ]
+      },
+      "properties": {
+        "id": "TREE-0106",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          750,
+          292
+        ]
+      },
+      "properties": {
+        "id": "TREE-0107",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1177,
+          292
+        ]
+      },
+      "properties": {
+        "id": "TREE-0108",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1185,
+          292
+        ]
+      },
+      "properties": {
+        "id": "TREE-0109",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          705,
+          300
+        ]
+      },
+      "properties": {
+        "id": "TREE-0110",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          712,
+          300
+        ]
+      },
+      "properties": {
+        "id": "TREE-0111",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135,
+          322
+        ]
+      },
+      "properties": {
+        "id": "TREE-0112",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142,
+          322
+        ]
+      },
+      "properties": {
+        "id": "TREE-0113",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135,
+          330
+        ]
+      },
+      "properties": {
+        "id": "TREE-0114",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          667,
+          330
+        ]
+      },
+      "properties": {
+        "id": "TREE-0115",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          705,
+          330
+        ]
+      },
+      "properties": {
+        "id": "TREE-0116",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          982,
+          330
+        ]
+      },
+      "properties": {
+        "id": "TREE-0117",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1147,
+          330
+        ]
+      },
+      "properties": {
+        "id": "TREE-0118",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          667,
+          337
+        ]
+      },
+      "properties": {
+        "id": "TREE-0119",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          705,
+          337
+        ]
+      },
+      "properties": {
+        "id": "TREE-0120",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1147,
+          337
+        ]
+      },
+      "properties": {
+        "id": "TREE-0121",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1207,
+          337
+        ]
+      },
+      "properties": {
+        "id": "TREE-0122",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          577,
+          345
+        ]
+      },
+      "properties": {
+        "id": "TREE-0123",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          765,
+          345
+        ]
+      },
+      "properties": {
+        "id": "TREE-0124",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          757,
+          352
+        ]
+      },
+      "properties": {
+        "id": "TREE-0125",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          765,
+          352
+        ]
+      },
+      "properties": {
+        "id": "TREE-0126",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          952,
+          352
+        ]
+      },
+      "properties": {
+        "id": "TREE-0127",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          960,
+          352
+        ]
+      },
+      "properties": {
+        "id": "TREE-0128",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          592,
+          367
+        ]
+      },
+      "properties": {
+        "id": "TREE-0129",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          600,
+          367
+        ]
+      },
+      "properties": {
+        "id": "TREE-0130",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1102,
+          367
+        ]
+      },
+      "properties": {
+        "id": "TREE-0131",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          832,
+          375
+        ]
+      },
+      "properties": {
+        "id": "TREE-0132",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          840,
+          375
+        ]
+      },
+      "properties": {
+        "id": "TREE-0133",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165,
+          382
+        ]
+      },
+      "properties": {
+        "id": "TREE-0134",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          225,
+          382
+        ]
+      },
+      "properties": {
+        "id": "TREE-0135",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          232,
+          382
+        ]
+      },
+      "properties": {
+        "id": "TREE-0136",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          660,
+          382
+        ]
+      },
+      "properties": {
+        "id": "TREE-0137",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          667,
+          382
+        ]
+      },
+      "properties": {
+        "id": "TREE-0138",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          832,
+          382
+        ]
+      },
+      "properties": {
+        "id": "TREE-0139",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          840,
+          382
+        ]
+      },
+      "properties": {
+        "id": "TREE-0140",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165,
+          390
+        ]
+      },
+      "properties": {
+        "id": "TREE-0141",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          600,
+          390
+        ]
+      },
+      "properties": {
+        "id": "TREE-0142",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          937,
+          390
+        ]
+      },
+      "properties": {
+        "id": "TREE-0143",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          945,
+          390
+        ]
+      },
+      "properties": {
+        "id": "TREE-0144",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          892,
+          397
+        ]
+      },
+      "properties": {
+        "id": "TREE-0145",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          397,
+          405
+        ]
+      },
+      "properties": {
+        "id": "TREE-0146",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          705,
+          405
+        ]
+      },
+      "properties": {
+        "id": "TREE-0147",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          712,
+          405
+        ]
+      },
+      "properties": {
+        "id": "TREE-0148",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1170,
+          405
+        ]
+      },
+      "properties": {
+        "id": "TREE-0149",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1177,
+          405
+        ]
+      },
+      "properties": {
+        "id": "TREE-0150",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1192,
+          405
+        ]
+      },
+      "properties": {
+        "id": "TREE-0151",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37,
+          412
+        ]
+      },
+      "properties": {
+        "id": "TREE-0152",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45,
+          412
+        ]
+      },
+      "properties": {
+        "id": "TREE-0153",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          397,
+          412
+        ]
+      },
+      "properties": {
+        "id": "TREE-0154",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495,
+          412
+        ]
+      },
+      "properties": {
+        "id": "TREE-0155",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1087,
+          412
+        ]
+      },
+      "properties": {
+        "id": "TREE-0156",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75,
+          420
+        ]
+      },
+      "properties": {
+        "id": "TREE-0157",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          337,
+          427
+        ]
+      },
+      "properties": {
+        "id": "TREE-0158",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          787,
+          427
+        ]
+      },
+      "properties": {
+        "id": "TREE-0159",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          960,
+          427
+        ]
+      },
+      "properties": {
+        "id": "TREE-0160",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          337,
+          435
+        ]
+      },
+      "properties": {
+        "id": "TREE-0161",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          547,
+          435
+        ]
+      },
+      "properties": {
+        "id": "TREE-0162",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          562,
+          435
+        ]
+      },
+      "properties": {
+        "id": "TREE-0163",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          570,
+          435
+        ]
+      },
+      "properties": {
+        "id": "TREE-0164",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          952,
+          435
+        ]
+      },
+      "properties": {
+        "id": "TREE-0165",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          960,
+          435
+        ]
+      },
+      "properties": {
+        "id": "TREE-0166",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45,
+          442
+        ]
+      },
+      "properties": {
+        "id": "TREE-0167",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52,
+          442
+        ]
+      },
+      "properties": {
+        "id": "TREE-0168",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97,
+          442
+        ]
+      },
+      "properties": {
+        "id": "TREE-0169",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          442
+        ]
+      },
+      "properties": {
+        "id": "TREE-0170",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7,
+          450
+        ]
+      },
+      "properties": {
+        "id": "TREE-0171",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97,
+          450
+        ]
+      },
+      "properties": {
+        "id": "TREE-0172",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1072,
+          450
+        ]
+      },
+      "properties": {
+        "id": "TREE-0173",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          450
+        ]
+      },
+      "properties": {
+        "id": "TREE-0174",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7,
+          457
+        ]
+      },
+      "properties": {
+        "id": "TREE-0175",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          232,
+          457
+        ]
+      },
+      "properties": {
+        "id": "TREE-0176",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          945,
+          457
+        ]
+      },
+      "properties": {
+        "id": "TREE-0177",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1072,
+          457
+        ]
+      },
+      "properties": {
+        "id": "TREE-0178",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1147,
+          457
+        ]
+      },
+      "properties": {
+        "id": "TREE-0179",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          232,
+          465
+        ]
+      },
+      "properties": {
+        "id": "TREE-0180",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          277,
+          465
+        ]
+      },
+      "properties": {
+        "id": "TREE-0181",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1177,
+          465
+        ]
+      },
+      "properties": {
+        "id": "TREE-0182",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          277,
+          472
+        ]
+      },
+      "properties": {
+        "id": "TREE-0183",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1192,
+          480
+        ]
+      },
+      "properties": {
+        "id": "TREE-0184",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          480
+        ]
+      },
+      "properties": {
+        "id": "TREE-0185",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          742,
+          487
+        ]
+      },
+      "properties": {
+        "id": "TREE-0186",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          750,
+          487
+        ]
+      },
+      "properties": {
+        "id": "TREE-0187",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          907,
+          487
+        ]
+      },
+      "properties": {
+        "id": "TREE-0188",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          487
+        ]
+      },
+      "properties": {
+        "id": "TREE-0189",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          727,
+          495
+        ]
+      },
+      "properties": {
+        "id": "TREE-0190",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          907,
+          495
+        ]
+      },
+      "properties": {
+        "id": "TREE-0191",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          997,
+          495
+        ]
+      },
+      "properties": {
+        "id": "TREE-0192",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          727,
+          502
+        ]
+      },
+      "properties": {
+        "id": "TREE-0193",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52,
+          517
+        ]
+      },
+      "properties": {
+        "id": "TREE-0194",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1027,
+          517
+        ]
+      },
+      "properties": {
+        "id": "TREE-0195",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1087,
+          517
+        ]
+      },
+      "properties": {
+        "id": "TREE-0196",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1095,
+          517
+        ]
+      },
+      "properties": {
+        "id": "TREE-0197",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1207,
+          517
+        ]
+      },
+      "properties": {
+        "id": "TREE-0198",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52,
+          525
+        ]
+      },
+      "properties": {
+        "id": "TREE-0199",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1027,
+          525
+        ]
+      },
+      "properties": {
+        "id": "TREE-0200",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1222,
+          525
+        ]
+      },
+      "properties": {
+        "id": "TREE-0201",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          337,
+          532
+        ]
+      },
+      "properties": {
+        "id": "TREE-0202",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          345,
+          532
+        ]
+      },
+      "properties": {
+        "id": "TREE-0203",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1177,
+          532
+        ]
+      },
+      "properties": {
+        "id": "TREE-0204",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          532
+        ]
+      },
+      "properties": {
+        "id": "TREE-0205",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1207,
+          532
+        ]
+      },
+      "properties": {
+        "id": "TREE-0206",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1222,
+          532
+        ]
+      },
+      "properties": {
+        "id": "TREE-0207",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15,
+          540
+        ]
+      },
+      "properties": {
+        "id": "TREE-0208",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97,
+          540
+        ]
+      },
+      "properties": {
+        "id": "TREE-0209",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          360,
+          540
+        ]
+      },
+      "properties": {
+        "id": "TREE-0210",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1005,
+          540
+        ]
+      },
+      "properties": {
+        "id": "TREE-0211",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1012,
+          540
+        ]
+      },
+      "properties": {
+        "id": "TREE-0212",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1177,
+          540
+        ]
+      },
+      "properties": {
+        "id": "TREE-0213",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97,
+          547
+        ]
+      },
+      "properties": {
+        "id": "TREE-0214",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307,
+          547
+        ]
+      },
+      "properties": {
+        "id": "TREE-0215",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          315,
+          547
+        ]
+      },
+      "properties": {
+        "id": "TREE-0216",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          360,
+          547
+        ]
+      },
+      "properties": {
+        "id": "TREE-0217",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          375,
+          555
+        ]
+      },
+      "properties": {
+        "id": "TREE-0218",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          382,
+          555
+        ]
+      },
+      "properties": {
+        "id": "TREE-0219",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1222,
+          562
+        ]
+      },
+      "properties": {
+        "id": "TREE-0220",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105,
+          570
+        ]
+      },
+      "properties": {
+        "id": "TREE-0221",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112,
+          570
+        ]
+      },
+      "properties": {
+        "id": "TREE-0222",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172,
+          570
+        ]
+      },
+      "properties": {
+        "id": "TREE-0223",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1012,
+          570
+        ]
+      },
+      "properties": {
+        "id": "TREE-0224",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1222,
+          570
+        ]
+      },
+      "properties": {
+        "id": "TREE-0225",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165,
+          577
+        ]
+      },
+      "properties": {
+        "id": "TREE-0226",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172,
+          577
+        ]
+      },
+      "properties": {
+        "id": "TREE-0227",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1012,
+          577
+        ]
+      },
+      "properties": {
+        "id": "TREE-0228",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1087,
+          577
+        ]
+      },
+      "properties": {
+        "id": "TREE-0229",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1132,
+          577
+        ]
+      },
+      "properties": {
+        "id": "TREE-0230",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          382,
+          585
+        ]
+      },
+      "properties": {
+        "id": "TREE-0231",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1027,
+          585
+        ]
+      },
+      "properties": {
+        "id": "TREE-0232",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1035,
+          585
+        ]
+      },
+      "properties": {
+        "id": "TREE-0233",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1087,
+          585
+        ]
+      },
+      "properties": {
+        "id": "TREE-0234",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1132,
+          585
+        ]
+      },
+      "properties": {
+        "id": "TREE-0235",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          285,
+          592
+        ]
+      },
+      "properties": {
+        "id": "TREE-0236",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          382,
+          592
+        ]
+      },
+      "properties": {
+        "id": "TREE-0237",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1027,
+          592
+        ]
+      },
+      "properties": {
+        "id": "TREE-0238",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1035,
+          592
+        ]
+      },
+      "properties": {
+        "id": "TREE-0239",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1072,
+          592
+        ]
+      },
+      "properties": {
+        "id": "TREE-0240",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          232,
+          600
+        ]
+      },
+      "properties": {
+        "id": "TREE-0241",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          285,
+          600
+        ]
+      },
+      "properties": {
+        "id": "TREE-0242",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          915,
+          600
+        ]
+      },
+      "properties": {
+        "id": "TREE-0243",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          922,
+          600
+        ]
+      },
+      "properties": {
+        "id": "TREE-0244",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1110,
+          607
+        ]
+      },
+      "properties": {
+        "id": "TREE-0245",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          697,
+          615
+        ]
+      },
+      "properties": {
+        "id": "TREE-0246",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          705,
+          615
+        ]
+      },
+      "properties": {
+        "id": "TREE-0247",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1185,
+          615
+        ]
+      },
+      "properties": {
+        "id": "TREE-0248",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          285,
+          622
+        ]
+      },
+      "properties": {
+        "id": "TREE-0249",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          292,
+          622
+        ]
+      },
+      "properties": {
+        "id": "TREE-0250",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          697,
+          622
+        ]
+      },
+      "properties": {
+        "id": "TREE-0251",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          885,
+          622
+        ]
+      },
+      "properties": {
+        "id": "TREE-0252",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          892,
+          622
+        ]
+      },
+      "properties": {
+        "id": "TREE-0253",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157,
+          630
+        ]
+      },
+      "properties": {
+        "id": "TREE-0254",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          270,
+          630
+        ]
+      },
+      "properties": {
+        "id": "TREE-0255",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          322,
+          630
+        ]
+      },
+      "properties": {
+        "id": "TREE-0256",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          330,
+          630
+        ]
+      },
+      "properties": {
+        "id": "TREE-0257",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1020,
+          630
+        ]
+      },
+      "properties": {
+        "id": "TREE-0258",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157,
+          637
+        ]
+      },
+      "properties": {
+        "id": "TREE-0259",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          240,
+          637
+        ]
+      },
+      "properties": {
+        "id": "TREE-0260",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          270,
+          637
+        ]
+      },
+      "properties": {
+        "id": "TREE-0261",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          285,
+          637
+        ]
+      },
+      "properties": {
+        "id": "TREE-0262",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          292,
+          637
+        ]
+      },
+      "properties": {
+        "id": "TREE-0263",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30,
+          645
+        ]
+      },
+      "properties": {
+        "id": "TREE-0264",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          240,
+          645
+        ]
+      },
+      "properties": {
+        "id": "TREE-0265",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          262,
+          645
+        ]
+      },
+      "properties": {
+        "id": "TREE-0266",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30,
+          652
+        ]
+      },
+      "properties": {
+        "id": "TREE-0267",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          202,
+          652
+        ]
+      },
+      "properties": {
+        "id": "TREE-0268",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          255,
+          652
+        ]
+      },
+      "properties": {
+        "id": "TREE-0269",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          262,
+          652
+        ]
+      },
+      "properties": {
+        "id": "TREE-0270",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          435,
+          652
+        ]
+      },
+      "properties": {
+        "id": "TREE-0271",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          442,
+          652
+        ]
+      },
+      "properties": {
+        "id": "TREE-0272",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1057,
+          652
+        ]
+      },
+      "properties": {
+        "id": "TREE-0273",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          202,
+          660
+        ]
+      },
+      "properties": {
+        "id": "TREE-0274",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          555,
+          660
+        ]
+      },
+      "properties": {
+        "id": "TREE-0275",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          615,
+          660
+        ]
+      },
+      "properties": {
+        "id": "TREE-0276",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          622,
+          660
+        ]
+      },
+      "properties": {
+        "id": "TREE-0277",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          817,
+          660
+        ]
+      },
+      "properties": {
+        "id": "TREE-0278",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1057,
+          660
+        ]
+      },
+      "properties": {
+        "id": "TREE-0279",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1065,
+          660
+        ]
+      },
+      "properties": {
+        "id": "TREE-0280",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          555,
+          667
+        ]
+      },
+      "properties": {
+        "id": "TREE-0281",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          727,
+          667
+        ]
+      },
+      "properties": {
+        "id": "TREE-0282",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          847,
+          667
+        ]
+      },
+      "properties": {
+        "id": "TREE-0283",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          892,
+          667
+        ]
+      },
+      "properties": {
+        "id": "TREE-0284",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1095,
+          667
+        ]
+      },
+      "properties": {
+        "id": "TREE-0285",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          262,
+          675
+        ]
+      },
+      "properties": {
+        "id": "TREE-0286",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          660,
+          675
+        ]
+      },
+      "properties": {
+        "id": "TREE-0287",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          727,
+          675
+        ]
+      },
+      "properties": {
+        "id": "TREE-0288",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          765,
+          675
+        ]
+      },
+      "properties": {
+        "id": "TREE-0289",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          847,
+          675
+        ]
+      },
+      "properties": {
+        "id": "TREE-0290",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1065,
+          675
+        ]
+      },
+      "properties": {
+        "id": "TREE-0291",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0292",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          255,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0293",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          262,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0294",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          360,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0295",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          412,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0296",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          660,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0297",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          802,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0298",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          892,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0299",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1035,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0300",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1065,
+          682
+        ]
+      },
+      "properties": {
+        "id": "TREE-0301",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0302",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          285,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0303",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          360,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0304",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          412,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0305",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          577,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0306",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          585,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0307",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          720,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0308",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          727,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0309",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          892,
+          690
+        ]
+      },
+      "properties": {
+        "id": "TREE-0310",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          285,
+          697
+        ]
+      },
+      "properties": {
+        "id": "TREE-0311",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          292,
+          697
+        ]
+      },
+      "properties": {
+        "id": "TREE-0312",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          720,
+          697
+        ]
+      },
+      "properties": {
+        "id": "TREE-0313",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1072,
+          697
+        ]
+      },
+      "properties": {
+        "id": "TREE-0314",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1080,
+          697
+        ]
+      },
+      "properties": {
+        "id": "TREE-0315",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          697
+        ]
+      },
+      "properties": {
+        "id": "TREE-0316",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1207,
+          697
+        ]
+      },
+      "properties": {
+        "id": "TREE-0317",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0318",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0319",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          577,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0320",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          585,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0321",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          787,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0322",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          795,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0323",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1110,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0324",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1117,
+          705
+        ]
+      },
+      "properties": {
+        "id": "TREE-0325",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          720,
+          712
+        ]
+      },
+      "properties": {
+        "id": "TREE-0326",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          795,
+          712
+        ]
+      },
+      "properties": {
+        "id": "TREE-0327",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          915,
+          712
+        ]
+      },
+      "properties": {
+        "id": "TREE-0328",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          922,
+          712
+        ]
+      },
+      "properties": {
+        "id": "TREE-0329",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1027,
+          712
+        ]
+      },
+      "properties": {
+        "id": "TREE-0330",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1035,
+          712
+        ]
+      },
+      "properties": {
+        "id": "TREE-0331",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          330,
+          720
+        ]
+      },
+      "properties": {
+        "id": "TREE-0332",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          937,
+          720
+        ]
+      },
+      "properties": {
+        "id": "TREE-0333",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1192,
+          720
+        ]
+      },
+      "properties": {
+        "id": "TREE-0334",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1200,
+          720
+        ]
+      },
+      "properties": {
+        "id": "TREE-0335",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          330,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0336",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          337,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0337",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          465,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0338",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          472,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0339",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          742,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0340",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          750,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0341",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          765,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0342",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          772,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0343",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          840,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0344",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          847,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0345",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          937,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0346",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1207,
+          727
+        ]
+      },
+      "properties": {
+        "id": "TREE-0347",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0348",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0349",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          555,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0350",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          622,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0351",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          630,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0352",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          652,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0353",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          660,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0354",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1155,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0355",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1162,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0356",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1207,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0357",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1215,
+          735
+        ]
+      },
+      "properties": {
+        "id": "TREE-0358",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120,
+          742
+        ]
+      },
+      "properties": {
+        "id": "TREE-0359",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127,
+          742
+        ]
+      },
+      "properties": {
+        "id": "TREE-0360",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          547,
+          742
+        ]
+      },
+      "properties": {
+        "id": "TREE-0361",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          555,
+          742
+        ]
+      },
+      "properties": {
+        "id": "TREE-0362",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          727,
+          742
+        ]
+      },
+      "properties": {
+        "id": "TREE-0363",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          292,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0364",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          300,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0365",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          727,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0366",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          795,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0367",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          847,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0368",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          855,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0369",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          967,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0370",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          990,
+          750
+        ]
+      },
+      "properties": {
+        "id": "TREE-0371",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30,
+          757
+        ]
+      },
+      "properties": {
+        "id": "TREE-0372",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          795,
+          757
+        ]
+      },
+      "properties": {
+        "id": "TREE-0373",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          817,
+          757
+        ]
+      },
+      "properties": {
+        "id": "TREE-0374",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          960,
+          757
+        ]
+      },
+      "properties": {
+        "id": "TREE-0375",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          967,
+          757
+        ]
+      },
+      "properties": {
+        "id": "TREE-0376",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          990,
+          757
+        ]
+      },
+      "properties": {
+        "id": "TREE-0377",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30,
+          765
+        ]
+      },
+      "properties": {
+        "id": "TREE-0378",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          922,
+          765
+        ]
+      },
+      "properties": {
+        "id": "TREE-0379",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          930,
+          765
+        ]
+      },
+      "properties": {
+        "id": "TREE-0380",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1132,
+          765
+        ]
+      },
+      "properties": {
+        "id": "TREE-0381",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          990,
+          772
+        ]
+      },
+      "properties": {
+        "id": "TREE-0382",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1087,
+          772
+        ]
+      },
+      "properties": {
+        "id": "TREE-0383",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1095,
+          772
+        ]
+      },
+      "properties": {
+        "id": "TREE-0384",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1005,
+          780
+        ]
+      },
+      "properties": {
+        "id": "TREE-0385",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1012,
+          780
+        ]
+      },
+      "properties": {
+        "id": "TREE-0386",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          195,
+          787
+        ]
+      },
+      "properties": {
+        "id": "TREE-0387",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135,
+          795
+        ]
+      },
+      "properties": {
+        "id": "TREE-0388",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142,
+          795
+        ]
+      },
+      "properties": {
+        "id": "TREE-0389",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187,
+          795
+        ]
+      },
+      "properties": {
+        "id": "TREE-0390",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          195,
+          795
+        ]
+      },
+      "properties": {
+        "id": "TREE-0391",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165,
+          825
+        ]
+      },
+      "properties": {
+        "id": "TREE-0392",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          217,
+          825
+        ]
+      },
+      "properties": {
+        "id": "TREE-0393",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307,
+          825
+        ]
+      },
+      "properties": {
+        "id": "TREE-0394",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112,
+          832
+        ]
+      },
+      "properties": {
+        "id": "TREE-0395",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165,
+          832
+        ]
+      },
+      "properties": {
+        "id": "TREE-0396",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          217,
+          832
+        ]
+      },
+      "properties": {
+        "id": "TREE-0397",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          922,
+          832
+        ]
+      },
+      "properties": {
+        "id": "TREE-0398",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          930,
+          832
+        ]
+      },
+      "properties": {
+        "id": "TREE-0399",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1095,
+          832
+        ]
+      },
+      "properties": {
+        "id": "TREE-0400",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1177,
+          832
+        ]
+      },
+      "properties": {
+        "id": "TREE-0401",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0402",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0403",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          607,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0404",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          615,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0405",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1095,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0406",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1102,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0407",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1177,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0408",
+        "variety": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1185,
+          840
+        ]
+      },
+      "properties": {
+        "id": "TREE-0409",
+        "variety": "Unknown"
+      }
+    }
+  ]
+}

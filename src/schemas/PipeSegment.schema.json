@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PipeSegment",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "main",
+        "sub",
+        "drip_lateral"
+      ]
+    },
+    "from_node_id": {
+      "type": "string"
+    },
+    "to_node_id": {
+      "type": "string"
+    },
+    "diameter_mm": {
+      "type": "number"
+    },
+    "length_m": {
+      "type": "number"
+    },
+    "material": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "from_node_id",
+    "to_node_id",
+    "diameter_mm",
+    "length_m"
+  ]
+}
