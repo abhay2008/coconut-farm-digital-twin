@@ -53,9 +53,13 @@ export const LiveSimulationControlBar: React.FC<LiveSimulationControlBarProps> =
 
   const badge = getPhaseBadge();
   const formatTime = (secs: number) => {
-    const mins = Math.floor(secs / 60);
+    const hrs = Math.floor(secs / 3600);
+    const mins = Math.floor((secs % 3600) / 60);
     const s = Math.floor(secs % 60);
-    return `${mins.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    if (hrs > 0) {
+      return `${hrs}h ${mins.toString().padStart(2, '0')}m ${s.toString().padStart(2, '0')}s`;
+    }
+    return `${mins.toString().padStart(2, '0')}m ${s.toString().padStart(2, '0')}s`;
   };
 
   return (

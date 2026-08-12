@@ -75,16 +75,19 @@ export default function Home() {
       setAnimDashOffset((prev) => (prev + 2.5 * simSpeed) % 100);
 
       // Phase 1: Borewell Extraction & Pond Fill (500 L -> 500,000 L)
+      // Real-world inflow from 7 Borewells = 69,000 L/hr = 19.1667 L/sec
       setPondVolumeLiters((prevPond) => {
         if (prevPond < 500000) {
           setCurrentPhase('phase1_borewell_fill');
-          const fillAmount = (69000 / 3600) * dt * (simSpeed * 20); // Scaled for fast interactive feedback
+          const realWorldLps = 69000 / 3600; // 19.1667 Liters per second
+          const fillAmount = realWorldLps * dt;
           return Math.min(500000, prevPond + fillAmount);
         }
         return prevPond;
       });
 
       // Phase 2, 3, 4: Submersible Pump -> Fertigation Unit -> Pipeline Wavefront -> Trees
+      // Real-world farm outflow = 35,168 L/hr = 9.7689 L/sec
       setPondVolumeLiters((currentPond) => {
         if (currentPond >= 5000) {
           const totalTrees = farmData?.trees?.length || 1300;
@@ -92,13 +95,15 @@ export default function Home() {
           setActiveTreeCount((prevTrees) => {
             if (prevTrees < totalTrees) {
               setCurrentPhase('phase3_network_propagation');
-              return Math.min(totalTrees, prevTrees + Math.ceil(45 * dt * (simSpeed / 2)));
+              // Wavefront propagates down pipes at ~2.5 trees per second at 1x
+              return Math.min(totalTrees, prevTrees + Math.max(1, Math.round(2.5 * dt)));
             }
             setCurrentPhase('phase4_steady_irrigation');
             return totalTrees;
           });
 
-          setTotalWaterDeliveredLiters((prevWater) => prevWater + (35168 / 3600) * dt * (simSpeed * 12));
+          const realWorldDeliveryLps = 35168 / 3600; // 9.7689 Liters per second
+          setTotalWaterDeliveredLiters((prevWater) => prevWater + realWorldDeliveryLps * dt);
         }
         return currentPond;
       });
