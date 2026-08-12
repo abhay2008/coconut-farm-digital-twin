@@ -34,6 +34,8 @@ interface ToolboxProps {
   scale: number;
   treeCount: number;
   placedCount: number;
+  activeBranchName?: string;
+  onOpenBranchManager?: () => void;
 }
 
 const InfrastructureToolbox: React.FC<ToolboxProps> = ({
@@ -54,7 +56,9 @@ const InfrastructureToolbox: React.FC<ToolboxProps> = ({
   simulationResult,
   scale,
   treeCount,
-  placedCount
+  placedCount,
+  activeBranchName = 'main',
+  onOpenBranchManager
 }) => {
   const [universalHoles, setUniversalHoles] = React.useState(4);
   const tools: { id: PlacementTool; label: string; icon: string; bg: string }[] = [
@@ -85,6 +89,25 @@ const InfrastructureToolbox: React.FC<ToolboxProps> = ({
         <span className="text-xs bg-emerald-100 text-emerald-800 font-bold px-2.5 py-0.5 rounded-full shadow-sm">
           {treeCount} Trees (29.4 Acres)
         </span>
+      </div>
+
+      {/* Active Branch Status Bar */}
+      <div className="bg-slate-900 text-white p-2.5 rounded-lg border border-slate-700 flex items-center justify-between gap-2 text-xs">
+        <div className="flex items-center gap-1.5 truncate">
+          <span className="text-blue-400 font-extrabold text-sm">🌿</span>
+          <span className="text-slate-400 text-[11px]">Branch:</span>
+          <span className="font-bold text-amber-300 truncate">
+            {activeBranchName} {activeBranchName.toLowerCase() === 'main' && '🔒'}
+          </span>
+        </div>
+        {onOpenBranchManager && (
+          <button
+            onClick={onOpenBranchManager}
+            className="bg-blue-600 hover:bg-blue-500 text-white text-[10px] font-bold px-2.5 py-1 rounded shadow transition-all whitespace-nowrap flex items-center gap-1"
+          >
+            <span>🔀</span> Switch / Manage
+          </button>
+        )}
       </div>
 
       {/* Save Status Notification */}

@@ -4,8 +4,11 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import InfrastructureToolbox from '../components/InfrastructureToolbox';
 import TreeInspector from '../components/TreeInspector';
+import SaveLayoutModal from '../components/SaveLayoutModal';
+import BranchManagerModal from '../components/BranchManagerModal';
 import { runHydraulicSimulation, ClosedLoopSimulationResult } from '../../lib/simulation';
 import { FarmData, Tree, PlacableComponent, PlacementTool } from '../../types/farm';
+import { fetchBranchPayload, saveBranch, deleteBranch } from '../../lib/branchStore';
 
 // Dynamic import to prevent SSR canvas issues
 const FarmCanvas = dynamic(() => import('../components/FarmCanvas'), {
@@ -23,6 +26,11 @@ export default function Home() {
   const [selectedTree, setSelectedTree] = useState<Tree | null>(null);
   const [selectedComponent, setSelectedComponent] = useState<PlacableComponent | null>(null);
 
+  // Branching & Versioning State
+  const [activeBranchName, setActiveBranchName] = useState<string>('main');
+  const [isSaveModalOpen, setIsSaveModalOpen] = useState(false);
+  const [isBranchManagerOpen, setIsBranchManagerOpen] = useState(false);
+
   // Layer Toggles
   const [showPipes, setShowPipes] = useState(true);
   const [showHeatmap, setShowHeatmap] = useState(false);
@@ -37,7 +45,7 @@ export default function Home() {
   // Placement Tooling
   const [activeTool, setActiveTool] = useState<PlacementTool>('select');
 
-  // Save State
+  // Save Status Notification
   const [isSaving, setIsSaving] = useState(false);
   const [saveStatus, setSaveStatus] = useState<string | null>(null);
 
@@ -45,37 +53,35 @@ export default function Home() {
   const [scale, setScale] = useState(0.85);
   const [position, setPosition] = useState({ x: 100, y: 50 });
 
-  // Load farm data & infrastructure components from server with priority fallback
+  // On website open, ALWAYS load the main branch layout by default
   useEffect(() => {
-    fetch('/farm_data.json?v=' + Date.now())
-      .then((res) => res.json())
-      .then((serverData: FarmData) => {
-        let finalData = serverData;
-        let finalComponents = serverData.customComponents || [];
-
-        // Check if user has saved manual edits in localStorage
-        const saved = typeof window !== 'undefined' ? localStorage.getItem('madhu_coco_farm_saved_data') : null;
-        if (saved) {
-          try {
-            const parsed = JSON.parse(saved);
-            if (parsed.farmData && Array.isArray(parsed.farmData.trees) && parsed.farmData.trees.length > 0) {
-              finalData = parsed.farmData;
-            }
-            if (parsed.customComponents && Array.isArray(parsed.customComponents) && parsed.customComponents.length >= (serverData.customComponents || []).length) {
-              finalComponents = parsed.customComponents;
-            }
-          } catch (err: unknown) {
-            console.error('Failed to parse local storage:', err);
-          }
+    async function loadInitialMainBranch() {
+      try {
+        const mainPayload = await fetchBranchPayload('main');
+        if (mainPayload && mainPayload.farmData && Array.isArray(mainPayload.farmData.trees) && mainPayload.farmData.trees.length > 0) {
+          mainPayload.farmData.trees.forEach((t: Tree) => { if (!t.age_years) t.age_years = 5; });
+          setFarmData(mainPayload.farmData);
+          setCustomComponents(mainPayload.customComponents || []);
+          setActiveBranchName('main');
+          return;
         }
+      } catch (e) {
+        console.warn('Could not fetch main branch payload from branchStore, using fallback:', e);
+      }
 
-        finalData.trees.forEach((t: Tree) => { t.age_years = 5; });
-        queueMicrotask(() => {
-          setFarmData(finalData);
-          setCustomComponents(finalComponents);
-        });
-      })
-      .catch((err: unknown) => console.error('Error loading farm data:', err));
+      // Default fallback if main branch payload is not yet stored
+      fetch('/farm_data.json?v=' + Date.now())
+        .then((res) => res.json())
+        .then((serverData: FarmData) => {
+          serverData.trees.forEach((t: Tree) => { if (!t.age_years) t.age_years = 5; });
+          setFarmData(serverData);
+          setCustomComponents(serverData.customComponents || []);
+          setActiveBranchName('main');
+        })
+        .catch((err: unknown) => console.error('Error loading fallback farm data:', err));
+    }
+
+    loadInitialMainBranch();
   }, []);
 
   // Compute hydraulic simulation result reactively without setting state in an effect
@@ -84,34 +90,81 @@ export default function Home() {
     return runHydraulicSimulation(farmData, customComponents);
   }, [farmData, customComponents]);
 
-  // Save layout helper directly to disk file and local storage
-  const handleSaveLayout = async () => {
+  // Open Save Layout Modal
+  const handleOpenSaveModal = () => {
+    setIsSaveModalOpen(true);
+  };
+
+  // Handler: Save layout to a custom branch
+  const handleSaveAsBranch = async (branchName: string) => {
     if (!farmData) return;
     setIsSaving(true);
-    setSaveStatus('Saving layout...');
-
-    const payload = { farmData, customComponents };
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('madhu_coco_farm_saved_data', JSON.stringify(payload));
-    }
-
     try {
-      const res = await fetch('/api/save_farm', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json();
-      if (data.success) {
-        setSaveStatus(`Saved ${farmData.trees.length} trees & ${customComponents.length} components!`);
+      const res = await saveBranch(branchName, farmData, customComponents);
+      if (res.success) {
+        setActiveBranchName(branchName);
+        setSaveStatus(res.message);
       } else {
-        setSaveStatus('Saved locally!');
+        throw new Error(res.message);
       }
-    } catch {
-      setSaveStatus('Saved locally to browser!');
+    } finally {
+      setIsSaving(false);
+      setTimeout(() => setSaveStatus(null), 3500);
+    }
+  };
+
+  // Handler: Save layout to Main branch (Password 666 required)
+  const handleSaveToMain = async (password: string) => {
+    if (!farmData) return;
+    setIsSaving(true);
+    try {
+      const res = await saveBranch('main', farmData, customComponents, password);
+      if (res.success) {
+        setActiveBranchName('main');
+        setSaveStatus(res.message);
+      } else {
+        throw new Error(res.message);
+      }
+    } finally {
+      setIsSaving(false);
+      setTimeout(() => setSaveStatus(null), 3500);
+    }
+  };
+
+  // Handler: Switch/Load a branch layout
+  const handleSelectBranch = async (branchName: string) => {
+    setIsSaving(true);
+    try {
+      const payload = await fetchBranchPayload(branchName);
+      if (payload && payload.farmData) {
+        payload.farmData.trees.forEach((t: Tree) => { if (!t.age_years) t.age_years = 5; });
+        setFarmData(payload.farmData);
+        setCustomComponents(payload.customComponents || []);
+        setActiveBranchName(payload.name);
+        setSelectedTree(null);
+        setSelectedComponent(null);
+        setSaveStatus(`Loaded branch '${payload.name}'`);
+      } else {
+        throw new Error(`Could not load data for branch '${branchName}'`);
+      }
     } finally {
       setIsSaving(false);
       setTimeout(() => setSaveStatus(null), 3000);
+    }
+  };
+
+  // Handler: Delete a branch (Password 666 required for main to reset)
+  const handleDeleteBranch = async (branchName: string, password?: string) => {
+    const res = await deleteBranch(branchName, password);
+    if (!res.success) {
+      throw new Error(res.message);
+    }
+    setSaveStatus(res.message);
+    setTimeout(() => setSaveStatus(null), 3000);
+
+    // If current active branch was deleted, switch back to main
+    if (activeBranchName.toLowerCase() === branchName.toLowerCase()) {
+      await handleSelectBranch('main');
     }
   };
 
@@ -125,27 +178,18 @@ export default function Home() {
     const updatedData = { ...farmData, trees: updatedTrees };
     setFarmData(updatedData);
     setSelectedTree(null);
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('madhu_coco_farm_saved_data', JSON.stringify({ farmData: updatedData, customComponents }));
-    }
-  }, [farmData, customComponents]);
+  }, [farmData]);
 
   const handleDeleteComponent = useCallback((compId: string) => {
     const updated = customComponents.filter(c => c.id !== compId);
     setCustomComponents(updated);
     setSelectedComponent(null);
-    if (farmData && typeof window !== 'undefined') {
-      localStorage.setItem('madhu_coco_farm_saved_data', JSON.stringify({ farmData, customComponents: updated }));
-    }
-  }, [farmData, customComponents]);
+  }, [customComponents]);
 
   const handleUpdateComponent = (updated: PlacableComponent) => {
     const nextComps = customComponents.map(c => c.id === updated.id ? updated : c);
     setCustomComponents(nextComps);
     setSelectedComponent(updated);
-    if (farmData && typeof window !== 'undefined') {
-      localStorage.setItem('madhu_coco_farm_saved_data', JSON.stringify({ farmData, customComponents: nextComps }));
-    }
   };
 
   const handleUpdateTree = useCallback((updated: Tree) => {
@@ -154,10 +198,7 @@ export default function Home() {
     const updatedData = { ...farmData, trees: nextTrees };
     setFarmData(updatedData);
     setSelectedTree(updated);
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('madhu_coco_farm_saved_data', JSON.stringify({ farmData: updatedData, customComponents }));
-    }
-  }, [farmData, customComponents]);
+  }, [farmData]);
 
   const handleApplyUniversalHoles = useCallback((holeCount: number) => {
     if (!farmData) return;
@@ -169,10 +210,7 @@ export default function Home() {
     }
     setSaveStatus(`Applied ${holeCount} dripper holes to all ${nextTrees.length} trees!`);
     setTimeout(() => setSaveStatus(null), 3000);
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('madhu_coco_farm_saved_data', JSON.stringify({ farmData: updatedData, customComponents }));
-    }
-  }, [farmData, customComponents, selectedTree]);
+  }, [farmData, selectedTree]);
 
   // Keyboard Delete / Backspace Handler
   useEffect(() => {
@@ -196,7 +234,7 @@ export default function Home() {
   if (!farmData) {
     return (
       <div className="w-full h-screen bg-slate-900 flex items-center justify-center text-white font-bold text-lg">
-        🌴 Loading Plantation Twin...
+        🌴 Loading Plantation Digital Twin...
       </div>
     );
   }
@@ -209,9 +247,6 @@ export default function Home() {
         customComponents={customComponents}
         onUpdateComponents={(comps) => {
           setCustomComponents(comps);
-          if (typeof window !== 'undefined') {
-            localStorage.setItem('madhu_coco_farm_saved_data', JSON.stringify({ farmData, customComponents: comps }));
-          }
         }}
         simulationResult={simulationResult}
         showHeatmap={showHeatmap}
@@ -256,7 +291,7 @@ export default function Home() {
         activeTool={activeTool}
         setActiveTool={setActiveTool}
         runSimulation={handleRunSimulation}
-        onSaveLayout={handleSaveLayout}
+        onSaveLayout={handleOpenSaveModal}
         onApplyUniversalHoles={handleApplyUniversalHoles}
         isSaving={isSaving}
         saveStatus={saveStatus}
@@ -264,6 +299,8 @@ export default function Home() {
         scale={scale}
         treeCount={farmData.trees.length}
         placedCount={customComponents.length}
+        activeBranchName={activeBranchName}
+        onOpenBranchManager={() => setIsBranchManagerOpen(true)}
       />
 
       {/* Slide-out Inspector Modal */}
@@ -280,6 +317,24 @@ export default function Home() {
           flowLph={selectedTree ? simulationResult?.treeFlowLph[selectedTree.id] : undefined}
         />
       )}
+
+      {/* Save Layout Modal (Save as Branch vs Save to Main with password 666) */}
+      <SaveLayoutModal
+        isOpen={isSaveModalOpen}
+        onClose={() => setIsSaveModalOpen(false)}
+        onSaveBranch={handleSaveAsBranch}
+        onSaveMain={handleSaveToMain}
+        currentBranch={activeBranchName}
+      />
+
+      {/* Branch Version Manager Modal */}
+      <BranchManagerModal
+        isOpen={isBranchManagerOpen}
+        onClose={() => setIsBranchManagerOpen(false)}
+        currentBranch={activeBranchName}
+        onSelectBranch={handleSelectBranch}
+        onDeleteBranch={handleDeleteBranch}
+      />
     </main>
   );
 }
