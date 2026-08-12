@@ -74,42 +74,58 @@ export default function Home() {
       setElapsedSeconds((prev) => prev + dt);
       setAnimDashOffset((prev) => (prev + 2.5 * simSpeed) % 100);
 
-      // Phase 1: Staggered Borewell Extraction (AP Transco 3-Phase Agricultural Grid Constraint)
-      // AP DTR feeder limit: Max 2 motors running concurrently (2x 7.5 HP = 15 HP / 328.5 LPM)
-      // Real-world inflow rate = 2 x 9,857 L/hr = 19,714 L/hr = 5.4761 Liters/second
       setPondVolumeLiters((prevPond) => {
+        const totalTrees = farmData?.trees?.length || 1300;
+
+        // ─────────────────────────────────────────────────────────────────
+        // STAGE A: Borewell Fill — borewells running, submersible is OFF
+        // AP DTR 3-Phase Constraint: max 2 x 7.5HP motors concurrently
+        // Inflow rate = 19,714 L/hr = 5.4761 L/sec
+        // Pond fills from 500 L up to full 500,000 L capacity
+        // Fertigation unit & distribution network are IDLE in this stage
+        // ─────────────────────────────────────────────────────────────────
         if (prevPond < 500000) {
           setCurrentPhase('phase1_borewell_fill');
-          const apGridLps = 19714 / 3600; // 5.4761 Liters per second (2 motors running)
-          const fillAmount = apGridLps * dt;
-          return Math.min(500000, prevPond + fillAmount);
+          setActiveTreeCount(0); // no irrigation during fill
+          const apGridLps = 19714 / 3600; // 5.4761 L/sec (2 motors)
+          return Math.min(500000, prevPond + apGridLps * dt);
         }
-        return prevPond;
-      });
 
-      // Phase 2, 3, 4: Submersible Pump -> Fertigation Unit -> Pipeline Wavefront -> Trees
-      // Real-world 150L/tree target for 1,300 trees = 195,000 Liters total
-      // 10HP Submersible Pump delivery rate = 35,168 L/hr = 9.7689 L/sec
-      // Real-world time to irrigate all 1,300 trees = 195,000 L / 35,168 L/hr = 5.54 Hours (within AP 9-hr power window!)
-      setPondVolumeLiters((currentPond) => {
-        if (currentPond >= 5000) {
-          const totalTrees = farmData?.trees?.length || 1300;
+        // ─────────────────────────────────────────────────────────────────
+        // CHANGEOVER: Pond is full (500,000 L)
+        // Borewells shut OFF. 10 HP Submersible Pond Pump starts.
+        // Fertigation dosing unit activates.
+        // ─────────────────────────────────────────────────────────────────
 
-          setActiveTreeCount((prevTrees) => {
-            if (prevTrees < totalTrees) {
-              setCurrentPhase('phase3_network_propagation');
-              // Real-world hydration rate: 1,300 trees / 19,960 seconds = 0.06513 trees/sec at 1x
-              const treesIncrement = 0.06513 * dt;
-              return Math.min(totalTrees, prevTrees + treesIncrement);
-            }
-            setCurrentPhase('phase4_steady_irrigation');
-            return totalTrees;
-          });
+        // ─────────────────────────────────────────────────────────────────
+        // STAGE B: 10 HP Submersible Pump → Fertigation Unit → Pipelines → Trees
+        // Outflow rate = 35,168 L/hr = 9.7689 L/sec
+        // Pond volume DECREASES as water is drawn out and delivered to trees
+        // Borewells are completely OFF in this stage
+        // ─────────────────────────────────────────────────────────────────
+        const submersibleLps = 35168 / 3600; // 9.7689 L/sec outflow
+        const outflowThisTick = submersibleLps * dt;
 
-          const realWorldDeliveryLps = 35168 / 3600; // 9.7689 Liters per second
-          setTotalWaterDeliveredLiters((prevWater) => prevWater + realWorldDeliveryLps * dt);
+        // Update tree wavefront propagation (0.06513 trees/sec = all trees in 5.54 hrs)
+        setActiveTreeCount((prevTrees) => {
+          if (prevTrees < totalTrees) {
+            setCurrentPhase('phase3_network_propagation');
+            return Math.min(totalTrees, prevTrees + 0.06513 * dt);
+          }
+          setCurrentPhase('phase4_steady_irrigation');
+          return totalTrees;
+        });
+
+        setTotalWaterDeliveredLiters((prev) => prev + outflowThisTick);
+
+        // Pond drains — stop simulation when pond reaches 0
+        const newPond = prevPond - outflowThisTick;
+        if (newPond <= 0) {
+          setCurrentPhase('idle');
+          setIsPlaying(false);
+          return 0;
         }
-        return currentPond;
+        return newPond;
       });
     }, 100);
 

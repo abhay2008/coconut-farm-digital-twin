@@ -36,18 +36,21 @@ export const LiveSimulationControlBar: React.FC<LiveSimulationControlBarProps> =
   const fillPercent = Math.min(100, Math.max(0, Math.round((pondVolumeLiters / maxPondCapacityLiters) * 100)));
   const speeds = [1, 2, 5, 10, 25, 50, 1000];
 
+  const isStageA = currentPhase === 'phase1_borewell_fill';
+  const isStageB = currentPhase === 'phase3_network_propagation' || currentPhase === 'phase4_steady_irrigation' || currentPhase === 'phase2_pond_suction';
+
   const getPhaseBadge = () => {
     switch (currentPhase) {
       case 'idle':
-        return { label: '⏸️ Idle (500L Initial Pond)', color: 'bg-slate-800 text-slate-300 border-slate-700' };
+        return { label: '⏸️ Idle — Press Play to Start Borewell Fill (500L Initial Pond)', color: 'bg-slate-800 text-slate-300 border-slate-700' };
       case 'phase1_borewell_fill':
-        return { label: '⚙️ Phase 1: AP 3-Phase Grid Fill (Max 2 Motors / 15 HP Concurrent)', color: 'bg-cyan-950/80 text-cyan-300 border-cyan-500/50 animate-pulse' };
+        return { label: '⚙️ Stage A: Borewells → Pond (2 Motors / 15HP / 5.48 L/sec) | Submersible & Fertigation OFF', color: 'bg-cyan-950/80 text-cyan-300 border-cyan-500/50 animate-pulse' };
       case 'phase2_pond_suction':
-        return { label: '🌊 Phase 2: Submersible Pump & Fertigation Dosing', color: 'bg-purple-950/80 text-purple-300 border-purple-500/50 animate-pulse' };
+        return { label: '🌊 Stage B: 10HP Submersible → Fertigation → Distribution | Borewells OFF', color: 'bg-purple-950/80 text-purple-300 border-purple-500/50 animate-pulse' };
       case 'phase3_network_propagation':
-        return { label: '💧 Phase 3: Wave Propagation (Main ➔ Sub ➔ Ladders ➔ Trees)', color: 'bg-blue-950/80 text-blue-300 border-blue-500/50 animate-pulse' };
+        return { label: '💧 Stage B: 10HP Submersible Draining Pond → Fertigation → Pipelines → Trees | Borewells OFF', color: 'bg-blue-950/80 text-blue-300 border-blue-500/50 animate-pulse' };
       case 'phase4_steady_irrigation':
-        return { label: '🌴 Phase 4: Steady-State Farm Irrigation (1,300+ Trees Hydrated)', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-500/50' };
+        return { label: '🌴 Stage B: All 1,300+ Trees Irrigated | Pond Still Draining | Borewells OFF', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-500/50' };
     }
   };
 
@@ -87,20 +90,24 @@ export const LiveSimulationControlBar: React.FC<LiveSimulationControlBarProps> =
 
       {/* Real-time Progress Bar & Stats Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3">
-        {/* Pond Fill Gauge */}
-        <div className="bg-slate-800/80 p-2.5 rounded-xl border border-cyan-500/20">
+        {/* Pond Gauge — shows fill % during Stage A, drain % during Stage B */}
+        <div className={`bg-slate-800/80 p-2.5 rounded-xl border ${isStageB ? 'border-purple-500/30' : 'border-cyan-500/20'}`}>
           <div className="flex justify-between items-center text-xs mb-1">
-            <span className="text-slate-400 font-medium">🌊 Storage Pond</span>
-            <span className="text-cyan-400 font-bold">{fillPercent}%</span>
+            <span className="text-slate-400 font-medium">
+              {isStageB ? '🌀 Pond Draining (Submersible ON)' : '🌊 Pond Filling (Borewells ON)'}
+            </span>
+            <span className={`font-bold ${isStageB ? 'text-purple-400' : 'text-cyan-400'}`}>{fillPercent}%</span>
           </div>
           <div className="w-full bg-slate-950 rounded-full h-2 overflow-hidden mb-1">
             <div
-              className="bg-gradient-to-r from-cyan-600 to-blue-400 h-2 transition-all duration-300 rounded-full"
+              className={`h-2 transition-all duration-300 rounded-full bg-gradient-to-r ${isStageB ? 'from-purple-600 to-violet-400' : 'from-cyan-600 to-blue-400'}`}
               style={{ width: `${fillPercent}%` }}
             />
           </div>
           <div className="text-[10px] text-slate-400 font-mono text-right">
             {Math.round(pondVolumeLiters).toLocaleString()} / {maxPondCapacityLiters.toLocaleString()} L
+            {isStageB && <span className="text-purple-400 ml-1">↓ -{(35168/3600).toFixed(1)} L/s</span>}
+            {isStageA && <span className="text-cyan-400 ml-1">↑ +{(19714/3600).toFixed(1)} L/s</span>}
           </div>
         </div>
 
@@ -123,14 +130,16 @@ export const LiveSimulationControlBar: React.FC<LiveSimulationControlBarProps> =
           </div>
         </div>
 
-        {/* Farm Flow Rate */}
+        {/* Flow Rate — Inflow during Stage A, Outflow during Stage B */}
         <div className="bg-slate-800/80 p-2.5 rounded-xl border border-purple-500/20">
-          <div className="text-xs text-slate-400 mb-0.5">💧 Delivery Flow Rate</div>
+          <div className="text-xs text-slate-400 mb-0.5">
+            {isStageA ? '⬆️ Borewell Inflow (2 Motors)' : '⬇️ Submersible Outflow'}
+          </div>
           <div className="text-base font-bold text-purple-300 font-mono">
-            {Math.round(farmFlowLph).toLocaleString()} <span className="text-xs font-normal text-slate-400">L/hr</span>
+            {isStageA ? '19,714' : Math.round(farmFlowLph).toLocaleString() || '35,168'} <span className="text-xs font-normal text-slate-400">L/hr</span>
           </div>
           <div className="text-[10px] text-purple-400 font-mono">
-            ({(farmFlowLph / 60).toFixed(1)} LPM)
+            {isStageA ? '(328.6 LPM — Borewells ON)' : `(${(farmFlowLph / 60).toFixed(1)} LPM — Fertigation ON)`}
           </div>
         </div>
 
