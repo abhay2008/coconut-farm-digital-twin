@@ -27,6 +27,13 @@ interface FarmCanvasProps {
   setScale: (s: number) => void;
   position: { x: number, y: number };
   setPosition: (pos: { x: number, y: number }) => void;
+  
+  // Real-Time Simulation Playback Animation Props
+  isPlaying?: boolean;
+  animDashOffset?: number;
+  currentPhase?: string;
+  pondVolumeLiters?: number;
+  activeTreeCount?: number;
 }
 
 const FarmCanvas: React.FC<FarmCanvasProps> = ({
@@ -50,7 +57,12 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
   scale,
   setScale,
   position,
-  setPosition
+  setPosition,
+  isPlaying = false,
+  animDashOffset = 0,
+  currentPhase = 'idle',
+  pondVolumeLiters = 500,
+  activeTreeCount = 0
 }) => {
   const stageRef = useRef<Konva.Stage | null>(null);
 
@@ -310,13 +322,15 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
             onUpdateComponents(updated);
           };
 
-          // Scalable & Rotatable Pond with Water Capacity
+          // Scalable & Rotatable Pond with Water Capacity & Live Fill Level Visualizer
           if (comp.type === 'pond') {
             const w = comp.width || 140;
             const h = comp.height || 90;
             const rot = comp.rotation || 0;
             const capacityLiters = comp.capacity_liters || 500000;
-            const capacityM3 = (capacityLiters / 1000).toLocaleString();
+            const currentVol = pondVolumeLiters || 500;
+            const fillRatio = Math.min(1.0, Math.max(0.02, currentVol / capacityLiters));
+            const fillHeight = h * fillRatio;
 
             return (
               <Group
@@ -330,30 +344,52 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
                 onDragEnd={handleDragEnd}
                 onClick={(e) => { e.cancelBubble = true; onSelectComponent(comp); }}
               >
+                {/* Excavated Pond Bed */}
                 <Rect
                   width={w}
                   height={h}
-                  fill="rgba(6, 182, 212, 0.75)"
-                  stroke={isSelected ? '#f59e0b' : '#0891b2'}
+                  fill="#0284c7"
+                  fillLinearGradientStartPoint={{ x: 0, y: 0 }}
+                  fillLinearGradientEndPoint={{ x: w, y: h }}
+                  fillLinearGradientColorStops={[0, '#0c4a6e', 1, '#0284c7']}
+                  stroke={isSelected ? '#f59e0b' : '#0ea5e9'}
                   strokeWidth={isSelected ? 3 : 2}
                   cornerRadius={8}
+                />
+                {/* Animated Rising Water Fill Level Layer */}
+                <Rect
+                  x={2}
+                  y={h - fillHeight}
+                  width={w - 4}
+                  height={fillHeight - 2}
+                  fill="rgba(6, 182, 212, 0.85)"
+                  cornerRadius={6}
                 />
                 <Text
                   text={comp.label || 'Farm Storage Pond'}
                   x={10}
-                  y={h / 2 - 14}
+                  y={h / 2 - 16}
                   width={w - 20}
                   fill="white"
                   fontSize={11}
                   fontStyle="bold"
                 />
                 <Text
-                  text={`💧 ${capacityLiters.toLocaleString()} Liters (${capacityM3} m³)`}
+                  text={`💧 Live Level: ${Math.round(currentVol).toLocaleString()} / ${capacityLiters.toLocaleString()} L`}
                   x={10}
-                  y={h / 2 + 2}
+                  y={h / 2}
                   width={w - 20}
                   fill="#cff4fc"
                   fontSize={9}
+                  fontStyle="bold"
+                />
+                <Text
+                  text={`(${Math.round(fillRatio * 100)}% Capacity)`}
+                  x={10}
+                  y={h / 2 + 13}
+                  width={w - 20}
+                  fill="#7dd3fc"
+                  fontSize={8}
                   fontStyle="bold"
                 />
                 {isSelected && (
@@ -573,6 +609,8 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
                   points={comp.points}
                   stroke={isSelected ? '#f59e0b' : color}
                   strokeWidth={highContrastPipes ? width + 1.0 : width}
+                  dash={isPlaying ? [12, 6] : undefined}
+                  dashOffset={isPlaying ? -animDashOffset : 0}
                   hitStrokeWidth={14}
                   onClick={(e) => { e.cancelBubble = true; onSelectComponent(comp); }}
                 />
@@ -611,8 +649,9 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
                   <Line
                     points={[b.x, b.y, pond.x, pond.y]}
                     stroke="#06b6d4"
-                    strokeWidth={3}
-                    dash={[8, 4]}
+                    strokeWidth={3.5}
+                    dash={[10, 5]}
+                    dashOffset={isPlaying ? -animDashOffset * 1.5 : 0}
                   />
                   <Text text="🕳️ Borewell Fill Line" x={(b.x + pond.x)/2} y={(b.y + pond.y)/2 - 10} fill="#0891b2" fontSize={8} fontStyle="bold" />
                 </Group>
@@ -624,8 +663,9 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
                   <Line
                     points={[pond.x, pond.y, motor ? motor.x : (pond.x + fert.x)/2, motor ? motor.y : (pond.y + fert.y)/2, fert.x, fert.y]}
                     stroke="#8b5cf6"
-                    strokeWidth={3.5}
-                    dash={[10, 4]}
+                    strokeWidth={4}
+                    dash={[10, 5]}
+                    dashOffset={isPlaying ? -animDashOffset * 1.8 : 0}
                   />
                   <Text text="🧪 Fertigation Suction Line" x={(pond.x + fert.x)/2} y={(pond.y + fert.y)/2 - 12} fill="#7c3aed" fontSize={8} fontStyle="bold" />
                 </Group>
@@ -642,7 +682,8 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
           const y = tree.position.pixel_y;
           const isSelected = selectedTreeId === tree.id;
           const isManual = Boolean((tree as Tree & { is_manual?: boolean }).is_manual);
-          const pressureColor = simulationResult?.heatmap?.trees[tree.id];
+          const isHydrated = isPlaying && index < activeTreeCount;
+          const pressureColor = isHydrated ? '#10b981' : simulationResult?.heatmap?.trees[tree.id];
           const treeLabel = tree.id.replace('TREE-', 'T-');
           const showLabels = scale >= 0.7 || isSelected;
 
@@ -654,14 +695,25 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
               onClick={(e) => { e.cancelBubble = true; onSelectTree(tree); }}
               onTap={(e) => { e.cancelBubble = true; onSelectTree(tree); }}
             >
-              {/* Closed-End Tree Drip Loop & Fertigation Microsprinklers around Tree Red Dot */}
+              {/* Active Real-Time Water Spray Ring when tree is reached by wave propagation */}
+              {isHydrated && (
+                <Circle
+                  radius={17}
+                  fill="rgba(56, 189, 248, 0.22)"
+                  stroke="#38bdf8"
+                  strokeWidth={1.2}
+                  dash={[4, 3]}
+                  dashOffset={-animDashOffset * 1.2}
+                />
+              )}
+
               {/* Closed-End Tree Drip Loop & Fertigation Microsprinklers around Tree Red Dot */}
               {(scale >= 0.55 || isSelected) && showDripLoops && (
                 <Group>
                   {/* Drip Loop Pipe around Red Dot */}
                   <Circle
                     radius={13}
-                    stroke={isSelected ? '#f59e0b' : '#0284c7'}
+                    stroke={isSelected ? '#f59e0b' : isHydrated ? '#10b981' : '#0284c7'}
                     strokeWidth={1.5}
                     dash={[6, 2]}
                   />
@@ -679,8 +731,8 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
                           key={i}
                           x={hx}
                           y={hy}
-                          radius={2.2}
-                          fill="#38bdf8"
+                          radius={isHydrated ? 2.8 : 2.2}
+                          fill={isHydrated ? '#34d399' : '#38bdf8'}
                           stroke="#ffffff"
                           strokeWidth={0.8}
                         />

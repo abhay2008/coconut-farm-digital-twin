@@ -5,15 +5,28 @@ Welcome to the **Coconut Plantation Digital Twin & Real-World Engineering Platfo
 ---
 
 ## 🎯 Quick Links
-- 🌐 **Live Web Application**: [https://frontend-mu-tawny-d4xcmpjhrq.vercel.app](https://frontend-mu-tawny-d4xcmpjhrq.vercel.app)
+- 🚀 **Live Web Application**: [https://madhu-coco-farm.vercel.app](https://madhu-coco-farm.vercel.app)
 - 🐙 **GitHub Repository**: [https://github.com/abhay2008/coconut-farm-digital-twin](https://github.com/abhay2008/coconut-farm-digital-twin)
+- ⚡ **Supabase Cloud DB**: Connected & Synchronized (`tqhoejmonbajbyqgswac.supabase.co`)
 
 ---
 
-## 🌿 Layout Branching, Versioning & Password Protection
+## 🌊 Real-Time Hydraulic Flow Simulation Bar
+
+Located at the bottom center of your viewport:
+
+1. **▶️ Run Hydraulic Simulation**: Click to start the live animated water flow.
+2. **🔄 Reset (500L Initial)**: Resets simulation back to $t = 0\text{s}$ with the Storage Pond containing **500 Liters** initial water volume.
+3. **⚡ Speed Multipliers (`1x` – `50x`)**: Select between `1x` (Real-time), `2x`, `5x`, `10x`, `25x`, and `50x` speeds for fast interactive testing.
+4. **📊 Live Telemetry Bar**: Monitors Storage Pond volume rising from 500L to 500,000L, active hydrated tree count ($0 \to 1,300+$), delivery flow rate ($\text{L/hr}$ and $\text{LPM}$), and cumulative water delivered ($\text{Liters}$).
+5. **💦 Live Canvas Animation**: Streaming water dashes animate along pipelines, and blue microsprinkler spray droplets activate around each tree as the wavefront propagates!
+
+---
+
+## 🌿 Layout Branching, Versioning & Supabase Cloud Sync
 
 ### 1. Default Main Branch Loading
-- Whenever you open or refresh the website, the official **`main`** branch layout automatically pops up and loads by default.
+- Whenever you open or refresh the website, the official **`main`** branch layout automatically pops up and loads from **Supabase Cloud Database** by default.
 
 ### 2. Saving a Layout Version
 Click **"💾 Save Layout Permanently"** in the left-hand **Infrastructure Toolbox** to open the Save Layout modal:
@@ -21,18 +34,18 @@ Click **"💾 Save Layout Permanently"** in the left-hand **Infrastructure Toolb
 - **Option 1: Save as a Branch** 🌿
   1. Click the **1. Save as Branch** tab.
   2. Type a custom branch name (e.g. `North Sector High Flow`, `John Drip Test`).
-  3. Click **Save Branch**. (No password required).
+  3. Click **Save Branch**. (No password required; saved directly to Supabase).
 - **Option 2: Save to Main Branch** 🔒
   1. Click the **2. Save to Main 🔒** tab.
   2. Enter the security password.
   3. Click **Overwrite Main Branch**.
-  *(Note: Overwriting `main` updates the default layout presented to all visitors).*
+  *(Note: Overwriting `main` updates the default layout presented to all visitors globally).*
 
 ### 3. Branch Version Manager (`🔀 Switch / Manage`)
 Click **"🔀 Switch / Manage"** in the active branch bar at the top of the toolbox:
 - **Switching / Loading Branches**: Click **Load** next to any branch in the list to switch your active canvas and hydraulic simulation to that version.
 - **Deleting Custom Branches**: Click the trash icon next to a custom branch to delete it.
-- **Deleting / Resetting Main Branch**: Click the trash icon next to `main` $\to$ enter security password $\to$ click **Reset Main**. This restores `main` back to the ground-truth 1,222 tree factory default.
+- **Deleting / Resetting Main Branch**: Click the trash icon next to `main` $\to$ enter security password $\to$ click **Reset Main**. This restores `main` back to the ground-truth 1,300+ tree factory default.
 
 ---
 

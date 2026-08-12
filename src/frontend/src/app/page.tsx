@@ -6,6 +6,7 @@ import InfrastructureToolbox from '../components/InfrastructureToolbox';
 import TreeInspector from '../components/TreeInspector';
 import SaveLayoutModal from '../components/SaveLayoutModal';
 import BranchManagerModal from '../components/BranchManagerModal';
+import { LiveSimulationControlBar, SimulationPhase } from '../components/LiveSimulationControlBar';
 import { runHydraulicSimulation, ClosedLoopSimulationResult } from '../../lib/simulation';
 import { FarmData, Tree, PlacableComponent, PlacementTool } from '../../types/farm';
 import { fetchBranchPayload, saveBranch, deleteBranch } from '../../lib/branchStore';
@@ -52,6 +53,76 @@ export default function Home() {
   // Viewport State
   const [scale, setScale] = useState(0.85);
   const [position, setPosition] = useState({ x: 100, y: 50 });
+
+  // Real-Time Hydraulic Simulation Playback State (Starting at 500 Liters Initial Pond Level)
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [simSpeed, setSimSpeed] = useState(1);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [pondVolumeLiters, setPondVolumeLiters] = useState(500); // Initial 500 L as requested
+  const [maxPondCapacityLiters] = useState(500000);
+  const [totalWaterDeliveredLiters, setTotalWaterDeliveredLiters] = useState(0);
+  const [activeTreeCount, setActiveTreeCount] = useState(0);
+  const [currentPhase, setCurrentPhase] = useState<SimulationPhase>('idle');
+  const [animDashOffset, setAnimDashOffset] = useState(0);
+
+  // Real-time animation loop
+  useEffect(() => {
+    if (!isPlaying) return;
+
+    const interval = setInterval(() => {
+      const dt = 0.1 * simSpeed;
+      setElapsedSeconds((prev) => prev + dt);
+      setAnimDashOffset((prev) => (prev + 2.5 * simSpeed) % 100);
+
+      // Phase 1: Borewell Extraction & Pond Fill (500 L -> 500,000 L)
+      setPondVolumeLiters((prevPond) => {
+        if (prevPond < 500000) {
+          setCurrentPhase('phase1_borewell_fill');
+          const fillAmount = (69000 / 3600) * dt * (simSpeed * 20); // Scaled for fast interactive feedback
+          return Math.min(500000, prevPond + fillAmount);
+        }
+        return prevPond;
+      });
+
+      // Phase 2, 3, 4: Submersible Pump -> Fertigation Unit -> Pipeline Wavefront -> Trees
+      setPondVolumeLiters((currentPond) => {
+        if (currentPond >= 5000) {
+          const totalTrees = farmData?.trees?.length || 1300;
+
+          setActiveTreeCount((prevTrees) => {
+            if (prevTrees < totalTrees) {
+              setCurrentPhase('phase3_network_propagation');
+              return Math.min(totalTrees, prevTrees + Math.ceil(45 * dt * (simSpeed / 2)));
+            }
+            setCurrentPhase('phase4_steady_irrigation');
+            return totalTrees;
+          });
+
+          setTotalWaterDeliveredLiters((prevWater) => prevWater + (35168 / 3600) * dt * (simSpeed * 12));
+        }
+        return currentPond;
+      });
+    }, 100);
+
+    return () => clearInterval(interval);
+  }, [isPlaying, simSpeed, farmData]);
+
+  const handleTogglePlay = () => {
+    if (!isPlaying && currentPhase === 'idle') {
+      setCurrentPhase('phase1_borewell_fill');
+    }
+    setIsPlaying(!isPlaying);
+  };
+
+  const handleResetSimulation = () => {
+    setIsPlaying(false);
+    setElapsedSeconds(0);
+    setPondVolumeLiters(500); // Reset to 500L initial state
+    setTotalWaterDeliveredLiters(0);
+    setActiveTreeCount(0);
+    setCurrentPhase('idle');
+    setAnimDashOffset(0);
+  };
 
   // On website open, ALWAYS load the main branch layout by default
   useEffect(() => {
@@ -266,6 +337,28 @@ export default function Home() {
         setScale={setScale}
         position={position}
         setPosition={setPosition}
+        isPlaying={isPlaying}
+        animDashOffset={animDashOffset}
+        currentPhase={currentPhase}
+        pondVolumeLiters={pondVolumeLiters}
+        activeTreeCount={activeTreeCount}
+      />
+
+      {/* Real-Time Live Hydraulic Physics Simulation Control Bar */}
+      <LiveSimulationControlBar
+        isPlaying={isPlaying}
+        onTogglePlay={handleTogglePlay}
+        onReset={handleResetSimulation}
+        speed={simSpeed}
+        onSetSpeed={setSimSpeed}
+        currentPhase={currentPhase}
+        pondVolumeLiters={pondVolumeLiters}
+        maxPondCapacityLiters={maxPondCapacityLiters}
+        elapsedSeconds={elapsedSeconds}
+        totalWaterDeliveredLiters={totalWaterDeliveredLiters}
+        activeTreeCount={activeTreeCount}
+        totalTreeCount={farmData.trees.length}
+        farmFlowLph={simulationResult?.totalFarmFlowLph || 35168}
       />
 
       {/* Floating Infrastructure & Component Placement Toolbox */}

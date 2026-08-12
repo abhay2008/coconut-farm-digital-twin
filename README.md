@@ -7,14 +7,15 @@
 [![Python 3.11](https://img.shields.io/badge/Python-3.11_CV_Pipeline-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,222 individual tree digital twins, graph-based hydraulic physics modeling, live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, layout branching & versioning, password-protected main saves (`666`), and cloud API persistence.**
+> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,300+ individual tree digital twins, Supabase PostgreSQL Cloud Database sync, real-time animated hydraulic flow simulation (starting from 500L initial pond level with 1x–50x speed controls), live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, layout branching & versioning, and password-protected main branch saves.**
 
 ---
 
 ## 🌐 Live Production Demo
 
 🚀 **Explore the Live Web App:** [https://madhu-coco-farm.vercel.app](https://madhu-coco-farm.vercel.app) (or [https://frontend-mu-tawny-d4xcmpjhrq.vercel.app](https://frontend-mu-tawny-d4xcmpjhrq.vercel.app))  
-📦 **GitHub Repository:** [https://github.com/abhay2008/coconut-farm-digital-twin](https://github.com/abhay2008/coconut-farm-digital-twin)
+📦 **GitHub Repository:** [https://github.com/abhay2008/coconut-farm-digital-twin](https://github.com/abhay2008/coconut-farm-digital-twin)  
+⚡ **Supabase PostgreSQL Cloud Database:** Connected & Live (`tqhoejmonbajbyqgswac.supabase.co`)
 
 ---
 
@@ -22,14 +23,16 @@
 
 - [🌟 Overview & System Highlights](#-overview--system-highlights)
 - [🏗️ System Architecture & Data Flow](#️-system-architecture--data-flow)
+- [🌊 Real-Time Hydraulic Simulation Engine](#-real-time-hydraulic-simulation-engine)
+- [☁️ Supabase Cloud Database Architecture](#️-supabase-cloud-database-architecture)
 - [📖 User Guide & Feature Walkthrough](#-user-guide--feature-walkthrough)
   - [1. Canvas Navigation & Visual Controls](#1-canvas-navigation--visual-controls)
-  - [2. 1,222 Tree Twins & Tree Inspector](#2-1222-tree-twins--tree-inspector)
+  - [2. 1,300+ Tree Twins & Tree Inspector](#2-1300-tree-twins--tree-inspector)
   - [3. Real-World Hydraulics & Pipe Layer Filtering](#3-real-world-hydraulics--pipe-layer-filtering)
   - [4. Dynamic Borewell & Surface Motor Drag-Binding](#4-dynamic-borewell--surface-motor-drag-binding)
   - [5. Universal & Per-Tree Dripper Hole Control](#5-universal--per-tree-dripper-hole-control)
   - [6. Storage Pond & Fertigation Unit](#6-storage-pond--fertigation-unit)
-  - [7. Layout Branching, Versioning & Cloud Sync](#7-layout-branching-versioning--cloud-sync)
+  - [7. Layout Branching, Versioning & Supabase Cloud Sync](#7-layout-branching-versioning--supabase-cloud-sync)
 - [📐 Real-World Engineering Specifications](#-real-world-engineering-specifications)
 - [🚀 Quick Start & Local Setup](#-quick-start--local-setup)
 - [🛠️ Tech Stack](#️-tech-stack)
@@ -42,23 +45,24 @@
 This platform translates complex agricultural hydrology, computer vision canopy detection, and real-world pipe network dynamics into an intuitive, high-performance interactive web application.
 
 ```
-       🌴 1,222 Tree Twins       💧 10 HP Submersible Pump        🌊 500,000 L Storage Pond
+       🌴 1,300+ Tree Twins       💧 10 HP Submersible Pump        🌊 500,000 L Storage Pond
   ─────────────────────────────────────────────────────────────────────────────────────────────
        🔴 110mm Main Lines       🔵 75mm Sublines                🟠 40mm Ladder Pipes
-       🔄 16mm Drip Loops        ⚡ 7 Surface Monoblock Motors   🔒 Password-Protected Main
+       🔄 16mm Drip Loops        ⚡ 7 Surface Monoblock Motors   ⚡ Supabase Cloud PostgreSQL
 ```
 
 ### Key Capabilities
-- **🌴 1,222 Coconut Palm Digital Twins**: Every single tree is tracked with individual coordinates, age categories (Young $0\text{–}3\text{ yrs}$, Medium $4\text{–}8\text{ yrs}$, Mature $9+\text{ yrs}$), health index ($0.0\text{–}1.0$), yield history, and custom dripper emission rates.
+- **🌴 1,300+ Coconut Palm Digital Twins**: Every single tree is tracked with individual coordinates, age categories (Young $0\text{–}3\text{ yrs}$, Medium $4\text{–}8\text{ yrs}$, Mature $9+\text{ yrs}$), health index ($0.0\text{–}1.0$), yield history, and custom dripper emission rates.
+- **🌊 Real-Time Hydraulic Flow Simulation Engine**: Interactive simulation bar starting with the Storage Pond at **500 Liters** initial state, featuring Play/Pause controls, **1x to 50x speed multipliers**, phase-by-phase wave propagation (Borewell Extraction $\to$ Pond Fill $\to$ Submersible Suction $\to$ Fertigation Unit $\to$ Pipelines $\to$ Emitters), and visual streaming water dashes & microsprinkler spray droplets around all 1,300+ trees!
+- **⚡ Supabase PostgreSQL Cloud Database Integration**: Real-time cross-device data persistence via `farm_branches` table with `JSONB` schema, enabling global multi-user sync across all devices worldwide.
 - **⚡ Real-World Motor Architecture**: Features **1 Submersible Pump (10 HP)** inside the Storage Pond and **7 Surface Monoblock Motors** positioned at borewell wellheads + **1 Surface Booster Pump** on sublines.
 - **🌿 Layout Branching & Versioning**: Create custom branches (e.g. `North Sector Test`) to experiment with layouts without altering the primary farm plan.
-- **🔒 Password-Protected Main Branch**: Saving to or resetting the default `main` branch requires security password verification.
+- **🔒 Password-Protected Main Branch**: Saving to or resetting the default `main` branch requires security password verification with masked password inputs.
 - **💧 Dynamic Hazen-Williams Hydraulic Engine**: Computes friction losses, flow rates ($\text{LPM}$), and dynamic pressure distribution across all sub-networks in real time.
 - **🔗 Synchronized Parent-Child Drag Binding**: Dragging any Borewell automatically moves its paired Surface Monoblock Motor and recalculates cyan delivery line vectors to the storage pond instantly.
 - **🎛️ Granular Pipeline Layer Filtering**: Independent toggle checkboxes for Mainlines ($110\text{ mm}$), Sublines ($75\text{ mm}$), Ladders ($40\text{ mm}$), Drip Loops ($16\text{ mm}$), and Well/Pond lines.
-- **🎚️ Universal & Per-Tree Dripper Control**: Universal hole slider ($1\text{ to }16$ holes per ring) with a `Set All (1,222)` button + per-tree inspection panel overrides. Dynamic blue microsprinkler dots render visually on the canvas around each tree.
+- **🎚️ Universal & Per-Tree Dripper Control**: Universal hole slider ($1\text{ to }16$ holes per ring) with a `Set All (1,300+)` button + per-tree inspection panel overrides. Dynamic blue microsprinkler dots render visually on the canvas around each tree.
 - **👁️ Visual Contrast & Satellite Dimming**: Opacity slider ($10\%\text{ to }100\%$) for satellite imagery + **High-Contrast Pipe Mode** (dark outline stroke backing for maximum visibility).
-- **💾 Cloud REST API & Local Backup**: Serverless `/api/branches` API coupled with instant client `localStorage` sync.
 
 ---
 
@@ -97,12 +101,62 @@ flowchart TD
         M --> P["BranchManagerModal (Switch & Delete Branches)"]
     end
 
-    subgraph Storage["💾 Persistence Engine"]
+    subgraph Storage["💾 3-Tier Persistence Engine"]
         O1 --> Q["Vercel Cloud API /api/branches"]
         O2 --> Q
-        Q --> R["Client LocalStorage Backup (madhu_coco_farm_branch_*)"]
+        Q --> S["⚡ Supabase PostgreSQL Cloud Database (farm_branches)"]
+        Q --> R["📱 Client LocalStorage Backup (madhu_coco_farm_branch_*)"]
     end
 ```
+
+---
+
+## 🌊 Real-Time Hydraulic Simulation Engine
+
+The platform features a **live animated hydraulic physics simulation engine** that models dynamic water flow, reservoir filling, and network wavefront propagation in real time.
+
+```
+ [ 🕳️ 7 Borewells ] ──(69,000 L/hr)──> [ 🌊 Pond: 500L ➔ 500kL ] ──(10HP Submersible)──> [ 🧪 Venturi Fertigation ]
+                                                                                                    │
+ [ 🌴 1,300+ Trees ] <──(16mm Loops)── [ 🟠 40mm Ladders ] <──(75mm Sublines)── [ 🔴 110mm Mainlines ] ◄┘
+```
+
+### Key Simulation Controls & Telemetry
+- **⏯️ Play / Pause Controls**: Toggle live real-time water animation on demand.
+- **🔄 Reset Button**: Instantly resets the simulation back to the initial state ($t = 0\text{s}$, Storage Pond at **500 Liters**).
+- **⏩ Speed Multiplier Pills**: Toggle between **`1x` (Real-time)**, `2x`, `5x`, `10x`, `25x`, and `50x` speedups for fast interactive scenario testing.
+- **🌊 Dynamic Pond Fill Level**: Visually animates the storage pond water level rising inside the canvas from an initial **500 Liters** up to full **500,000 Liters** capacity.
+- **🌊 Animated Pipe Flow Dashes**: Flowing water dashes (`dashOffset`) continuously stream along $110\text{ mm}$ Mainlines, $75\text{ mm}$ Sublines, $40\text{ mm}$ Ladders, and $16\text{ mm}$ Drip Loops.
+- **💦 Tree Microsprinkler Spray Droplets**: As wave propagation reaches each tree, an active cyan spray ring and microsprinkler water droplet animation activates around that tree, transitioning tree status from dry warning to optimal hydration!
+
+---
+
+## ☁️ Supabase Cloud Database Architecture
+
+All farm layouts, custom branches, and main branch edits are synchronized to a **Supabase PostgreSQL Cloud Database** for global multi-user persistence across all devices worldwide.
+
+### Database Schema (`farm_branches` Table)
+```sql
+create table if not exists farm_branches (
+  name text primary key,
+  is_main boolean default false,
+  farm_data jsonb not null,
+  custom_components jsonb default '[]'::jsonb,
+  updated_at timestamptz default now()
+);
+
+-- Enable Row Level Security (RLS) & Public Access Policies
+alter table farm_branches enable row level security;
+create policy "Allow public read access" on farm_branches for select using (true);
+create policy "Allow public insert access" on farm_branches for insert with check (true);
+create policy "Allow public update access" on farm_branches for update using (true);
+create policy "Allow public delete access" on farm_branches for delete using (true);
+```
+
+### 3-Tier Storage Hierarchy
+1. **☁️ Supabase PostgreSQL Cloud DB**: Central database storing full `JSONB` farm layout payloads for global cross-device synchronization.
+2. **⚡ Next.js Serverless API (`/api/branches`)**: RESTful endpoint verifying password protection for `main` branch saves (`666`) and managing branch payloads.
+3. **📱 Client `localStorage`**: Offline fallback store (`madhu_coco_farm_branch_*`) ensuring 0ms instant canvas loading even during offline network disconnections.
 
 ---
 
