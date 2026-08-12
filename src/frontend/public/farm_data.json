@@ -15913,25 +15913,6 @@
       ]
     },
     {
-      "id": "TREE-0852",
-      "variety": "Coconut Tree",
-      "planted_date": "2021-03-15",
-      "age_years": 5,
-      "position": {
-        "lat": 13.986147,
-        "lng": 78.403665,
-        "pixel_x": 2120.4,
-        "pixel_y": 1076.7
-      },
-      "canopy_radius_m": 3.2,
-      "health_index": 0.95,
-      "grid_row": 53,
-      "grid_col": 106,
-      "notes": [
-        "Ground truth tree center from Claude OpenCV detection"
-      ]
-    },
-    {
       "id": "TREE-0853",
       "variety": "Coconut Tree",
       "planted_date": "2021-03-15",
@@ -23406,6 +23387,46 @@
         "Manually placed red dot tree"
       ],
       "is_manual": true
+    },
+    {
+      "id": "TREE-1224",
+      "variety": "Coconut Tree",
+      "planted_date": "2021-03-15",
+      "age_years": 5,
+      "position": {
+        "lat": 13.9858,
+        "lng": 78.4029,
+        "pixel_x": 2102,
+        "pixel_y": 1076
+      },
+      "canopy_radius_m": 3,
+      "health_index": 0.95,
+      "grid_row": 54,
+      "grid_col": 105,
+      "notes": [
+        "Manually placed red dot tree"
+      ],
+      "is_manual": true
+    },
+    {
+      "id": "TREE-1225",
+      "variety": "Coconut Tree",
+      "planted_date": "2021-03-15",
+      "age_years": 5,
+      "position": {
+        "lat": 13.9858,
+        "lng": 78.4029,
+        "pixel_x": 2132,
+        "pixel_y": 1075
+      },
+      "canopy_radius_m": 3,
+      "health_index": 0.95,
+      "grid_row": 54,
+      "grid_col": 107,
+      "notes": [
+        "Manually placed red dot tree"
+      ],
+      "is_manual": true
     }
   ],
   "boundary": {
@@ -23425,8 +23446,8 @@
     {
       "id": "BW-NW-02",
       "type": "borewell",
-      "x": 1007,
-      "y": 483,
+      "x": 1048,
+      "y": 455,
       "installation_type": "surface_monoblock",
       "label": "Borewell #2 (Northwest - Deep)"
     },
@@ -23482,8 +23503,8 @@
     {
       "id": "M-BW-10HP-2",
       "type": "motor_10hp",
-      "x": 1022,
-      "y": 498,
+      "x": 1063,
+      "y": 470,
       "hp": 10,
       "installation_type": "surface_monoblock",
       "label": "10 HP Surface Monoblock Well Pump #2"
