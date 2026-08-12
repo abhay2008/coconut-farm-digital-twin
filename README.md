@@ -7,7 +7,7 @@
 [![Python 3.11](https://img.shields.io/badge/Python-3.11_CV_Pipeline-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,300+ individual tree digital twins, Supabase PostgreSQL Cloud Database sync, real-time animated hydraulic flow simulation (starting from 500L initial pond level with 1x–50x speed controls), live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, layout branching & versioning, and password-protected main branch saves.**
+> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,300+ individual tree digital twins, Supabase PostgreSQL Cloud Database sync, real-time animated hydraulic flow simulation (with dual "Fill → Drip" & "Irrigate Now" modes and 1x–1000x speed controls), Hargreaves Evapotranspiration (ET0) & Venturi fertigation calculators, live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, layout branching & versioning, and password-protected main branch saves.**
 
 ---
 
@@ -53,10 +53,12 @@ This platform translates complex agricultural hydrology, computer vision canopy 
 
 ### Key Capabilities
 - **🌴 1,300+ Coconut Palm Digital Twins**: Every single tree is tracked with individual coordinates, age categories (Young $0\text{–}3\text{ yrs}$, Medium $4\text{–}8\text{ yrs}$, Mature $9+\text{ yrs}$), health index ($0.0\text{–}1.0$), yield history, and custom dripper emission rates.
-- **🌊 Real-Time Hydraulic Flow Simulation Engine**: Interactive simulation bar starting with the Storage Pond at **500 Liters** initial state, featuring Play/Pause controls, **1x to 1000x speed multipliers**, phase-by-phase wave propagation (Borewell Extraction $\to$ Pond Fill $\to$ Submersible Suction $\to$ Fertigation Unit $\to$ Pipelines $\to$ Emitters), and visual streaming water dashes & microsprinkler spray droplets around all 1,300+ trees!
+- **🌊 Real-Time Hydraulic Flow Simulation Engine**: Interactive dual-mode simulation bar (`⚙️ Fill → Drip` vs `💧 Irrigate Now`), featuring Play/Pause controls, **1x to 1000x speed multipliers**, mutually exclusive stage propagation (Borewells OFF during fertigation), and visual streaming water dashes & microsprinkler spray droplets around all 1,300+ trees!
+- **📊 Smart Agriculture Telemetry Suite**: Interactive calculators for Hargreaves Evapotranspiration ($ET_0$), Venturi N-P-K fertigation liquid injection rates ($\text{L/hr}$), Total Dynamic Head ($\text{TDH}$ in meters), and AP Transco electricity tariff cost estimation ($\text{₹/day}$).
 - **⚡ Supabase PostgreSQL Cloud Database Integration**: Real-time cross-device data persistence via `farm_branches` table with `JSONB` schema, enabling global multi-user sync across all devices worldwide.
 - **⚡ Real-World Closed-Loop Piping Topology**: All 7 Surface Monoblock Motors (7.5 HP) pipe directly into the Central Storage Pond (500,000 L). The **10 HP Submersible Pump** submerged inside the Storage Pond connects directly into the Venturi Fertigation Dosing Unit to feed the main distribution pipeline!
 - **⏱️ AP 9-Hour Power Window Hydration Math**: Delivering 150L/tree across 1,300 trees ($195,000\text{ L}$ total) via 10HP Submersible Pump ($35,168\text{ L/hr}$) requires **5.54 Hours** of continuous pumping, comfortably fitting within AP's 9-hour 3-phase agricultural power window with a 3.46-hour safety buffer.
+- **📚 Exhaustive Technical Reference**: See [`PROJECT_CONTEXT_AND_ARCHITECTURE.md`](PROJECT_CONTEXT_AND_ARCHITECTURE.md) for deep-dive mathematical formulas, Hazen-Williams pressure loss derivations, and AP grid electrical constraints.
 - **🌿 Layout Branching & Versioning**: Create custom branches (e.g. `North Sector Test`) to experiment with layouts without altering the primary farm plan.
 - **🔒 Password-Protected Main Branch**: Saving to or resetting the default `main` branch requires security password verification with masked password inputs.
 - **💧 Dynamic Hazen-Williams Hydraulic Engine**: Computes friction losses, flow rates ($\text{LPM}$), and dynamic pressure distribution across all sub-networks in real time.

@@ -36,6 +36,7 @@ interface ToolboxProps {
   placedCount: number;
   activeBranchName?: string;
   onOpenBranchManager?: () => void;
+  onOpenAnalytics?: () => void;
 }
 
 const InfrastructureToolbox: React.FC<ToolboxProps> = ({
@@ -58,7 +59,8 @@ const InfrastructureToolbox: React.FC<ToolboxProps> = ({
   treeCount,
   placedCount,
   activeBranchName = 'main',
-  onOpenBranchManager
+  onOpenBranchManager,
+  onOpenAnalytics
 }) => {
   const [universalHoles, setUniversalHoles] = React.useState(4);
   const tools: { id: PlacementTool; label: string; icon: string; bg: string }[] = [
@@ -372,12 +374,24 @@ const InfrastructureToolbox: React.FC<ToolboxProps> = ({
       </div>
 
       {/* Action Buttons */}
-      <button 
-        onClick={runSimulation}
-        className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 rounded-lg font-bold text-xs shadow-md hover:from-blue-700 hover:to-indigo-700 transition-all flex items-center justify-center gap-2"
-      >
-        <span>⚡</span> Run Hydraulic Simulation
-      </button>
+      <div className="grid grid-cols-2 gap-2">
+        <button 
+          onClick={runSimulation}
+          className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 rounded-lg font-bold text-xs shadow-md hover:from-blue-700 hover:to-indigo-700 transition-all flex items-center justify-center gap-1.5"
+        >
+          <span>⚡</span> Hydraulics
+        </button>
+
+        {onOpenAnalytics && (
+          <button 
+            onClick={onOpenAnalytics}
+            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-2 rounded-lg font-bold text-xs shadow-md hover:from-purple-700 hover:to-pink-700 transition-all flex items-center justify-center gap-1.5"
+            title="Open Smart Agriculture, Evapotranspiration, Fertigation & Electricity Cost Calculators"
+          >
+            <span>📊</span> Smart Analytics
+          </button>
+        )}
+      </div>
 
       {/* Footer info */}
       <div className="flex items-center justify-between pt-1.5 border-t text-[11px] text-gray-500">

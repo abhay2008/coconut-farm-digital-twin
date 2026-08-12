@@ -6,6 +6,7 @@ import InfrastructureToolbox from '../components/InfrastructureToolbox';
 import TreeInspector from '../components/TreeInspector';
 import SaveLayoutModal from '../components/SaveLayoutModal';
 import BranchManagerModal from '../components/BranchManagerModal';
+import { SmartAgriAnalyticsModal } from '../components/SmartAgriAnalyticsModal';
 import { LiveSimulationControlBar, SimulationPhase } from '../components/LiveSimulationControlBar';
 import { runHydraulicSimulation, ClosedLoopSimulationResult } from '../../lib/simulation';
 import { FarmData, Tree, PlacableComponent, PlacementTool } from '../../types/farm';
@@ -31,6 +32,7 @@ export default function Home() {
   const [activeBranchName, setActiveBranchName] = useState<string>('main');
   const [isSaveModalOpen, setIsSaveModalOpen] = useState(false);
   const [isBranchManagerOpen, setIsBranchManagerOpen] = useState(false);
+  const [isAnalyticsOpen, setIsAnalyticsOpen] = useState(false);
 
   // Layer Toggles
   const [showPipes, setShowPipes] = useState(true);
@@ -466,6 +468,7 @@ export default function Home() {
         placedCount={customComponents.length}
         activeBranchName={activeBranchName}
         onOpenBranchManager={() => setIsBranchManagerOpen(true)}
+        onOpenAnalytics={() => setIsAnalyticsOpen(true)}
       />
 
       {/* Slide-out Inspector Modal */}
@@ -499,6 +502,13 @@ export default function Home() {
         currentBranch={activeBranchName}
         onSelectBranch={handleSelectBranch}
         onDeleteBranch={handleDeleteBranch}
+      />
+
+      {/* Smart Agriculture & Telemetry Modal */}
+      <SmartAgriAnalyticsModal
+        isOpen={isAnalyticsOpen}
+        onClose={() => setIsAnalyticsOpen(false)}
+        totalTreeCount={farmData ? farmData.trees.length : 1300}
       />
     </main>
   );
