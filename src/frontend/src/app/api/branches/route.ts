@@ -133,7 +133,7 @@ export async function POST(request: Request) {
       if (password !== '666') {
         return NextResponse.json({
           success: false,
-          error: '🔒 Password "666" is required to save to Main branch!'
+          error: '🔒 Incorrect security password for Main branch!'
         }, { status: 401 });
       }
     }
@@ -196,7 +196,7 @@ export async function DELETE(request: Request) {
       if (password !== '666') {
         return NextResponse.json({
           success: false,
-          error: '🔒 Password "666" is required to delete/reset the Main branch!'
+          error: '🔒 Incorrect security password for Main branch reset!'
         }, { status: 401 });
       }
 

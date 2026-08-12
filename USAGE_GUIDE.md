@@ -10,7 +10,7 @@ Welcome to the **Coconut Plantation Digital Twin & Real-World Engineering Platfo
 
 ---
 
-## 🌿 Layout Branching, Versioning & Password Protection (`666`)
+## 🌿 Layout Branching, Versioning & Password Protection
 
 ### 1. Default Main Branch Loading
 - Whenever you open or refresh the website, the official **`main`** branch layout automatically pops up and loads by default.
@@ -24,7 +24,7 @@ Click **"💾 Save Layout Permanently"** in the left-hand **Infrastructure Toolb
   3. Click **Save Branch**. (No password required).
 - **Option 2: Save to Main Branch** 🔒
   1. Click the **2. Save to Main 🔒** tab.
-  2. Enter the security password **`666`**.
+  2. Enter the security password.
   3. Click **Overwrite Main Branch**.
   *(Note: Overwriting `main` updates the default layout presented to all visitors).*
 
@@ -32,7 +32,7 @@ Click **"💾 Save Layout Permanently"** in the left-hand **Infrastructure Toolb
 Click **"🔀 Switch / Manage"** in the active branch bar at the top of the toolbox:
 - **Switching / Loading Branches**: Click **Load** next to any branch in the list to switch your active canvas and hydraulic simulation to that version.
 - **Deleting Custom Branches**: Click the trash icon next to a custom branch to delete it.
-- **Deleting / Resetting Main Branch**: Click the trash icon next to `main` $\to$ enter password **`666`** $\to$ click **Reset Main**. This restores `main` back to the ground-truth 1,222 tree factory default.
+- **Deleting / Resetting Main Branch**: Click the trash icon next to `main` $\to$ enter security password $\to$ click **Reset Main**. This restores `main` back to the ground-truth 1,222 tree factory default.
 
 ---
 

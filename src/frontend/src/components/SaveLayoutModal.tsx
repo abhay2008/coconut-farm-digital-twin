@@ -32,7 +32,7 @@ export default function SaveLayoutModal({
       return;
     }
     if (branchName.trim().toLowerCase() === 'main') {
-      setErrorMessage('To save to Main, please switch to the "Save to Main Branch" tab and enter password 666');
+      setErrorMessage('To save to Main, please switch to the "Save to Main Branch" tab and enter the security password');
       return;
     }
 
@@ -207,7 +207,7 @@ export default function SaveLayoutModal({
                 </label>
                 <input
                   type="password"
-                  placeholder="Enter password (666)"
+                  placeholder="Enter password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="w-full bg-slate-950 border border-slate-700 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 outline-none transition-all tracking-widest"

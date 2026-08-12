@@ -45,14 +45,14 @@ This platform translates complex agricultural hydrology, computer vision canopy 
        🌴 1,222 Tree Twins       💧 10 HP Submersible Pump        🌊 500,000 L Storage Pond
   ─────────────────────────────────────────────────────────────────────────────────────────────
        🔴 110mm Main Lines       🔵 75mm Sublines                🟠 40mm Ladder Pipes
-       🔄 16mm Drip Loops        ⚡ 7 Surface Monoblock Motors   🔒 Main Password: 666
+       🔄 16mm Drip Loops        ⚡ 7 Surface Monoblock Motors   🔒 Password-Protected Main
 ```
 
 ### Key Capabilities
 - **🌴 1,222 Coconut Palm Digital Twins**: Every single tree is tracked with individual coordinates, age categories (Young $0\text{–}3\text{ yrs}$, Medium $4\text{–}8\text{ yrs}$, Mature $9+\text{ yrs}$), health index ($0.0\text{–}1.0$), yield history, and custom dripper emission rates.
 - **⚡ Real-World Motor Architecture**: Features **1 Submersible Pump (10 HP)** inside the Storage Pond and **7 Surface Monoblock Motors** positioned at borewell wellheads + **1 Surface Booster Pump** on sublines.
 - **🌿 Layout Branching & Versioning**: Create custom branches (e.g. `North Sector Test`) to experiment with layouts without altering the primary farm plan.
-- **🔒 Password-Protected Main Branch (`666`)**: Saving to or resetting the default `main` branch requires security password **`666`**.
+- **🔒 Password-Protected Main Branch**: Saving to or resetting the default `main` branch requires security password verification.
 - **💧 Dynamic Hazen-Williams Hydraulic Engine**: Computes friction losses, flow rates ($\text{LPM}$), and dynamic pressure distribution across all sub-networks in real time.
 - **🔗 Synchronized Parent-Child Drag Binding**: Dragging any Borewell automatically moves its paired Surface Monoblock Motor and recalculates cyan delivery line vectors to the storage pond instantly.
 - **🎛️ Granular Pipeline Layer Filtering**: Independent toggle checkboxes for Mainlines ($110\text{ mm}$), Sublines ($75\text{ mm}$), Ladders ($40\text{ mm}$), Drip Loops ($16\text{ mm}$), and Well/Pond lines.
@@ -209,7 +209,7 @@ Click **"💾 Save Layout Permanently"** in the toolbox to open the Save Layout 
 
 ```
        🌿 Option 1: Save as a Branch     → Enter branch name (e.g., North Sector Test). Open access.
-       🔒 Option 2: Save to Main Branch → Overwrites main layout. Requires Password: 666
+       🔒 Option 2: Save to Main Branch → Overwrites main layout. Requires Security Password.
 ```
 
 #### Default Load Behavior:
@@ -218,7 +218,7 @@ Click **"💾 Save Layout Permanently"** in the toolbox to open the Save Layout 
 #### Branch Version Manager (`🔀 Switch / Manage`):
 - Click **"🔀 Switch / Manage"** in the active branch bar to open the Branch Manager.
 - **`Load Branch`**: Instantly switches your canvas to any saved branch layout.
-- **`Delete Branch`**: Custom branches can be deleted directly. Deleting or resetting the **`main`** branch **requires Password `666`**.
+- **`Delete Branch`**: Custom branches can be deleted directly. Deleting or resetting the **`main`** branch **requires Security Password**.
 
 > [!IMPORTANT]
 > **Persistence Architecture:**

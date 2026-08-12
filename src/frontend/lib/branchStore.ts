@@ -138,7 +138,7 @@ export async function saveBranch(
   if (isMain && password !== '666') {
     return {
       success: false,
-      message: '🔒 Password "666" is required to save to Main branch!'
+      message: '🔒 Incorrect security password for Main branch!'
     };
   }
 
@@ -217,7 +217,7 @@ export async function deleteBranch(
   if (isMain && password !== '666') {
     return {
       success: false,
-      message: '🔒 Password "666" is required to delete/reset the Main branch!'
+      message: '🔒 Incorrect security password for Main branch reset!'
     };
   }
 

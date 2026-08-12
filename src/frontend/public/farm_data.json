@@ -23366,6 +23366,46 @@
         "Manually placed red dot tree"
       ],
       "is_manual": true
+    },
+    {
+      "id": "TREE-1223",
+      "variety": "Coconut Tree",
+      "planted_date": "2021-03-15",
+      "age_years": 5,
+      "position": {
+        "lat": 13.9858,
+        "lng": 78.4029,
+        "pixel_x": 1519,
+        "pixel_y": 698
+      },
+      "canopy_radius_m": 3,
+      "health_index": 0.95,
+      "grid_row": 35,
+      "grid_col": 76,
+      "notes": [
+        "Manually placed red dot tree"
+      ],
+      "is_manual": true
+    },
+    {
+      "id": "TREE-1224",
+      "variety": "Coconut Tree",
+      "planted_date": "2021-03-15",
+      "age_years": 5,
+      "position": {
+        "lat": 13.9858,
+        "lng": 78.4029,
+        "pixel_x": 1552,
+        "pixel_y": 698
+      },
+      "canopy_radius_m": 3,
+      "health_index": 0.95,
+      "grid_row": 35,
+      "grid_col": 78,
+      "notes": [
+        "Manually placed red dot tree"
+      ],
+      "is_manual": true
     }
   ],
   "boundary": {

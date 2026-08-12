@@ -72,7 +72,7 @@ export default function BranchManagerModal({
   const handleConfirmDelete = async (bName: string) => {
     const isMain = bName.toLowerCase() === 'main';
     if (isMain && !deletePassword) {
-      setErrorMessage('Password "666" is required to delete/reset Main branch');
+      setErrorMessage('Security password is required to delete/reset Main branch');
       return;
     }
 
@@ -189,7 +189,7 @@ export default function BranchManagerModal({
                       <button
                         onClick={() => handleDeleteClick(b.name)}
                         className="p-1.5 text-slate-400 hover:text-rose-400 hover:bg-rose-950/50 rounded-lg transition-colors"
-                        title={isMain ? 'Reset Main Branch (Requires Password 666)' : 'Delete Branch'}
+                        title={isMain ? 'Reset Main Branch (Requires Password)' : 'Delete Branch'}
                       >
                         <Trash2 className="w-4 h-4" />
                       </button>
@@ -202,12 +202,12 @@ export default function BranchManagerModal({
                       {isMain ? (
                         <div className="space-y-2">
                           <p className="text-[11px] text-amber-300 font-semibold flex items-center gap-1">
-                            <ShieldLock className="w-3.5 h-3.5" /> Password 666 required to reset Main branch:
+                            <ShieldLock className="w-3.5 h-3.5" /> Security password required to reset Main branch:
                           </p>
                           <div className="flex gap-2">
                             <input
                               type="password"
-                              placeholder="Enter password (666)"
+                              placeholder="Enter password"
                               value={deletePassword}
                               onChange={(e) => setDeletePassword(e.target.value)}
                               className="flex-1 bg-slate-950 border border-slate-700 px-3 py-1.5 rounded-lg text-xs text-white outline-none focus:border-amber-500"
