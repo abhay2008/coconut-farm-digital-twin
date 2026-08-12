@@ -54,16 +54,31 @@ export default function Home() {
   const [scale, setScale] = useState(0.85);
   const [position, setPosition] = useState({ x: 100, y: 50 });
 
-  // Real-Time Hydraulic Simulation Playback State (Starting at 500 Liters Initial Pond Level)
+  // Real-Time Hydraulic Simulation State
+  // Two modes:
+  //   'fill-then-drip' — Full AP daily cycle: borewells fill pond from 500L to threshold,
+  //                      then changeover to 10HP submersible irrigation (shows the real 9-hr window split)
+  //   'irrigate-now'   — Pond pre-filled to 450,000L (accumulated over prior borewell days);
+  //                      immediately runs Stage B irrigation so all 1,300 trees are hydrated
+  const [simulationMode, setSimulationMode] = useState<'fill-then-drip' | 'irrigate-now'>('fill-then-drip');
+
+  // Pond starts at 500L in fill-then-drip mode, 450,000L in irrigate-now mode
+  const INITIAL_POND_FILL_THEN_DRIP = 500;
+  const INITIAL_POND_IRRIGATE_NOW = 450000; // matches farm_data.json current_water_liters
+  // Threshold at which borewells stop and 10HP submersible irrigation begins (fill-then-drip mode only)
+  // 50,000L ≈ 2.53 hrs borewell fill → leaves 6.47 hrs for Stage B within AP 9-hr window ✅
+  const DRIP_START_THRESHOLD_L = 50000;
+
   const [isPlaying, setIsPlaying] = useState(false);
   const [simSpeed, setSimSpeed] = useState(1);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
-  const [pondVolumeLiters, setPondVolumeLiters] = useState(500); // Initial 500 L as requested
+  const [pondVolumeLiters, setPondVolumeLiters] = useState(INITIAL_POND_FILL_THEN_DRIP);
   const [maxPondCapacityLiters] = useState(500000);
   const [totalWaterDeliveredLiters, setTotalWaterDeliveredLiters] = useState(0);
   const [activeTreeCount, setActiveTreeCount] = useState(0);
   const [currentPhase, setCurrentPhase] = useState<SimulationPhase>('idle');
   const [animDashOffset, setAnimDashOffset] = useState(0);
+  const DRIP_START_THRESHOLD_L_REF = DRIP_START_THRESHOLD_L;
 
   // Real-time animation loop
   useEffect(() => {
@@ -77,36 +92,41 @@ export default function Home() {
       setPondVolumeLiters((prevPond) => {
         const totalTrees = farmData?.trees?.length || 1300;
 
+        // 'irrigate-now' mode: pond is already pre-filled, skip straight to Stage B
+        // 'fill-then-drip' mode: borewells run until threshold, then Stage B
+        const threshold = simulationMode === 'irrigate-now' ? 0 : DRIP_START_THRESHOLD_L_REF;
+
         // ─────────────────────────────────────────────────────────────────
-        // STAGE A: Borewell Fill — borewells running, submersible is OFF
-        // AP DTR 3-Phase Constraint: max 2 x 7.5HP motors concurrently
-        // Inflow rate = 19,714 L/hr = 5.4761 L/sec
-        // Pond fills from 500 L up to full 500,000 L capacity
-        // Fertigation unit & distribution network are IDLE in this stage
+        // STAGE A: Borewell Fill  (only in 'fill-then-drip' mode)
+        // 2 x 7.5HP motors, AP DTR 3-phase constraint
+        // Inflow: +19,714 L/hr = +5.4761 L/sec
+        // Changeover at 50,000 L → fills in ~2.53 hrs
+        // Leaves 6.47 hrs for Stage B (need 5.54 hrs → 0.93 hr buffer) ✅
         // ─────────────────────────────────────────────────────────────────
-        if (prevPond < 500000) {
+        if (prevPond < threshold) {
           setCurrentPhase('phase1_borewell_fill');
-          setActiveTreeCount(0); // no irrigation during fill
-          const apGridLps = 19714 / 3600; // 5.4761 L/sec (2 motors)
-          return Math.min(500000, prevPond + apGridLps * dt);
+          setActiveTreeCount(0); // irrigation not started yet
+          const borewellLps = 19714 / 3600; // 5.4761 L/sec
+          return Math.min(threshold, prevPond + borewellLps * dt);
         }
 
         // ─────────────────────────────────────────────────────────────────
-        // CHANGEOVER: Pond is full (500,000 L)
-        // Borewells shut OFF. 10 HP Submersible Pond Pump starts.
-        // Fertigation dosing unit activates.
+        // CHANGEOVER (or immediate start in 'irrigate-now' mode):
+        //   Borewells SHUT OFF → 10HP Submersible Pump STARTS
+        //   Fertigation dosing unit activates
         // ─────────────────────────────────────────────────────────────────
 
         // ─────────────────────────────────────────────────────────────────
-        // STAGE B: 10 HP Submersible Pump → Fertigation Unit → Pipelines → Trees
-        // Outflow rate = 35,168 L/hr = 9.7689 L/sec
-        // Pond volume DECREASES as water is drawn out and delivered to trees
-        // Borewells are completely OFF in this stage
+        // STAGE B: 10HP Submersible → Fertigation Unit → Pipelines → Trees
+        // Outflow: -35,168 L/hr = -9.7689 L/sec (borewells are OFF)
+        // In 'fill-then-drip': 50,000 L drains in ~1.42 hrs → covers ~333 trees
+        // In 'irrigate-now':  450,000 L drains in ~12.78 hrs (AP provides 9hrs,
+        //   so 9 × 35,168 = 316,512 L delivered → 2,110 tree-waterings at 150L each)
         // ─────────────────────────────────────────────────────────────────
-        const submersibleLps = 35168 / 3600; // 9.7689 L/sec outflow
+        const submersibleLps = 35168 / 3600; // 9.7689 L/sec
         const outflowThisTick = submersibleLps * dt;
 
-        // Update tree wavefront propagation (0.06513 trees/sec = all trees in 5.54 hrs)
+        // Tree wavefront propagation: 0.06513 trees/sec = all 1,300 trees in 5.54 hrs
         setActiveTreeCount((prevTrees) => {
           if (prevTrees < totalTrees) {
             setCurrentPhase('phase3_network_propagation');
@@ -118,9 +138,9 @@ export default function Home() {
 
         setTotalWaterDeliveredLiters((prev) => prev + outflowThisTick);
 
-        // Pond drains — stop simulation when pond reaches 0
         const newPond = prevPond - outflowThisTick;
         if (newPond <= 0) {
+          // Pond exhausted — in real farm borewells refill over subsequent borewell-only days
           setCurrentPhase('idle');
           setIsPlaying(false);
           return 0;
@@ -130,11 +150,16 @@ export default function Home() {
     }, 100);
 
     return () => clearInterval(interval);
-  }, [isPlaying, simSpeed, farmData]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isPlaying, simSpeed, farmData, simulationMode]);
 
   const handleTogglePlay = () => {
     if (!isPlaying && currentPhase === 'idle') {
-      setCurrentPhase('phase1_borewell_fill');
+      if (simulationMode === 'irrigate-now') {
+        setCurrentPhase('phase3_network_propagation');
+      } else {
+        setCurrentPhase('phase1_borewell_fill');
+      }
     }
     setIsPlaying(!isPlaying);
   };
@@ -142,7 +167,21 @@ export default function Home() {
   const handleResetSimulation = () => {
     setIsPlaying(false);
     setElapsedSeconds(0);
-    setPondVolumeLiters(500); // Reset to 500L initial state
+    setPondVolumeLiters(
+      simulationMode === 'irrigate-now' ? INITIAL_POND_IRRIGATE_NOW : INITIAL_POND_FILL_THEN_DRIP
+    );
+    setTotalWaterDeliveredLiters(0);
+    setActiveTreeCount(0);
+    setCurrentPhase('idle');
+    setAnimDashOffset(0);
+  };
+
+  const handleSetMode = (mode: 'fill-then-drip' | 'irrigate-now') => {
+    // Switch mode then reset so pond volume initialises correctly
+    setSimulationMode(mode);
+    setIsPlaying(false);
+    setElapsedSeconds(0);
+    setPondVolumeLiters(mode === 'irrigate-now' ? INITIAL_POND_IRRIGATE_NOW : INITIAL_POND_FILL_THEN_DRIP);
     setTotalWaterDeliveredLiters(0);
     setActiveTreeCount(0);
     setCurrentPhase('idle');
@@ -390,6 +429,8 @@ export default function Home() {
         activeTreeCount={activeTreeCount}
         totalTreeCount={farmData.trees.length}
         farmFlowLph={simulationResult?.totalFarmFlowLph || 35168}
+        simulationMode={simulationMode}
+        onSetMode={handleSetMode}
       />
 
       {/* Floating Infrastructure & Component Placement Toolbox */}
