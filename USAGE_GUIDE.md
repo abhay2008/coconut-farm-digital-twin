@@ -31,7 +31,7 @@ Welcome to the **Coconut Plantation Digital Twin & Real-World Engineering Platfo
 ## 🌴 Tree Twin Management & Emitter Control
 
 ### 1. Tree Canopy Visual Age & Health
-The digital twin tracks **1,099 individual coconut palm trees**:
+The digital twin tracks **1,222 individual coconut palm trees**:
 - **Tree Canopy Diameter**: Dynamically scales based on tree age:
   - 🟢 **Young (0–3 yrs)**: Smaller canopy radius ($2.5\text{m}$)
   - 🟢 **Medium (4–8 yrs)**: Medium canopy radius ($4.0\text{m}$)

@@ -7,7 +7,7 @@
 [![Python 3.11](https://img.shields.io/badge/Python-3.11_CV_Pipeline-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,099 individual tree digital twins, graph-based hydraulic physics modeling, live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, and cloud persistence.**
+> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,222 individual tree digital twins, graph-based hydraulic physics modeling, live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, and cloud persistence.**
 
 ---
 
@@ -24,7 +24,7 @@
 - [🏗️ System Architecture & Data Flow](#️-system-architecture--data-flow)
 - [📖 User Guide & Feature Walkthrough](#-user-guide--feature-walkthrough)
   - [1. Canvas Navigation & Visual Controls](#1-canvas-navigation--visual-controls)
-  - [2. 1,099 Tree Twins & Tree Inspector](#2-1099-tree-twins--tree-inspector)
+  - [2. 1,222 Tree Twins & Tree Inspector](#2-1222-tree-twins--tree-inspector)
   - [3. Real-World Hydraulics & Pipe Layer Filtering](#3-real-world-hydraulics--pipe-layer-filtering)
   - [4. Dynamic Borewell & Surface Motor Drag-Binding](#4-dynamic-borewell--surface-motor-drag-binding)
   - [5. Universal & Per-Tree Dripper Hole Control](#5-universal--per-tree-dripper-hole-control)
@@ -42,19 +42,19 @@
 This platform translates complex agricultural hydrology, computer vision canopy detection, and real-world pipe network dynamics into an intuitive, high-performance interactive web application.
 
 ```
-       🌴 1,099 Tree Twins       💧 10 HP Submersible Pump        🌊 500,000 L Storage Pond
+       🌴 1,222 Tree Twins       💧 10 HP Submersible Pump        🌊 500,000 L Storage Pond
   ─────────────────────────────────────────────────────────────────────────────────────────────
        🔴 110mm Main Lines       🔵 75mm Sublines                🟠 40mm Ladder Pipes
        🔄 16mm Drip Loops        ⚡ 7 Surface Monoblock Motors   🧪 Fertigation & Disc Filter
 ```
 
 ### Key Capabilities
-- **🌴 1,099 Coconut Palm Digital Twins**: Every single tree is tracked with individual coordinates, age categories (Young $0\text{–}3\text{ yrs}$, Medium $4\text{–}8\text{ yrs}$, Mature $9+\text{ yrs}$), health index ($0.0\text{–}1.0$), yield history, and custom dripper emission rates.
+- **🌴 1,222 Coconut Palm Digital Twins**: Every single tree is tracked with individual coordinates, age categories (Young $0\text{–}3\text{ yrs}$, Medium $4\text{–}8\text{ yrs}$, Mature $9+\text{ yrs}$), health index ($0.0\text{–}1.0$), yield history, and custom dripper emission rates.
 - **⚡ Real-World Motor Architecture**: Features **1 Submersible Pump (10 HP)** inside the Storage Pond and **7 Surface Monoblock Motors** positioned at borewell wellheads + **1 Surface Booster Pump** on sublines.
 - **💧 Dynamic Hazen-Williams Hydraulic Engine**: Computes friction losses, flow rates ($\text{LPM}$), and dynamic pressure distribution across all sub-networks in real time.
 - **🔗 Synchronized Parent-Child Drag Binding**: Dragging any Borewell automatically moves its paired Surface Monoblock Motor and recalculates cyan delivery line vectors to the storage pond instantly.
 - **🎛️ Granular Pipeline Layer Filtering**: Independent toggle checkboxes for Mainlines ($110\text{ mm}$), Sublines ($75\text{ mm}$), Ladders ($40\text{ mm}$), Drip Loops ($16\text{ mm}$), and Well/Pond lines.
-- **🎚️ Universal & Per-Tree Dripper Control**: Universal hole slider ($1\text{ to }16$ holes per ring) with a `Set All (1,227)` button + per-tree inspection panel overrides. Dynamic blue microsprinkler dots render visually on the canvas around each tree.
+- **🎚️ Universal & Per-Tree Dripper Control**: Universal hole slider ($1\text{ to }16$ holes per ring) with a `Set All (1,222)` button + per-tree inspection panel overrides. Dynamic blue microsprinkler dots render visually on the canvas around each tree.
 - **👁️ Visual Contrast & Satellite Dimming**: Opacity slider ($10\%\text{ to }100\%$) for satellite imagery + **High-Contrast Pipe Mode** (dark outline stroke backing for maximum visibility).
 - **💾 Dual Cloud & Local Storage**: Instant client `localStorage` saving coupled with Vercel serverless `/api/save_farm` API.
 
@@ -112,7 +112,7 @@ The main viewport displays an annotated 25-acre satellite canvas powered by high
 
 ---
 
-### 2. 1,099 Tree Twins & Tree Inspector
+### 2. 1,222 Tree Twins & Tree Inspector
 
 Every single tree on the farm is a live digital twin with full telemetry data.
 
@@ -181,8 +181,8 @@ Each tree drip ring supports between $1$ and $16$ emitter holes / microsprinkler
 1. Open the **Infrastructure Toolbox** on the left.
 2. Locate the **Universal Dripper Hole Control** slider.
 3. Slide to choose your target dripper holes (e.g. $4$, $8$, or $12$ holes).
-4. Click **`Set All (1,227)`**.
-5. All $1,099$ tree twins will instantly update their dripper count, re-render blue emitter dots on the canvas, and recalculate total farm water consumption.
+4. Click **`Set All (1,222)`**.
+5. All $1,222$ tree twins will instantly update their dripper count, re-render blue emitter dots on the canvas, and recalculate total farm water consumption.
 
 #### Per-Tree Customization:
 - Click an individual tree $\to$ adjust the **Microsprinkler Holes** slider in the Tree Inspector $\to$ that specific tree receives custom emitter density independent of the farm-wide setting.
