@@ -13,7 +13,7 @@
 
 ## 🌐 Live Production Demo
 
-🚀 **Explore the Live Web App:** [https://frontend-mu-tawny-d4xcmpjhrq.vercel.app](https://frontend-mu-tawny-d4xcmpjhrq.vercel.app)  
+🚀 **Explore the Live Web App:** [https://madhu-coco-farm.vercel.app](https://madhu-coco-farm.vercel.app) (or [https://frontend-mu-tawny-d4xcmpjhrq.vercel.app](https://frontend-mu-tawny-d4xcmpjhrq.vercel.app))  
 📦 **GitHub Repository:** [https://github.com/abhay2008/coconut-farm-digital-twin](https://github.com/abhay2008/coconut-farm-digital-twin)
 
 ---
