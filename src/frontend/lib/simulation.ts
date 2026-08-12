@@ -80,7 +80,7 @@ export function runHydraulicSimulation(farmData: FarmData, customComponents?: Pl
     sustainableStatus: "OPTIMAL",
     equipmentClassification: {
       submersiblePondPump: "🌊 10 HP Submersible Pump (Submerged inside Storage Pond)",
-      surfaceBorewellMotors: "⚙️ 7x Surface Monoblock Pumps (2x 10HP + 5x 7.5HP at Wellhead Pits)",
+      surfaceBorewellMotors: "⚙️ 7x Surface Monoblock Pumps (7x 7.5HP at Wellhead Pits)",
       sublineBooster: "🚀 1x 7.5 HP Surface Inline Booster Pump (+1.5 bar Boost)"
     },
     schedule: [

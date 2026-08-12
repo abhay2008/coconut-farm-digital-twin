@@ -88,7 +88,9 @@ export default function Home() {
       });
 
       // Phase 2, 3, 4: Submersible Pump -> Fertigation Unit -> Pipeline Wavefront -> Trees
-      // Real-world farm outflow = 35,168 L/hr = 9.7689 L/sec
+      // Real-world 150L/tree target for 1,300 trees = 195,000 Liters total
+      // 10HP Submersible Pump delivery rate = 35,168 L/hr = 9.7689 L/sec
+      // Real-world time to irrigate all 1,300 trees = 195,000 L / 35,168 L/hr = 5.54 Hours (within AP 9-hr power window!)
       setPondVolumeLiters((currentPond) => {
         if (currentPond >= 5000) {
           const totalTrees = farmData?.trees?.length || 1300;
@@ -96,8 +98,9 @@ export default function Home() {
           setActiveTreeCount((prevTrees) => {
             if (prevTrees < totalTrees) {
               setCurrentPhase('phase3_network_propagation');
-              // Wavefront propagates down pipes at ~2.5 trees per second at 1x
-              return Math.min(totalTrees, prevTrees + Math.max(1, Math.round(2.5 * dt)));
+              // Real-world hydration rate: 1,300 trees / 19,960 seconds = 0.06513 trees/sec at 1x
+              const treesIncrement = 0.06513 * dt;
+              return Math.min(totalTrees, prevTrees + treesIncrement);
             }
             setCurrentPhase('phase4_steady_irrigation');
             return totalTrees;

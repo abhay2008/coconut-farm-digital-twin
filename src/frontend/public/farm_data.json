@@ -23494,19 +23494,19 @@
     {
       "x": 2265,
       "y": 295,
-      "hp": 10,
-      "id": "M-BW-10HP-1",
-      "type": "motor_10hp",
-      "label": "10 HP Surface Monoblock Well Pump #1",
+      "hp": 7.5,
+      "id": "M-BW-7.5HP-1",
+      "type": "motor_7.5hp",
+      "label": "7.5 HP Surface Monoblock Well Pump #1",
       "installation_type": "surface_monoblock"
     },
     {
       "x": 1022,
       "y": 498,
-      "hp": 10,
-      "id": "M-BW-10HP-2",
-      "type": "motor_10hp",
-      "label": "10 HP Surface Monoblock Well Pump #2",
+      "hp": 7.5,
+      "id": "M-BW-7.5HP-2",
+      "type": "motor_7.5hp",
+      "label": "7.5 HP Surface Monoblock Well Pump #2",
       "installation_type": "surface_monoblock"
     },
     {

@@ -34,7 +34,7 @@ export const LiveSimulationControlBar: React.FC<LiveSimulationControlBarProps> =
   farmFlowLph,
 }) => {
   const fillPercent = Math.min(100, Math.max(0, Math.round((pondVolumeLiters / maxPondCapacityLiters) * 100)));
-  const speeds = [1, 2, 5, 10, 25, 50];
+  const speeds = [1, 2, 5, 10, 25, 50, 1000];
 
   const getPhaseBadge = () => {
     switch (currentPhase) {
