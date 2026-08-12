@@ -74,13 +74,14 @@ export default function Home() {
       setElapsedSeconds((prev) => prev + dt);
       setAnimDashOffset((prev) => (prev + 2.5 * simSpeed) % 100);
 
-      // Phase 1: Borewell Extraction & Pond Fill (500 L -> 500,000 L)
-      // Real-world inflow from 7 Borewells = 69,000 L/hr = 19.1667 L/sec
+      // Phase 1: Staggered Borewell Extraction (AP Transco 3-Phase Agricultural Grid Constraint)
+      // AP DTR feeder limit: Max 2 motors running concurrently (2x 7.5 HP = 15 HP / 328.5 LPM)
+      // Real-world inflow rate = 2 x 9,857 L/hr = 19,714 L/hr = 5.4761 Liters/second
       setPondVolumeLiters((prevPond) => {
         if (prevPond < 500000) {
           setCurrentPhase('phase1_borewell_fill');
-          const realWorldLps = 69000 / 3600; // 19.1667 Liters per second
-          const fillAmount = realWorldLps * dt;
+          const apGridLps = 19714 / 3600; // 5.4761 Liters per second (2 motors running)
+          const fillAmount = apGridLps * dt;
           return Math.min(500000, prevPond + fillAmount);
         }
         return prevPond;
@@ -348,6 +349,12 @@ export default function Home() {
         pondVolumeLiters={pondVolumeLiters}
         activeTreeCount={activeTreeCount}
       />
+
+      {/* Top-Right Work In Progress Sign */}
+      <div className="absolute top-4 right-4 z-40 bg-amber-500/95 text-slate-950 px-4 py-2 rounded-xl font-extrabold text-xs tracking-wide shadow-xl border border-amber-300/80 backdrop-blur-md flex items-center space-x-2 select-none">
+        <span className="animate-pulse text-sm">🚧</span>
+        <span>WORK IN PROGRESS (Do Not Touch Main Branch)</span>
+      </div>
 
       {/* Real-Time Live Hydraulic Physics Simulation Control Bar */}
       <LiveSimulationControlBar

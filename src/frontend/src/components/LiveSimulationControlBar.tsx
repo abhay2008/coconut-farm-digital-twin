@@ -41,7 +41,7 @@ export const LiveSimulationControlBar: React.FC<LiveSimulationControlBarProps> =
       case 'idle':
         return { label: '⏸️ Idle (500L Initial Pond)', color: 'bg-slate-800 text-slate-300 border-slate-700' };
       case 'phase1_borewell_fill':
-        return { label: '⚙️ Phase 1: Borewells Filling Pond (500L ➔ 500,000L)', color: 'bg-cyan-950/80 text-cyan-300 border-cyan-500/50 animate-pulse' };
+        return { label: '⚙️ Phase 1: AP 3-Phase Grid Fill (Max 2 Motors / 15 HP Concurrent)', color: 'bg-cyan-950/80 text-cyan-300 border-cyan-500/50 animate-pulse' };
       case 'phase2_pond_suction':
         return { label: '🌊 Phase 2: Submersible Pump & Fertigation Dosing', color: 'bg-purple-950/80 text-purple-300 border-purple-500/50 animate-pulse' };
       case 'phase3_network_propagation':

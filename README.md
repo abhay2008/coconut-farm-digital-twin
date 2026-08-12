@@ -121,13 +121,12 @@ The platform features a **live animated hydraulic physics simulation engine** th
  [ 🌴 1,300+ Trees ] <──(16mm Loops)── [ 🟠 40mm Ladders ] <──(75mm Sublines)── [ 🔴 110mm Mainlines ] ◄┘
 ```
 
-### Key Simulation Controls & Telemetry
-- **⏯️ Play / Pause Controls**: Toggle live real-time water animation on demand.
-- **🔄 Reset Button**: Instantly resets the simulation back to the initial state ($t = 0\text{s}$, Storage Pond at **500 Liters**).
-- **⏩ Speed Multiplier Pills**: Toggle between **`1x` (Real-time)**, `2x`, `5x`, `10x`, `25x`, and `50x` speedups for fast interactive scenario testing.
-- **🌊 Dynamic Pond Fill Level**: Visually animates the storage pond water level rising inside the canvas from an initial **500 Liters** up to full **500,000 Liters** capacity.
-- **🌊 Animated Pipe Flow Dashes**: Flowing water dashes (`dashOffset`) continuously stream along $110\text{ mm}$ Mainlines, $75\text{ mm}$ Sublines, $40\text{ mm}$ Ladders, and $16\text{ mm}$ Drip Loops.
-- **💦 Tree Microsprinkler Spray Droplets**: As wave propagation reaches each tree, an active cyan spray ring and microsprinkler water droplet animation activates around that tree, transitioning tree status from dry warning to optimal hydration!
+### ⚡ Andhra Pradesh 3-Phase Agricultural Grid Load Limit
+In accordance with **AP Transco / DISCOM rural agricultural feeder rules**, distribution transformers (DTRs) cannot support running all 7 heavy surface motors simultaneously ($57.5\text{ HP}$ total load would trip local 63 KVA DTR breakers and cause severe voltage sags $< 340\text{V}$). 
+
+- **Staggered Multi-Stage Motor Operation**: To prevent transformer overload, the simulation enforces a **maximum 2-motor concurrent running limit** ($2 \times 7.5\text{ HP} = 15.0\text{ HP}$ load $\le 17.5\text{ HP}$ safe DTR threshold).
+- **Realistic Inflow Rate**: Running 2 borewell motors concurrently yields **$19,714\text{ L/hr} = 328.57\text{ LPM} = \mathbf{5.476\text{ Liters/second}}$**.
+- At **`1x` (Real-Time)**: In $20\text{ seconds}$, exactly **$109.5\text{ Liters}$** fills into the storage pond ($500\text{ L} \to 609.5\text{ L}$), strictly adhering to AP electrical grid engineering reality. Fast-forwarding is available via `5x`, `10x`, `25x`, `50x` buttons.
 
 ---
 
