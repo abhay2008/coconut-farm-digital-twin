@@ -121,9 +121,10 @@ The digital twin offers two simulation playback modes:
 The platform includes a dedicated **Smart Agriculture Analytics Suite** (`src/frontend/src/lib/agriPhysics.ts` + `SmartAgriAnalyticsModal.tsx`):
 
 1. **☀️ Evapotranspiration (ET0) Hargreaves Calculator**: Calculates daily crop evapotranspiration ($ET_c = ET_0 \times K_c$) based on temperature, relative humidity, and solar radiation.
-2. **🧪 Venturi Liquid Fertigation Injector Calculator**: Determines liquid N-P-K fertilizer injection rates ($\text{L/hr}$) and Venturi vacuum differential ($\text{mbar}$).
-3. **💧 Total Dynamic Head (TDH) Breakdown**: Calculates static lift head, Hazen-Williams friction loss, minor fitting losses, and required pump motor horsepower.
-4. **⚡ AP Electricity Tariff & Cost Estimator**: Calculates daily kWh energy consumption and electricity cost ($\text{INR}$) for subsidized ($\text{₹}1.50\text{/kWh}$) vs commercial ($\text{₹}7.50\text{/kWh}$) tariffs.
+2. **🌊 Open-Water Pond Solar Evaporation Calculator**: Calculates daily solar evaporation water loss ($\text{Liters/day}$) and monthly cumulative loss ($\text{L/month}$) from the 500,000L unshaded central storage pond ($500\text{ m}^2$ surface area).
+3. **🧪 Venturi Liquid Fertigation Injector Calculator**: Determines liquid N-P-K fertilizer injection rates ($\text{L/hr}$) and Venturi vacuum differential ($\text{mbar}$).
+4. **💧 Total Dynamic Head (TDH) Breakdown**: Calculates static lift head, Hazen-Williams friction loss, minor fitting losses, and required pump motor horsepower.
+5. **⚡ AP Free Agricultural Power Grid Tracking**: Calculates daily kWh energy consumption while enforcing the **Andhra Pradesh Government 100% Free Power Policy for Farmers ($\mathbf{\text{₹}0\text{ Tariff}}$)**.
 
 ---
 
