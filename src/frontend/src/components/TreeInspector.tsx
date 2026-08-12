@@ -81,10 +81,14 @@ const TreeInspector: React.FC<InspectorProps> = ({
               💧 Hydraulic Delivery Status
             </span>
             <div className="flex justify-between items-center text-xs">
+              <span className="text-gray-600">Tree Spacing:</span>
+              <span className="font-semibold text-slate-700">20.0 ft (6.10 meters)</span>
+            </div>
+            <div className="flex justify-between items-center text-xs">
               <span className="text-gray-600">Drip Pressure:</span>
               <span className={`font-bold px-2 py-0.5 rounded text-white ${
                 pressure !== undefined
-                  ? (pressure >= 1.0 ? 'bg-emerald-600' : 'bg-red-600')
+                  ? (pressure >= 1.0 ? 'bg-emerald-600' : 'bg-amber-600')
                   : 'bg-gray-400'
               }`}>
                 {pressure !== undefined ? `${pressure.toFixed(2)} bar` : 'Not Simulated'}

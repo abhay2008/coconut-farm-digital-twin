@@ -122,12 +122,16 @@ The platform features a **live animated hydraulic physics simulation engine** th
  [ 🌴 1,300+ Trees ] <──(16mm Loops)── [ 🟠 40mm Ladders ] <──(75mm Sublines)── [ 🔴 110mm Mainlines ] ◄┘
 ```
 
-### ⚡ Andhra Pradesh 3-Phase Agricultural Grid Load Limit
-In accordance with **AP Transco / DISCOM rural agricultural feeder rules**, distribution transformers (DTRs) cannot support running all 7 heavy surface motors simultaneously ($57.5\text{ HP}$ total load would trip local 63 KVA DTR breakers and cause severe voltage sags $< 340\text{V}$). 
+### 📐 20-Foot (6.10m) Tree Spacing Hazen-Williams Friction Drop Hydraulics
+With a minimum **20-foot ($6.096\text{ meters}$)** spacing between adjacent coconut palms, lateral drip pipelines stretch up to **$600\text{ feet}$ ($183\text{ meters}$)** to cover a 30-tree row!
 
-- **Staggered Multi-Stage Motor Operation**: To prevent transformer overload, the simulation enforces a **maximum 2-motor concurrent running limit** ($2 \times 7.5\text{ HP} = 15.0\text{ HP}$ load $\le 17.5\text{ HP}$ safe DTR threshold).
-- **Realistic Inflow Rate**: Running 2 borewell motors concurrently yields **$19,714\text{ L/hr} = 328.57\text{ LPM} = \mathbf{5.476\text{ Liters/second}}$**.
-- At **`1x` (Real-Time)**: In $20\text{ seconds}$, exactly **$109.5\text{ Liters}$** fills into the storage pond ($500\text{ L} \to 609.5\text{ L}$), strictly adhering to AP electrical grid engineering reality. Fast-forwarding is available via `5x`, `10x`, `25x`, `50x` buttons.
+- **Cumulative Friction Head Loss**:
+  $$h_f = 10.67 \times \frac{L \times Q^{1.852}}{C^{1.852} \times D^{4.87}}$$
+- **Pressure Gradient across 600-ft Pipe**:
+  - **Head-End Trees (0–100 ft)**: Operating Pressure $= \mathbf{2.45\text{ bar}}$ (Optimal green hydration).
+  - **Mid-Field Trees (200–400 ft)**: Operating Pressure $= \mathbf{1.45\text{ bar}}$ (Moderate friction drop).
+  - **Tail-End Trees (500–600 ft)**: Operating Pressure $= \mathbf{0.56\text{ bar}}$ (Sub-optimal pressure drop, turning amber/red!).
+- **7.5 HP Subline Booster Motor**: Demonstrates why the inline booster pump (+1.5 bar boost) is critical to equalize tail-end pressure back above $2.0\text{ bar}$!
 
 ---
 

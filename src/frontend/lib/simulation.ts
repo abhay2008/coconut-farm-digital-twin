@@ -193,11 +193,17 @@ export function runHydraulicSimulation(farmData: FarmData, customComponents?: Pl
   farmData.trees.forEach(tree => {
     const tx = tree.position.pixel_x;
     const ty = tree.position.pixel_y;
-    const distToSourceMeters = Math.hypot(tx - sourceX, ty - sourceY) * 0.15; // 0.15m per pixel scale
+    // 20-foot (6.096m) tree-to-tree spacing scale: 1 pixel = 0.1524 meters
+    const distToSourceMeters = Math.hypot(tx - sourceX, ty - sourceY) * 0.1524;
 
-    // Friction loss per meter based on Hazen-Williams
-    const frictionLossPerM = (mainDia >= 110 ? 0.0002 : 0.0005) + (subDia >= 75 ? 0.0003 : 0.0008) + (ladderDia >= 40 ? 0.0008 : 0.002);
-    let pressure = Math.max(0.4, sourcePressureBar - distToSourceMeters * frictionLossPerM);
+    // Hazen-Williams friction head loss per meter over 20-ft spacing (C=140 HDPE/PVC)
+    // Mainline 110mm: 0.0012 bar/m, Subline 75mm: 0.0028 bar/m, Ladder 40mm: 0.0065 bar/m
+    const frictionLossPerM = (mainDia >= 110 ? 0.0012 : 0.0025) + 
+                             (subDia >= 75 ? 0.0028 : 0.0055) + 
+                             (ladderDia >= 40 ? 0.0065 : 0.0120);
+    
+    const cumulativeFrictionDrop = distToSourceMeters * frictionLossPerM;
+    let pressure = Math.max(0.35, sourcePressureBar - cumulativeFrictionDrop);
 
     // If any closed valve is in vicinity, pressure drops
     if (closedValves.size > 0) {
