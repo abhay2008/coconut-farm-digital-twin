@@ -633,17 +633,18 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
           return null;
         })}
 
-        {/* Dynamic Closed-Loop System Topology Lines: Borewell -> Pond & Pond -> Fertigation Unit */}
+        {/* Dynamic Closed-Loop System Topology Lines: 7x Borewells -> Pond & 10HP Submersible Pump -> Fertigation Unit */}
         {(() => {
           if (!showBorewellLines) return null;
           const borewells = customComponents.filter(c => c.type === 'borewell');
           const pond = customComponents.find(c => c.type === 'pond');
-          const motor = customComponents.find(c => c.type === 'motor_7.5hp' || c.type === 'motor_10hp');
+          // Explicitly target 10 HP Submersible Pond Extraction Pump submerged in Pond
+          const subPondPump = customComponents.find(c => c.id === 'M-POND-SUBMERSIBLE-10HP' || c.installation_type === 'submersible' || (c.type === 'motor_10hp' && c.x < 1000));
           const fert = customComponents.find(c => c.type === 'fertigation_unit');
 
           return (
             <>
-              {/* 1. Borewell -> Pond Filling Line */}
+              {/* 1. All 7 Borewells -> Central Storage Pond Filling Lines */}
               {pond && borewells.map(b => (
                 <Group key={`fill-${b.id}`}>
                   <Line
@@ -653,21 +654,28 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
                     dash={[10, 5]}
                     dashOffset={isPlaying ? -animDashOffset * 1.5 : 0}
                   />
-                  <Text text="🕳️ Borewell Fill Line" x={(b.x + pond.x)/2} y={(b.y + pond.y)/2 - 10} fill="#0891b2" fontSize={8} fontStyle="bold" />
+                  <Text text="⚙️ 7.5 HP Well Line to Pond" x={(b.x + pond.x)/2} y={(b.y + pond.y)/2 - 10} fill="#0891b2" fontSize={8} fontStyle="bold" />
                 </Group>
               ))}
 
-              {/* 2. Pond -> Motor -> Fertigation Dosing Unit Suction Line */}
+              {/* 2. Central Storage Pond -> 10 HP Submersible Pump -> Fertigation Dosing Unit Suction Line */}
               {pond && fert && (
                 <Group>
                   <Line
-                    points={[pond.x, pond.y, motor ? motor.x : (pond.x + fert.x)/2, motor ? motor.y : (pond.y + fert.y)/2, fert.x, fert.y]}
+                    points={[
+                      pond.x, 
+                      pond.y, 
+                      subPondPump ? subPondPump.x : (pond.x + fert.x)/2, 
+                      subPondPump ? subPondPump.y : (pond.y + fert.y)/2, 
+                      fert.x, 
+                      fert.y
+                    ]}
                     stroke="#8b5cf6"
-                    strokeWidth={4}
-                    dash={[10, 5]}
-                    dashOffset={isPlaying ? -animDashOffset * 1.8 : 0}
+                    strokeWidth={4.5}
+                    dash={[12, 6]}
+                    dashOffset={isPlaying ? -animDashOffset * 2.0 : 0}
                   />
-                  <Text text="🧪 Fertigation Suction Line" x={(pond.x + fert.x)/2} y={(pond.y + fert.y)/2 - 12} fill="#7c3aed" fontSize={8} fontStyle="bold" />
+                  <Text text="🌊 10 HP Submersible Pump ➔ Fertigation Dosing Unit" x={(pond.x + fert.x)/2 - 40} y={(pond.y + fert.y)/2 - 14} fill="#6d28d9" fontSize={9} fontStyle="bold" />
                 </Group>
               )}
             </>
