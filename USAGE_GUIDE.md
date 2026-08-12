@@ -1,12 +1,38 @@
 # 🌴 Coconut Plantation Digital Twin — User Manual & Operations Guide
 
-Welcome to the **Coconut Plantation Digital Twin & Real-World Engineering Platform**! This guide provides step-by-step instructions on operating all interactive features, running hydraulic simulations, managing farm infrastructure, and configuring tree drip irrigation.
+Welcome to the **Coconut Plantation Digital Twin & Real-World Engineering Platform**! This guide provides step-by-step instructions on operating all interactive features, running hydraulic simulations, managing farm infrastructure, branching layouts, and protecting the main plantation design.
 
 ---
 
 ## 🎯 Quick Links
 - 🌐 **Live Web Application**: [https://frontend-mu-tawny-d4xcmpjhrq.vercel.app](https://frontend-mu-tawny-d4xcmpjhrq.vercel.app)
 - 🐙 **GitHub Repository**: [https://github.com/abhay2008/coconut-farm-digital-twin](https://github.com/abhay2008/coconut-farm-digital-twin)
+
+---
+
+## 🌿 Layout Branching, Versioning & Password Protection (`666`)
+
+### 1. Default Main Branch Loading
+- Whenever you open or refresh the website, the official **`main`** branch layout automatically pops up and loads by default.
+
+### 2. Saving a Layout Version
+Click **"💾 Save Layout Permanently"** in the left-hand **Infrastructure Toolbox** to open the Save Layout modal:
+
+- **Option 1: Save as a Branch** 🌿
+  1. Click the **1. Save as Branch** tab.
+  2. Type a custom branch name (e.g. `North Sector High Flow`, `John Drip Test`).
+  3. Click **Save Branch**. (No password required).
+- **Option 2: Save to Main Branch** 🔒
+  1. Click the **2. Save to Main 🔒** tab.
+  2. Enter the security password **`666`**.
+  3. Click **Overwrite Main Branch**.
+  *(Note: Overwriting `main` updates the default layout presented to all visitors).*
+
+### 3. Branch Version Manager (`🔀 Switch / Manage`)
+Click **"🔀 Switch / Manage"** in the active branch bar at the top of the toolbox:
+- **Switching / Loading Branches**: Click **Load** next to any branch in the list to switch your active canvas and hydraulic simulation to that version.
+- **Deleting Custom Branches**: Click the trash icon next to a custom branch to delete it.
+- **Deleting / Resetting Main Branch**: Click the trash icon next to `main` $\to$ enter password **`666`** $\to$ click **Reset Main**. This restores `main` back to the ground-truth 1,222 tree factory default.
 
 ---
 
@@ -54,7 +80,7 @@ The digital twin tracks **1,222 individual coconut palm trees**:
 - **Universal Farm-Wide Setting**:
   1. Open the left **Infrastructure Toolbox**.
   2. Slide the **Universal Dripper Hole Control** (e.g. to $4, 8, \text{ or } 12$ holes).
-  3. Click **`Set All (1,227)`**.
+  3. Click **`Set All (1,222)`**.
   4. All trees across the plantation will update instantly.
 - **Per-Tree Customization**:
   1. Click an individual tree to open its Inspector.
@@ -84,15 +110,6 @@ Use the checkboxes in the **Infrastructure Toolbox** to toggle visual layers:
 - `[x] 🟠 Ladders (40mm)` — Manifold connections between rows
 - `[x] 🔄 Drip Loops (16mm)` — 16mm circular tree root rings
 - `[x] 💧 Well & Pond Lines` — Cyan raw water extraction lines
-
----
-
-## 💾 Saving Your Layout
-
-1. Click **"💾 Save Layout Permanently"** in the top navigation bar.
-2. Your layout is immediately saved to:
-   - **Browser `localStorage`**: Key `madhu_coco_farm_saved_data` (persists on page refresh/re-entry).
-   - **Vercel Cloud Memory**: `/api/save_farm` endpoint (persists on backend API).
 
 ---
 

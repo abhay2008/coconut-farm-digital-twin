@@ -7,7 +7,7 @@
 [![Python 3.11](https://img.shields.io/badge/Python-3.11_CV_Pipeline-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,222 individual tree digital twins, graph-based hydraulic physics modeling, live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, and cloud persistence.**
+> **A high-precision, real-world engineering digital twin for a 25-acre coconut plantation featuring 1,222 individual tree digital twins, graph-based hydraulic physics modeling, live pump drag-binding, granular pipe layer filters, universal & per-tree dripper hole controls, satellite visual controls, layout branching & versioning, password-protected main saves (`666`), and cloud API persistence.**
 
 ---
 
@@ -29,7 +29,7 @@
   - [4. Dynamic Borewell & Surface Motor Drag-Binding](#4-dynamic-borewell--surface-motor-drag-binding)
   - [5. Universal & Per-Tree Dripper Hole Control](#5-universal--per-tree-dripper-hole-control)
   - [6. Storage Pond & Fertigation Unit](#6-storage-pond--fertigation-unit)
-  - [7. Permanent Layout Saving & Cloud Sync](#7-permanent-layout-saving--cloud-sync)
+  - [7. Layout Branching, Versioning & Cloud Sync](#7-layout-branching-versioning--cloud-sync)
 - [📐 Real-World Engineering Specifications](#-real-world-engineering-specifications)
 - [🚀 Quick Start & Local Setup](#-quick-start--local-setup)
 - [🛠️ Tech Stack](#️-tech-stack)
@@ -45,18 +45,20 @@ This platform translates complex agricultural hydrology, computer vision canopy 
        🌴 1,222 Tree Twins       💧 10 HP Submersible Pump        🌊 500,000 L Storage Pond
   ─────────────────────────────────────────────────────────────────────────────────────────────
        🔴 110mm Main Lines       🔵 75mm Sublines                🟠 40mm Ladder Pipes
-       🔄 16mm Drip Loops        ⚡ 7 Surface Monoblock Motors   🧪 Fertigation & Disc Filter
+       🔄 16mm Drip Loops        ⚡ 7 Surface Monoblock Motors   🔒 Main Password: 666
 ```
 
 ### Key Capabilities
 - **🌴 1,222 Coconut Palm Digital Twins**: Every single tree is tracked with individual coordinates, age categories (Young $0\text{–}3\text{ yrs}$, Medium $4\text{–}8\text{ yrs}$, Mature $9+\text{ yrs}$), health index ($0.0\text{–}1.0$), yield history, and custom dripper emission rates.
 - **⚡ Real-World Motor Architecture**: Features **1 Submersible Pump (10 HP)** inside the Storage Pond and **7 Surface Monoblock Motors** positioned at borewell wellheads + **1 Surface Booster Pump** on sublines.
+- **🌿 Layout Branching & Versioning**: Create custom branches (e.g. `North Sector Test`) to experiment with layouts without altering the primary farm plan.
+- **🔒 Password-Protected Main Branch (`666`)**: Saving to or resetting the default `main` branch requires security password **`666`**.
 - **💧 Dynamic Hazen-Williams Hydraulic Engine**: Computes friction losses, flow rates ($\text{LPM}$), and dynamic pressure distribution across all sub-networks in real time.
 - **🔗 Synchronized Parent-Child Drag Binding**: Dragging any Borewell automatically moves its paired Surface Monoblock Motor and recalculates cyan delivery line vectors to the storage pond instantly.
 - **🎛️ Granular Pipeline Layer Filtering**: Independent toggle checkboxes for Mainlines ($110\text{ mm}$), Sublines ($75\text{ mm}$), Ladders ($40\text{ mm}$), Drip Loops ($16\text{ mm}$), and Well/Pond lines.
 - **🎚️ Universal & Per-Tree Dripper Control**: Universal hole slider ($1\text{ to }16$ holes per ring) with a `Set All (1,222)` button + per-tree inspection panel overrides. Dynamic blue microsprinkler dots render visually on the canvas around each tree.
 - **👁️ Visual Contrast & Satellite Dimming**: Opacity slider ($10\%\text{ to }100\%$) for satellite imagery + **High-Contrast Pipe Mode** (dark outline stroke backing for maximum visibility).
-- **💾 Dual Cloud & Local Storage**: Instant client `localStorage` saving coupled with Vercel serverless `/api/save_farm` API.
+- **💾 Cloud REST API & Local Backup**: Serverless `/api/branches` API coupled with instant client `localStorage` sync.
 
 ---
 
@@ -88,9 +90,17 @@ flowchart TD
         J --> M["Borewell-Motor Drag Binding Engine"]
     end
 
+    subgraph Branching_Engine["🌿 Layout Branching & Versioning"]
+        M --> N["SaveLayoutModal (Branch vs Main)"]
+        N -->|Option 1: Save Branch| O1["Save as Custom Branch (No Password)"]
+        N -->|Option 2: Save to Main| O2["Overwrite Main Branch (Requires Password 666)"]
+        M --> P["BranchManagerModal (Switch & Delete Branches)"]
+    end
+
     subgraph Storage["💾 Persistence Engine"]
-        M --> N["Browser LocalStorage"]
-        M --> O["Vercel Cloud API /api/save_farm"]
+        O1 --> Q["Vercel Cloud API /api/branches"]
+        O2 --> Q
+        Q --> R["Client LocalStorage Backup (madhu_coco_farm_branch_*)"]
     end
 ```
 
@@ -156,9 +166,6 @@ In the **Infrastructure Toolbox**, use the **Pipeline Layer Filter** checkboxes 
 - `[x] 🔄 Drip Loops (16mm)`
 - `[x] 💧 Well & Pond Lines`
 
-> [!NOTE]
-> Unchecking a layer hides its visual rendering on the canvas without affecting the hydraulic simulation math running in the background.
-
 ---
 
 ### 4. Dynamic Borewell & Surface Motor Drag-Binding
@@ -196,14 +203,27 @@ Each tree drip ring supports between $1$ and $16$ emitter holes / microsprinkler
 
 ---
 
-### 7. Permanent Layout Saving & Cloud Sync
+### 7. Layout Branching, Versioning & Cloud Sync
 
-Click **"💾 Save Layout Permanently"** in the top navigation bar at any time to preserve your edits.
+Click **"💾 Save Layout Permanently"** in the toolbox to open the Save Layout modal.
+
+```
+       🌿 Option 1: Save as a Branch     → Enter branch name (e.g., North Sector Test). Open access.
+       🔒 Option 2: Save to Main Branch → Overwrites main layout. Requires Password: 666
+```
+
+#### Default Load Behavior:
+- **Automatic Main Branch Load**: Opening or refreshing the website automatically loads the official **`main`** branch layout.
+
+#### Branch Version Manager (`🔀 Switch / Manage`):
+- Click **"🔀 Switch / Manage"** in the active branch bar to open the Branch Manager.
+- **`Load Branch`**: Instantly switches your canvas to any saved branch layout.
+- **`Delete Branch`**: Custom branches can be deleted directly. Deleting or resetting the **`main`** branch **requires Password `666`**.
 
 > [!IMPORTANT]
-> **Where does your saved layout go?**
-> 1. **Client Browser Storage (`localStorage`)**: Instantly saved under key `madhu_coco_farm_saved_data`. Reopening or refreshing the page on your browser will automatically load your saved layout.
-> 2. **Vercel Serverless Cloud API (`/api/save_farm`)**: Sends a `POST` request to the Next.js API, updating the serverless cloud memory state (`memoryCache`) so changes persist across warm serverless invocations.
+> **Persistence Architecture:**
+> 1. **Serverless Cloud REST API (`/api/branches`)**: Manages branch payloads on the cloud.
+> 2. **Client Browser Backup (`localStorage`)**: Stores each branch key (`madhu_coco_farm_branch_<name>`) so changes are saved instantly even offline.
 
 ---
 
@@ -262,20 +282,16 @@ Where:
 4. **Open in Browser:**
    Navigate to [http://localhost:3000](http://localhost:3000) to interact with the Digital Twin locally.
 
-5. **Run Simulation Engine Tests:**
-   ```bash
-   npm run test
-   ```
-
 ---
 
 ## 🛠️ Tech Stack
 
 | Domain | Technology / Library | Purpose |
 | :--- | :--- | :--- |
-| **Frontend Framework** | Next.js 14 (App Router) | Server-side rendering, API routes, fast web delivery |
+| **Frontend Framework** | Next.js 14 / 16 (App Router) | Server-side rendering, API routes, fast web delivery |
 | **Interactive Canvas** | React Konva / Konva.js | High-performance 2D vector graphics & drag-and-drop binding |
 | **UI Components** | Lucide React + Tailwind CSS | Modern responsive design system & UI controls |
+| **Branching & Persistence** | Next.js REST API + localStorage | Branch version manager, cloud API, password protection |
 | **Simulation Engine** | Custom Graph Hydrology (TypeScript) | Hazen-Williams loss, network flow distribution |
 | **CV Pipeline** | Python 3.11, OpenCV, NumPy | Canopy segmentation, circle detection, spatial fixtures |
 | **Deployment** | Vercel Serverless Platform | Production hosting & cloud API deployment |
