@@ -47,16 +47,16 @@ export const LiveSimulationControlBar: React.FC<LiveSimulationControlBarProps> =
     switch (currentPhase) {
       case 'idle':
         return simulationMode === 'irrigate-now'
-          ? { label: '⏸️ Ready — Pond pre-filled 450,000L. Press Play to start irrigation immediately.', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-700' }
-          : { label: '⏸️ Ready — Borewells fill pond from 500L → 50,000L, then irrigation starts.', color: 'bg-slate-800 text-slate-300 border-slate-700' };
+          ? { label: '⏸️ Ready — Pond pre-filled 450,000L. Press Play for immediate 10HP submersible fertigation.', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-700' }
+          : { label: '⏸️ Ready — Shift 1 (0h–2h): Borewell Fill → Shift 2 (2h+): 10HP Submersible Fertigation.', color: 'bg-slate-800 text-slate-300 border-slate-700' };
       case 'phase1_borewell_fill':
-        return { label: '⚙️ Stage A: Borewells → Pond (2 × 7.5HP / 19,714 L/hr) | Submersible & Fertigation OFF', color: 'bg-cyan-950/80 text-cyan-300 border-cyan-500/50 animate-pulse' };
+        return { label: '⚙️ Shift 1 (0h–2h): 2 × 7.5HP Borewells Pumping to Storage Pond (+19,714 L/hr) | Fertigation OFF', color: 'bg-cyan-950/80 text-cyan-300 border-cyan-500/50 animate-pulse' };
       case 'phase2_pond_suction':
-        return { label: '🌊 Stage B: 10HP Submersible → Fertigation → Distribution | Borewells OFF', color: 'bg-purple-950/80 text-purple-300 border-purple-500/50 animate-pulse' };
+        return { label: '🌊 Shift 2 (2h+): 10HP Submersible Pump → Fertigation Unit | Borewells OFF', color: 'bg-purple-950/80 text-purple-300 border-purple-500/50 animate-pulse' };
       case 'phase3_network_propagation':
-        return { label: '💧 Stage B: Pond Draining → Fertigation → Pipelines → Trees | Borewells OFF', color: 'bg-blue-950/80 text-blue-300 border-blue-500/50 animate-pulse' };
+        return { label: '💧 Shift 2 (2h+): 10HP Submersible Fertigation → Pipelines → 1,300 Trees (-35,168 L/hr) | Borewells OFF', color: 'bg-blue-950/80 text-blue-300 border-blue-500/50 animate-pulse' };
       case 'phase4_steady_irrigation':
-        return { label: '🌴 Stage B: All 1,300+ Trees Irrigated | Pond Draining | Borewells OFF', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-500/50' };
+        return { label: '🌴 Shift 2: All 1,300+ Trees Hydrated & Dosing Active | Borewells OFF', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-500/50' };
     }
   };
 

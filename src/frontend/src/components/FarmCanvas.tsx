@@ -690,7 +690,7 @@ const FarmCanvas: React.FC<FarmCanvasProps> = ({
           const y = tree.position.pixel_y;
           const isSelected = selectedTreeId === tree.id;
           const isManual = Boolean((tree as Tree & { is_manual?: boolean }).is_manual);
-          const isHydrated = isPlaying && index < activeTreeCount;
+          const isHydrated = index < activeTreeCount;
           const pressureColor = isHydrated ? '#10b981' : simulationResult?.heatmap?.trees[tree.id];
           const treeLabel = tree.id.replace('TREE-', 'T-');
           const showLabels = scale >= 0.7 || isSelected;

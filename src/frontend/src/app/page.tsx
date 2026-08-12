@@ -82,73 +82,68 @@ export default function Home() {
   const [animDashOffset, setAnimDashOffset] = useState(0);
   const DRIP_START_THRESHOLD_L_REF = DRIP_START_THRESHOLD_L;
 
-  // Real-time animation loop
+  // Real-time animation loop with 2-Hour Shift Schedule
   useEffect(() => {
     if (!isPlaying) return;
 
     const interval = setInterval(() => {
       const dt = 0.1 * simSpeed;
-      setElapsedSeconds((prev) => prev + dt);
-      setAnimDashOffset((prev) => (prev + 2.5 * simSpeed) % 100);
-
-      setPondVolumeLiters((prevPond) => {
+      
+      setElapsedSeconds((prevSeconds) => {
+        const nextSeconds = prevSeconds + dt;
         const totalTrees = farmData?.trees?.length || 1300;
 
-        // 'irrigate-now' mode: pond is already pre-filled, skip straight to Stage B
-        // 'fill-then-drip' mode: borewells run until threshold, then Stage B
-        const threshold = simulationMode === 'irrigate-now' ? 0 : DRIP_START_THRESHOLD_L_REF;
+        // ─────────────────────────────────────────────────────────────────
+        // SHIFT SCHEDULE DETERMINATION
+        //   'fill-then-drip' mode:
+        //     • Shift 1 (0 to 2 Hours / 0 to 7,200s): Borewells fill pond (+19,714 L/hr)
+        //       Submersible & Fertigation are OFF. No tree hydration yet.
+        //     • Shift 2 (> 2 Hours / > 7,200s): Borewells shut OFF.
+        //       10HP Submersible pump & Fertigation turn ON to feed trees (-35,168 L/hr).
+        //
+        //   'irrigate-now' mode:
+        //     • Pre-filled 450,000L pond → skips Shift 1, runs Shift 2 immediately!
+        // ─────────────────────────────────────────────────────────────────
+        const isShift1BorewellFill = simulationMode === 'fill-then-drip' && nextSeconds < 7200; // 7,200s = 2.0 Hours
 
-        // ─────────────────────────────────────────────────────────────────
-        // STAGE A: Borewell Fill  (only in 'fill-then-drip' mode)
-        // 2 x 7.5HP motors, AP DTR 3-phase constraint
-        // Inflow: +19,714 L/hr = +5.4761 L/sec
-        // Changeover at 50,000 L → fills in ~2.53 hrs
-        // Leaves 6.47 hrs for Stage B (need 5.54 hrs → 0.93 hr buffer) ✅
-        // ─────────────────────────────────────────────────────────────────
-        if (prevPond < threshold) {
+        if (isShift1BorewellFill) {
+          // SHIFT 1: 2-Hour Borewell Pond Fill Block (+5.4761 L/sec)
           setCurrentPhase('phase1_borewell_fill');
-          setActiveTreeCount(0); // irrigation not started yet
+          setActiveTreeCount(0);
+          
           const borewellLps = 19714 / 3600; // 5.4761 L/sec
-          return Math.min(threshold, prevPond + borewellLps * dt);
+          setPondVolumeLiters((prevPond) => Math.min(500000, prevPond + borewellLps * dt));
+        } else {
+          // SHIFT 2: 10HP Submersible Fertigation & Tree Hydration Block (-9.7689 L/sec)
+          const submersibleLps = 35168 / 3600; // 9.7689 L/sec outflow
+          const outflowThisTick = submersibleLps * dt;
+
+          setActiveTreeCount((prevTrees) => {
+            if (prevTrees < totalTrees) {
+              setCurrentPhase('phase3_network_propagation');
+              return Math.min(totalTrees, prevTrees + 0.06513 * dt);
+            }
+            setCurrentPhase('phase4_steady_irrigation');
+            return totalTrees;
+          });
+
+          setTotalWaterDeliveredLiters((prev) => prev + outflowThisTick);
+
+          setPondVolumeLiters((prevPond) => {
+            const newPond = prevPond - outflowThisTick;
+            if (newPond <= 0) {
+              setCurrentPhase('idle');
+              setIsPlaying(false);
+              return 0;
+            }
+            return newPond;
+          });
         }
 
-        // ─────────────────────────────────────────────────────────────────
-        // CHANGEOVER (or immediate start in 'irrigate-now' mode):
-        //   Borewells SHUT OFF → 10HP Submersible Pump STARTS
-        //   Fertigation dosing unit activates
-        // ─────────────────────────────────────────────────────────────────
-
-        // ─────────────────────────────────────────────────────────────────
-        // STAGE B: 10HP Submersible → Fertigation Unit → Pipelines → Trees
-        // Outflow: -35,168 L/hr = -9.7689 L/sec (borewells are OFF)
-        // In 'fill-then-drip': 50,000 L drains in ~1.42 hrs → covers ~333 trees
-        // In 'irrigate-now':  450,000 L drains in ~12.78 hrs (AP provides 9hrs,
-        //   so 9 × 35,168 = 316,512 L delivered → 2,110 tree-waterings at 150L each)
-        // ─────────────────────────────────────────────────────────────────
-        const submersibleLps = 35168 / 3600; // 9.7689 L/sec
-        const outflowThisTick = submersibleLps * dt;
-
-        // Tree wavefront propagation: 0.06513 trees/sec = all 1,300 trees in 5.54 hrs
-        setActiveTreeCount((prevTrees) => {
-          if (prevTrees < totalTrees) {
-            setCurrentPhase('phase3_network_propagation');
-            return Math.min(totalTrees, prevTrees + 0.06513 * dt);
-          }
-          setCurrentPhase('phase4_steady_irrigation');
-          return totalTrees;
-        });
-
-        setTotalWaterDeliveredLiters((prev) => prev + outflowThisTick);
-
-        const newPond = prevPond - outflowThisTick;
-        if (newPond <= 0) {
-          // Pond exhausted — in real farm borewells refill over subsequent borewell-only days
-          setCurrentPhase('idle');
-          setIsPlaying(false);
-          return 0;
-        }
-        return newPond;
+        return nextSeconds;
       });
+
+      setAnimDashOffset((prev) => (prev + 2.5 * simSpeed) % 100);
     }, 100);
 
     return () => clearInterval(interval);
